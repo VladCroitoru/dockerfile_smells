@@ -3,3 +3,6 @@ dockerfiles
 
 # GitHub tokens
 .gh_tokens
+
+# Big files
+data/dataset.csv
