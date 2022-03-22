@@ -1,4 +1,4 @@
-repo_name,smell_code,type,level,year,file_size,loc,owner_type,language,size
+repo_name,year,file_size,loc,owner_type,language,size
 01org/fMBT,2020,796,13,Organization,Python,9794
 01org/fMBT,2019,184,6,Organization,Python,9794
 0ad/0ad,2021,1101,45,Organization,C++,7490458
