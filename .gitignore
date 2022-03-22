@@ -6,3 +6,6 @@ dockerfiles
 
 # Big files
 data/dataset.csv
+
+# Misc
+.DS_Store
