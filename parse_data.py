@@ -63,10 +63,14 @@ def get_smells(path: str) -> list:
     temp['code'] = smell['code']
     temp['level'] = smell['level']
     temp['type'] = smell['code'][:2]
-    # if temp['level'] in ['error', 'warning']:
-    smells.append(temp)
+    if temp['level'] in ['error', 'warning']:
+      smells.append(temp)
 
   return smells
+
+def get_filename(path: str) -> str:
+  filename = path.split('/')[9:]
+  return '/'.join(filename)
 
 def get_name(path: str) -> str:
   author_repo = path.split('/')[9:11]
@@ -88,19 +92,42 @@ def get_size(path: str) -> int:
     st = os.stat(path)
     return st.st_size
 
+def get_base_image(path: str) -> list:
+  lines = []
+  with open(path, encoding="latin1") as f:
+    try:
+      for line in f.readlines():
+        line = line.strip()
+        if line != '' and not line.startswith('#'):
+          lines.append(line)
+    except error:
+      pass
+
+  lines.reverse()
+  for line in lines:
+    if line.upper().startswith('FROM'):
+      if ' ' in line:
+        base_image = line.split(' ')[1]
+      else:
+        base_image = line
+      return [base_image, base_image.split(':')[0]]
+  return ['', '']
+
 def parse_to_csv(paths: list[str]) -> list[str]:
   rows = []
   for path in paths:
     name = get_name(path)
+    file_name = get_filename(path)
     file_size = get_size(path)
     loc = get_loc(path)
     smells = get_smells(path)
     year = get_year(path)
     repo_data = get_repodata(path)
+    base_image = get_base_image(path)
+    # TODO: add contributors to dockerfiles
     # contributors = get_contributors(path)
     for smell in smells:
-      # row = f"{name},{smell['code']},{smell['type']},{smell['level']},{year},{file_size},{loc},{repo_data['owner_type']},{repo_data['language']},{repo_data['size']},{contributors}"
-      row = f"{name},{smell['code']},{smell['type']},{smell['level']},{year},{file_size},{loc},{repo_data['owner_type']},{repo_data['language']},{repo_data['size']}"
+      row = f"{name},{file_name},{smell['code']},{smell['type']},{smell['level']},{year},{file_size},{loc},{repo_data['owner_type']},{repo_data['language']},{repo_data['size']},{base_image[0]},{base_image[1]}"
       rows.append(row)
   return rows
 
@@ -112,8 +139,10 @@ def main():
   # in the following format: /path/to/dockerfile/dir/
   paths = read_input()
   rows = parse_to_csv(paths)
-  # print('repo_name,smell_code,type,level,year,file_size,loc,owner_type,language,size,contributors')
-  print('repo_name,smell_code,type,level,year,file_size,loc,owner_type,language,size')
+  # Different output formats
+  # print('repo_name,year,file_size,loc,owner_type,language,size')
+  # print('repo_name,file_name,smell_code,type,level,year,file_size,loc,owner_type,language,size')
+  print('repo_name,file_name,smell_code,type,level,year,file_size,loc,owner_type,language,size,base_image_full,base_image')
   print('\n'.join(rows))
 
 if __name__ == '__main__':
