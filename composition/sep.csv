@@ -1226,7 +1226,7 @@ RoboJackets/iarrc-software,RoboJackets/iarrc-software/Dockerfile,2019,850,9,Orga
 RoboJackets/igvc-software,RoboJackets/igvc-software/Dockerfile,2020,681,17,Organization,Jupyter Notebook,670832,ros:noetic,ros
 RoboJackets/rrt,RoboJackets/rrt/Dockerfile,2018,1276,10,Organization,C++,1700,ubuntu:18.04,ubuntu
 RobotnikAutomation/summit_xl_sim,RobotnikAutomation/summit_xl_sim/dockerDockerfile,2021,4927,136,Organization,Shell,12129,osrf/ros:melodic-desktop-full,osrf/ros
-RomRaider/RomRaider,RomRaider/RomRaider/Dockerfile,2021,1438,30,User,Java,126558,--platform="linux/386",--platform="linux/386"
+RomRaider/RomRaider,RomRaider/RomRaider/Dockerfile,2021,1438,30,User,Java,126558,--platform=linux/386,--platform=linux/386
 RomainButteaud/Kaffeine,RomainButteaud/Kaffeine/Dockerfile,2018,357,12,User,Ruby,579,ruby:2.2-alpine,ruby
 RossMeikleham/GB-Emu-C,RossMeikleham/GB-Emu-C/build3DSDockerfile,2022,781,14,User,C,26807,devkitpro/devkitarm:20210510,devkitpro/devkitarm
 RossMeikleham/GB-Emu-C,RossMeikleham/GB-Emu-C/buildAndroidDockerfile,2021,3395,78,User,C,26807,--platform=linux/amd64,--platform=linux/amd64
@@ -6227,7 +6227,7 @@ projectcypress/cypress,projectcypress/cypress/Dockerfile,2021,2066,31,Organizati
 projectestac/agora,projectestac/agora/htmlconfigphpmemcacheddockerphpmemcachedadminDockerfile,2019,773,19,Organization,PHP,612256,alpine:3,alpine
 projectestac/agora,projectestac/agora/htmlconfigphpsysinfoDockerfile,2019,926,13,Organization,PHP,612256,ubuntu:16.04,ubuntu
 projectestac/zonaclic,projectestac/zonaclic/dockerphpDockerfile,2021,200,6,Organization,HTML,214284,php:7.4-fpm,php
-projecthamster/xfce4-hamster-plugin,projecthamster/xfce4-hamster-plugin/.devcontainerDockerfile,2021,449,2,Organization,C,284,"xfce/xfce-build","xfce/xfce-build"
+projecthamster/xfce4-hamster-plugin,projecthamster/xfce4-hamster-plugin/.devcontainerDockerfile,2021,449,2,Organization,C,284,xfce/xfce-build,xfce/xfce-build
 projecthydra/rubydora,projecthydra/rubydora/Dockerfile,2019,448,10,Organization,Ruby,535,amazoncorretto:8,amazoncorretto
 projectmesa/mesa,projectmesa/mesa/Dockerfile,2022,558,16,Organization,Python,10025,phusion/baseimage:0.11,phusion/baseimage
 proycon/frog,proycon/frog/Dockerfile,2022,2814,28,Organization,C++,62612,alpine:edge,alpine
@@ -7030,7 +7030,7 @@ stencila/stencila,stencila/stencila/dockerstencilafocalDockerfile,2022,487,14,Or
 stencila/stencila,stencila/stencila/fixturesprojectsdockerfileDockerfile,2022,97,2,Organization,Rust,121290,ubuntu:20.04,ubuntu
 stencila/stencila,stencila/stencila/schemaDockerfile,2022,870,32,Organization,Rust,121290,ubuntu:20.10,ubuntu
 steos/php-quickcheck,steos/php-quickcheck/dev-envDockerfile,2020,534,9,User,PHP,190,php:7.3.18-cli,php
-stephenharris/Event-Organiser,stephenharris/Event-Organiser/dockerDockerfile,2022,2785,67,User,PHP,15085,"php:${PHP_VERSION}-apache","php
+stephenharris/Event-Organiser,stephenharris/Event-Organiser/dockerDockerfile,2022,2785,67,User,PHP,15085,php:${PHP_VERSION}-apache,php
 stephenrkell/liballocs,stephenrkell/liballocs/buildtestdebian-busterDockerfile,2021,1422,30,User,C,5199,debian:buster,debian
 stephenrkell/liballocs,stephenrkell/liballocs/buildtestdebian-stretchDockerfile,2021,1394,30,User,C,5199,debian:stretch,debian
 stephenrkell/liballocs,stephenrkell/liballocs/buildtestubuntu-18.04Dockerfile,2021,1424,30,User,C,5199,ubuntu:18.04,ubuntu
