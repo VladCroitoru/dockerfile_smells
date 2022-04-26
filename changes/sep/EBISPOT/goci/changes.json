@@ -1,0 +1,81 @@
+[
+  {
+    "sha": "d3ae492d5de54061d08251ddfb8f8169ca27fecb",
+    "node_id": "MDY6Q29tbWl0Mjk5NTExODpkM2FlNDkyZDVkZTU0MDYxZDA4MjUxZGRmYjhmODE2OWNhMjdmZWNi",
+    "commit": {
+      "author": {
+        "name": "jstewart",
+        "email": "jstewart@ebi.ac.uk",
+        "date": "2019-09-26T10:37:53Z"
+      },
+      "committer": {
+        "name": "jstewart",
+        "email": "jstewart@ebi.ac.uk",
+        "date": "2019-09-26T10:37:53Z"
+      },
+      "message": "update import to ingest dto, update sync statuses",
+      "tree": {
+        "sha": "a57f5c8908036851fad867b71e17d8446d758eb7",
+        "url": "https://api.github.com/repos/EBISPOT/goci/git/trees/a57f5c8908036851fad867b71e17d8446d758eb7"
+      },
+      "url": "https://api.github.com/repos/EBISPOT/goci/git/commits/d3ae492d5de54061d08251ddfb8f8169ca27fecb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/EBISPOT/goci/commits/d3ae492d5de54061d08251ddfb8f8169ca27fecb",
+    "html_url": "https://github.com/EBISPOT/goci/commit/d3ae492d5de54061d08251ddfb8f8169ca27fecb",
+    "comments_url": "https://api.github.com/repos/EBISPOT/goci/commits/d3ae492d5de54061d08251ddfb8f8169ca27fecb/comments",
+    "author": {
+      "login": "jstewart-ebi",
+      "id": 52498780,
+      "node_id": "MDQ6VXNlcjUyNDk4Nzgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52498780?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jstewart-ebi",
+      "html_url": "https://github.com/jstewart-ebi",
+      "followers_url": "https://api.github.com/users/jstewart-ebi/followers",
+      "following_url": "https://api.github.com/users/jstewart-ebi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jstewart-ebi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jstewart-ebi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jstewart-ebi/subscriptions",
+      "organizations_url": "https://api.github.com/users/jstewart-ebi/orgs",
+      "repos_url": "https://api.github.com/users/jstewart-ebi/repos",
+      "events_url": "https://api.github.com/users/jstewart-ebi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jstewart-ebi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jstewart-ebi",
+      "id": 52498780,
+      "node_id": "MDQ6VXNlcjUyNDk4Nzgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52498780?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jstewart-ebi",
+      "html_url": "https://github.com/jstewart-ebi",
+      "followers_url": "https://api.github.com/users/jstewart-ebi/followers",
+      "following_url": "https://api.github.com/users/jstewart-ebi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jstewart-ebi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jstewart-ebi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jstewart-ebi/subscriptions",
+      "organizations_url": "https://api.github.com/users/jstewart-ebi/orgs",
+      "repos_url": "https://api.github.com/users/jstewart-ebi/repos",
+      "events_url": "https://api.github.com/users/jstewart-ebi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jstewart-ebi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5847e6f2e6805f8cea5895d1d1c2457206f3d2b3",
+        "url": "https://api.github.com/repos/EBISPOT/goci/commits/5847e6f2e6805f8cea5895d1d1c2457206f3d2b3",
+        "html_url": "https://github.com/EBISPOT/goci/commit/5847e6f2e6805f8cea5895d1d1c2457206f3d2b3"
+      }
+    ]
+  }
+]

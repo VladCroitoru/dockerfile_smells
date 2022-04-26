@@ -1,0 +1,144 @@
+[
+  {
+    "sha": "49704b8d237ce1d141c9130dafeec6e37fbb39b6",
+    "node_id": "MDY6Q29tbWl0MjY3NDE1NDU6NDk3MDRiOGQyMzdjZTFkMTQxYzkxMzBkYWZlZWM2ZTM3ZmJiMzliNg==",
+    "commit": {
+      "author": {
+        "name": "Wei Liu",
+        "email": "wei.liu2@citrix.com",
+        "date": "2019-03-13T13:54:46Z"
+      },
+      "committer": {
+        "name": "Wei Liu",
+        "email": "wei.liu2@citrix.com",
+        "date": "2019-03-13T15:01:36Z"
+      },
+      "message": "automation: use python-dev python2.7-dev in Debian and Ubuntu\n\n... instead of python2.7-dev.\n\nWe installed python2.7-dev because xen only worked with 2.7.\n\nInstalling python2.7-dev only gives python2.7-config, which causes\nconfigure to fail because it wants python-config by default. Now xen\nshould work with 2.6 and above, we can install python-dev and let\ndistros pick the default python.\n\nSigned-off-by: Wei Liu <wei.liu2@citrix.com>\nAcked-by: Andrew Cooper <andrew.cooper3@citrix.com>",
+      "tree": {
+        "sha": "1be811f59cff63df30421fe9c63cde22ab78cadb",
+        "url": "https://api.github.com/repos/Xilinx/xen/git/trees/1be811f59cff63df30421fe9c63cde22ab78cadb"
+      },
+      "url": "https://api.github.com/repos/Xilinx/xen/git/commits/49704b8d237ce1d141c9130dafeec6e37fbb39b6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Xilinx/xen/commits/49704b8d237ce1d141c9130dafeec6e37fbb39b6",
+    "html_url": "https://github.com/Xilinx/xen/commit/49704b8d237ce1d141c9130dafeec6e37fbb39b6",
+    "comments_url": "https://api.github.com/repos/Xilinx/xen/commits/49704b8d237ce1d141c9130dafeec6e37fbb39b6/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "85578ea686830d5dbfa7042b04d5282d363d5bda",
+        "url": "https://api.github.com/repos/Xilinx/xen/commits/85578ea686830d5dbfa7042b04d5282d363d5bda",
+        "html_url": "https://github.com/Xilinx/xen/commit/85578ea686830d5dbfa7042b04d5282d363d5bda"
+      }
+    ]
+  },
+  {
+    "sha": "b9a3c9535622c78d04c3d548513af81c8e64d0f1",
+    "node_id": "MDY6Q29tbWl0MjY3NDE1NDU6YjlhM2M5NTM1NjIyYzc4ZDA0YzNkNTQ4NTEzYWY4MWM4ZTY0ZDBmMQ==",
+    "commit": {
+      "author": {
+        "name": "Wei Liu",
+        "email": "wei.liu2@citrix.com",
+        "date": "2018-07-11T13:16:16Z"
+      },
+      "committer": {
+        "name": "Wei Liu",
+        "email": "wei.liu2@citrix.com",
+        "date": "2018-07-12T14:46:10Z"
+      },
+      "message": "automation/build: build ovmf\n\nInstall nasm and build ovmf with gcc on x86.\n\nSigned-off-by: Wei Liu <wei.liu2@citrix.com>\nAcked-by: Doug Goldstein <cardoe@cardoe.com>",
+      "tree": {
+        "sha": "cae24a64034cff519f858c93739d211686c7adbf",
+        "url": "https://api.github.com/repos/Xilinx/xen/git/trees/cae24a64034cff519f858c93739d211686c7adbf"
+      },
+      "url": "https://api.github.com/repos/Xilinx/xen/git/commits/b9a3c9535622c78d04c3d548513af81c8e64d0f1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Xilinx/xen/commits/b9a3c9535622c78d04c3d548513af81c8e64d0f1",
+    "html_url": "https://github.com/Xilinx/xen/commit/b9a3c9535622c78d04c3d548513af81c8e64d0f1",
+    "comments_url": "https://api.github.com/repos/Xilinx/xen/commits/b9a3c9535622c78d04c3d548513af81c8e64d0f1/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "e21ba44f771226a5f6f0ce269aabcfb019eae539",
+        "url": "https://api.github.com/repos/Xilinx/xen/commits/e21ba44f771226a5f6f0ce269aabcfb019eae539",
+        "html_url": "https://github.com/Xilinx/xen/commit/e21ba44f771226a5f6f0ce269aabcfb019eae539"
+      }
+    ]
+  },
+  {
+    "sha": "16d45644afa64c849d8cfa28190fa9c952fc329b",
+    "node_id": "MDY6Q29tbWl0MjY3NDE1NDU6MTZkNDU2NDRhZmE2NGM4NDlkOGNmYTI4MTkwZmE5Yzk1MmZjMzI5Yg==",
+    "commit": {
+      "author": {
+        "name": "Doug Goldstein",
+        "email": "cardoe@cardoe.com",
+        "date": "2018-03-12T17:41:33Z"
+      },
+      "committer": {
+        "name": "Wei Liu",
+        "email": "wei.liu2@citrix.com",
+        "date": "2018-03-22T09:04:23Z"
+      },
+      "message": "ci: add Dockerfile for Ubuntu 14.04\n\nAdded a Dockerfile which captures all the necessary dependencies to\nbuild Xen on a Ubuntu 14.04 system.\n\nSigned-off-by: Doug Goldstein <cardoe@cardoe.com>\nReviewed-by: Konrad Rzeszutek Wilk <konrad.wilk@oracle.com>\nAcked-by: Wei Liu <wei.liu2@citrix.com>\nAcked-by: Andrew Cooper <andrew.cooper3@citrix.com>",
+      "tree": {
+        "sha": "2ab3ccd2e5cc1bfa4302e54c092a40fea0366280",
+        "url": "https://api.github.com/repos/Xilinx/xen/git/trees/2ab3ccd2e5cc1bfa4302e54c092a40fea0366280"
+      },
+      "url": "https://api.github.com/repos/Xilinx/xen/git/commits/16d45644afa64c849d8cfa28190fa9c952fc329b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Xilinx/xen/commits/16d45644afa64c849d8cfa28190fa9c952fc329b",
+    "html_url": "https://github.com/Xilinx/xen/commit/16d45644afa64c849d8cfa28190fa9c952fc329b",
+    "comments_url": "https://api.github.com/repos/Xilinx/xen/commits/16d45644afa64c849d8cfa28190fa9c952fc329b/comments",
+    "author": {
+      "login": "cardoe",
+      "id": 8839,
+      "node_id": "MDQ6VXNlcjg4Mzk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cardoe",
+      "html_url": "https://github.com/cardoe",
+      "followers_url": "https://api.github.com/users/cardoe/followers",
+      "following_url": "https://api.github.com/users/cardoe/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cardoe/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cardoe/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cardoe/subscriptions",
+      "organizations_url": "https://api.github.com/users/cardoe/orgs",
+      "repos_url": "https://api.github.com/users/cardoe/repos",
+      "events_url": "https://api.github.com/users/cardoe/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cardoe/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": null,
+    "parents": [
+      {
+        "sha": "a0f382053fd56226acd24b00779cf649106ed974",
+        "url": "https://api.github.com/repos/Xilinx/xen/commits/a0f382053fd56226acd24b00779cf649106ed974",
+        "html_url": "https://github.com/Xilinx/xen/commit/a0f382053fd56226acd24b00779cf649106ed974"
+      }
+    ]
+  }
+]

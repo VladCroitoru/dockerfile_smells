@@ -1,0 +1,321 @@
+[
+  {
+    "sha": "efead284cd02584da7ea9b800b930dd5fa316b6a",
+    "node_id": "C_kwDOAAcJmdoAKGVmZWFkMjg0Y2QwMjU4NGRhN2VhOWI4MDBiOTMwZGQ1ZmEzMTZiNmE",
+    "commit": {
+      "author": {
+        "name": "Richard Guo",
+        "email": "yrguo@stanford.edu",
+        "date": "2021-11-11T22:11:14Z"
+      },
+      "committer": {
+        "name": "Richard Guo",
+        "email": "yrguo@stanford.edu",
+        "date": "2021-11-11T22:26:10Z"
+      },
+      "message": "trimmed APP ENV",
+      "tree": {
+        "sha": "d5632fca2b725fa878026546fb46da7c253aca5e",
+        "url": "https://api.github.com/repos/ccnmtl/mediathread/git/trees/d5632fca2b725fa878026546fb46da7c253aca5e"
+      },
+      "url": "https://api.github.com/repos/ccnmtl/mediathread/git/commits/efead284cd02584da7ea9b800b930dd5fa316b6a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ccnmtl/mediathread/commits/efead284cd02584da7ea9b800b930dd5fa316b6a",
+    "html_url": "https://github.com/ccnmtl/mediathread/commit/efead284cd02584da7ea9b800b930dd5fa316b6a",
+    "comments_url": "https://api.github.com/repos/ccnmtl/mediathread/commits/efead284cd02584da7ea9b800b930dd5fa316b6a/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "7cda9d5568893cce505445aa65431ddd770fdcc2",
+        "url": "https://api.github.com/repos/ccnmtl/mediathread/commits/7cda9d5568893cce505445aa65431ddd770fdcc2",
+        "html_url": "https://github.com/ccnmtl/mediathread/commit/7cda9d5568893cce505445aa65431ddd770fdcc2"
+      }
+    ]
+  },
+  {
+    "sha": "7cda9d5568893cce505445aa65431ddd770fdcc2",
+    "node_id": "C_kwDOAAcJmdoAKDdjZGE5ZDU1Njg4OTNjY2U1MDU0NDVhYTY1NDMxZGRkNzcwZmRjYzI",
+    "commit": {
+      "author": {
+        "name": "Richard Guo",
+        "email": "yrguo@stanford.edu",
+        "date": "2021-11-09T23:39:44Z"
+      },
+      "committer": {
+        "name": "Richard Guo",
+        "email": "yrguo@stanford.edu",
+        "date": "2021-11-11T22:26:10Z"
+      },
+      "message": "Updated Dockerfile for python3 requirements, fixed Django-celery dependency",
+      "tree": {
+        "sha": "0dc258fa2eed2a8fd60cc942d81e263329189488",
+        "url": "https://api.github.com/repos/ccnmtl/mediathread/git/trees/0dc258fa2eed2a8fd60cc942d81e263329189488"
+      },
+      "url": "https://api.github.com/repos/ccnmtl/mediathread/git/commits/7cda9d5568893cce505445aa65431ddd770fdcc2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ccnmtl/mediathread/commits/7cda9d5568893cce505445aa65431ddd770fdcc2",
+    "html_url": "https://github.com/ccnmtl/mediathread/commit/7cda9d5568893cce505445aa65431ddd770fdcc2",
+    "comments_url": "https://api.github.com/repos/ccnmtl/mediathread/commits/7cda9d5568893cce505445aa65431ddd770fdcc2/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "3dc272430d867820b9767e4968c337df3976282b",
+        "url": "https://api.github.com/repos/ccnmtl/mediathread/commits/3dc272430d867820b9767e4968c337df3976282b",
+        "html_url": "https://github.com/ccnmtl/mediathread/commit/3dc272430d867820b9767e4968c337df3976282b"
+      }
+    ]
+  },
+  {
+    "sha": "8a5cb587857c6f4e7891513c14a68e7c84c60177",
+    "node_id": "MDY6Q29tbWl0NDYxMjA5OjhhNWNiNTg3ODU3YzZmNGU3ODkxNTEzYzE0YTY4ZTdjODRjNjAxNzc=",
+    "commit": {
+      "author": {
+        "name": "Aleksas Pielikis",
+        "email": "ant.kampo@gmail.com",
+        "date": "2018-04-10T13:50:31Z"
+      },
+      "committer": {
+        "name": "Aleksas Pielikis",
+        "email": "ant.kampo@gmail.com",
+        "date": "2018-04-10T13:50:31Z"
+      },
+      "message": "Add Dockerfile instruction to install python-urllib3.\nAdd Dockerfile instruction to add requirements/ directory otherwise requirements/src/lettuce-0.2.25.ccnmtl-py2.py3-none-any.whl can not be found during make install.",
+      "tree": {
+        "sha": "f7d9560abdb20b08a5b1fae98cdc67226827975d",
+        "url": "https://api.github.com/repos/ccnmtl/mediathread/git/trees/f7d9560abdb20b08a5b1fae98cdc67226827975d"
+      },
+      "url": "https://api.github.com/repos/ccnmtl/mediathread/git/commits/8a5cb587857c6f4e7891513c14a68e7c84c60177",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ccnmtl/mediathread/commits/8a5cb587857c6f4e7891513c14a68e7c84c60177",
+    "html_url": "https://github.com/ccnmtl/mediathread/commit/8a5cb587857c6f4e7891513c14a68e7c84c60177",
+    "comments_url": "https://api.github.com/repos/ccnmtl/mediathread/commits/8a5cb587857c6f4e7891513c14a68e7c84c60177/comments",
+    "author": {
+      "login": "aleksas",
+      "id": 594470,
+      "node_id": "MDQ6VXNlcjU5NDQ3MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/594470?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aleksas",
+      "html_url": "https://github.com/aleksas",
+      "followers_url": "https://api.github.com/users/aleksas/followers",
+      "following_url": "https://api.github.com/users/aleksas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aleksas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aleksas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aleksas/subscriptions",
+      "organizations_url": "https://api.github.com/users/aleksas/orgs",
+      "repos_url": "https://api.github.com/users/aleksas/repos",
+      "events_url": "https://api.github.com/users/aleksas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aleksas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "aleksas",
+      "id": 594470,
+      "node_id": "MDQ6VXNlcjU5NDQ3MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/594470?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aleksas",
+      "html_url": "https://github.com/aleksas",
+      "followers_url": "https://api.github.com/users/aleksas/followers",
+      "following_url": "https://api.github.com/users/aleksas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aleksas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aleksas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aleksas/subscriptions",
+      "organizations_url": "https://api.github.com/users/aleksas/orgs",
+      "repos_url": "https://api.github.com/users/aleksas/repos",
+      "events_url": "https://api.github.com/users/aleksas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aleksas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d6bc8d3849d33b0fb3db2e88a124d30a8dfd2571",
+        "url": "https://api.github.com/repos/ccnmtl/mediathread/commits/d6bc8d3849d33b0fb3db2e88a124d30a8dfd2571",
+        "html_url": "https://github.com/ccnmtl/mediathread/commit/d6bc8d3849d33b0fb3db2e88a124d30a8dfd2571"
+      }
+    ]
+  },
+  {
+    "sha": "9dfa9f64b1549b39d9066ac02f020467a2fe6ba4",
+    "node_id": "MDY6Q29tbWl0NDYxMjA5OjlkZmE5ZjY0YjE1NDliMzlkOTA2NmFjMDJmMDIwNDY3YTJmZTZiYTQ=",
+    "commit": {
+      "author": {
+        "name": "Anders Pearson",
+        "email": "anders@columbia.edu",
+        "date": "2016-05-11T12:46:56Z"
+      },
+      "committer": {
+        "name": "Anders Pearson",
+        "email": "anders@columbia.edu",
+        "date": "2016-05-11T12:55:48Z"
+      },
+      "message": "revive the docker/docker-compose setup\n\nI had previously commented out the test running step of building the\ndocker container because Mediathread's tests (for some undetermined\nreason) would consistently fail on my desktop, so it was the only way I\ncould get it to build. That issue has resolved itself though, so I put\nthat back in as a nice sanity check within the container.\n\nI've also updated the documentation a bit with more details on how to\nuse docker-compose to run a development environment.\n\nLastly, I tend to run into issues with running Mediathread locally\nbecause of the Pickle session serializer, which always breaks because my\nbrowser generally already has a (JSON) session cookie for my local\nsetup. Clearing out the cookies is a pain, so I set the serializer in\nthe compose settings to JSON serializer to make it convenient to do\ndevelopment against it. Since no one else is using the compose setup yet\nthat I know of, it shouldn't break anyone else's setup.",
+      "tree": {
+        "sha": "7c2a0097e06fa5aee103d83b9a82b27d352a1e8c",
+        "url": "https://api.github.com/repos/ccnmtl/mediathread/git/trees/7c2a0097e06fa5aee103d83b9a82b27d352a1e8c"
+      },
+      "url": "https://api.github.com/repos/ccnmtl/mediathread/git/commits/9dfa9f64b1549b39d9066ac02f020467a2fe6ba4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ccnmtl/mediathread/commits/9dfa9f64b1549b39d9066ac02f020467a2fe6ba4",
+    "html_url": "https://github.com/ccnmtl/mediathread/commit/9dfa9f64b1549b39d9066ac02f020467a2fe6ba4",
+    "comments_url": "https://api.github.com/repos/ccnmtl/mediathread/commits/9dfa9f64b1549b39d9066ac02f020467a2fe6ba4/comments",
+    "author": {
+      "login": "thraxil",
+      "id": 7821,
+      "node_id": "MDQ6VXNlcjc4MjE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thraxil",
+      "html_url": "https://github.com/thraxil",
+      "followers_url": "https://api.github.com/users/thraxil/followers",
+      "following_url": "https://api.github.com/users/thraxil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thraxil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thraxil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thraxil/subscriptions",
+      "organizations_url": "https://api.github.com/users/thraxil/orgs",
+      "repos_url": "https://api.github.com/users/thraxil/repos",
+      "events_url": "https://api.github.com/users/thraxil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thraxil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "thraxil",
+      "id": 7821,
+      "node_id": "MDQ6VXNlcjc4MjE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thraxil",
+      "html_url": "https://github.com/thraxil",
+      "followers_url": "https://api.github.com/users/thraxil/followers",
+      "following_url": "https://api.github.com/users/thraxil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thraxil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thraxil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thraxil/subscriptions",
+      "organizations_url": "https://api.github.com/users/thraxil/orgs",
+      "repos_url": "https://api.github.com/users/thraxil/repos",
+      "events_url": "https://api.github.com/users/thraxil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thraxil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3af813e02c3cc51d7a9c7fa149c2dd020f349f78",
+        "url": "https://api.github.com/repos/ccnmtl/mediathread/commits/3af813e02c3cc51d7a9c7fa149c2dd020f349f78",
+        "html_url": "https://github.com/ccnmtl/mediathread/commit/3af813e02c3cc51d7a9c7fa149c2dd020f349f78"
+      }
+    ]
+  },
+  {
+    "sha": "484d0e17973617f8799fa8694e9820a789533381",
+    "node_id": "MDY6Q29tbWl0NDYxMjA5OjQ4NGQwZTE3OTczNjE3Zjg3OTlmYTg2OTRlOTgyMGE3ODk1MzMzODE=",
+    "commit": {
+      "author": {
+        "name": "Anders Pearson",
+        "email": "anders@columbia.edu",
+        "date": "2015-11-30T10:36:19Z"
+      },
+      "committer": {
+        "name": "Anders Pearson",
+        "email": "anders@columbia.edu",
+        "date": "2015-11-30T10:36:19Z"
+      },
+      "message": "docker setup\n\ntest running step of Dockerfile is currently commented out because tests fail\non my machine whether in docker or not",
+      "tree": {
+        "sha": "b69e5f0449eef606d69c1e9ceb4445debba867e1",
+        "url": "https://api.github.com/repos/ccnmtl/mediathread/git/trees/b69e5f0449eef606d69c1e9ceb4445debba867e1"
+      },
+      "url": "https://api.github.com/repos/ccnmtl/mediathread/git/commits/484d0e17973617f8799fa8694e9820a789533381",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ccnmtl/mediathread/commits/484d0e17973617f8799fa8694e9820a789533381",
+    "html_url": "https://github.com/ccnmtl/mediathread/commit/484d0e17973617f8799fa8694e9820a789533381",
+    "comments_url": "https://api.github.com/repos/ccnmtl/mediathread/commits/484d0e17973617f8799fa8694e9820a789533381/comments",
+    "author": {
+      "login": "thraxil",
+      "id": 7821,
+      "node_id": "MDQ6VXNlcjc4MjE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thraxil",
+      "html_url": "https://github.com/thraxil",
+      "followers_url": "https://api.github.com/users/thraxil/followers",
+      "following_url": "https://api.github.com/users/thraxil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thraxil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thraxil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thraxil/subscriptions",
+      "organizations_url": "https://api.github.com/users/thraxil/orgs",
+      "repos_url": "https://api.github.com/users/thraxil/repos",
+      "events_url": "https://api.github.com/users/thraxil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thraxil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "thraxil",
+      "id": 7821,
+      "node_id": "MDQ6VXNlcjc4MjE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thraxil",
+      "html_url": "https://github.com/thraxil",
+      "followers_url": "https://api.github.com/users/thraxil/followers",
+      "following_url": "https://api.github.com/users/thraxil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thraxil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thraxil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thraxil/subscriptions",
+      "organizations_url": "https://api.github.com/users/thraxil/orgs",
+      "repos_url": "https://api.github.com/users/thraxil/repos",
+      "events_url": "https://api.github.com/users/thraxil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thraxil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0a02f8073e80f8e74f2155e9b197eda573b23d90",
+        "url": "https://api.github.com/repos/ccnmtl/mediathread/commits/0a02f8073e80f8e74f2155e9b197eda573b23d90",
+        "html_url": "https://github.com/ccnmtl/mediathread/commit/0a02f8073e80f8e74f2155e9b197eda573b23d90"
+      }
+    ]
+  }
+]

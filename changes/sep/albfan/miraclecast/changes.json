@@ -1,0 +1,81 @@
+[
+  {
+    "sha": "4f37045eea9d5da1b3840144381160a905275244",
+    "node_id": "MDY6Q29tbWl0MjI1NDI2ODQ6NGYzNzA0NWVlYTlkNWRhMWIzODQwMTQ0MzgxMTYwYTkwNTI3NTI0NA==",
+    "commit": {
+      "author": {
+        "name": "Alberto Fanjul",
+        "email": "albertofanjul@gmail.com",
+        "date": "2020-11-13T09:29:13Z"
+      },
+      "committer": {
+        "name": "Alberto Fanjul",
+        "email": "albertofanjul@gmail.com",
+        "date": "2020-11-13T15:47:16Z"
+      },
+      "message": "Use travis as CI",
+      "tree": {
+        "sha": "8899e450498b07b824b5cc3e48dce765e274dedf",
+        "url": "https://api.github.com/repos/albfan/miraclecast/git/trees/8899e450498b07b824b5cc3e48dce765e274dedf"
+      },
+      "url": "https://api.github.com/repos/albfan/miraclecast/git/commits/4f37045eea9d5da1b3840144381160a905275244",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/albfan/miraclecast/commits/4f37045eea9d5da1b3840144381160a905275244",
+    "html_url": "https://github.com/albfan/miraclecast/commit/4f37045eea9d5da1b3840144381160a905275244",
+    "comments_url": "https://api.github.com/repos/albfan/miraclecast/commits/4f37045eea9d5da1b3840144381160a905275244/comments",
+    "author": {
+      "login": "albfan",
+      "id": 220968,
+      "node_id": "MDQ6VXNlcjIyMDk2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/220968?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/albfan",
+      "html_url": "https://github.com/albfan",
+      "followers_url": "https://api.github.com/users/albfan/followers",
+      "following_url": "https://api.github.com/users/albfan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/albfan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/albfan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/albfan/subscriptions",
+      "organizations_url": "https://api.github.com/users/albfan/orgs",
+      "repos_url": "https://api.github.com/users/albfan/repos",
+      "events_url": "https://api.github.com/users/albfan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/albfan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "albfan",
+      "id": 220968,
+      "node_id": "MDQ6VXNlcjIyMDk2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/220968?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/albfan",
+      "html_url": "https://github.com/albfan",
+      "followers_url": "https://api.github.com/users/albfan/followers",
+      "following_url": "https://api.github.com/users/albfan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/albfan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/albfan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/albfan/subscriptions",
+      "organizations_url": "https://api.github.com/users/albfan/orgs",
+      "repos_url": "https://api.github.com/users/albfan/repos",
+      "events_url": "https://api.github.com/users/albfan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/albfan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "be548047687d3a02ff23f8cac05bf57803e343b1",
+        "url": "https://api.github.com/repos/albfan/miraclecast/commits/be548047687d3a02ff23f8cac05bf57803e343b1",
+        "html_url": "https://github.com/albfan/miraclecast/commit/be548047687d3a02ff23f8cac05bf57803e343b1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,239 @@
+[
+  {
+    "sha": "677a5348b04a9774b6b2bd295a7d617dc3c401c0",
+    "node_id": "MDY6Q29tbWl0MjU2MjM5NDE6Njc3YTUzNDhiMDRhOTc3NGI2YjJiZDI5NWE3ZDYxN2RjM2M0MDFjMA==",
+    "commit": {
+      "author": {
+        "name": "Pratik Raj",
+        "email": "Rajpratik71@gmail.com",
+        "date": "2020-06-22T13:54:52Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-06-22T13:54:52Z"
+      },
+      "message": "optimization debian package manager tweaks (#1504)\n\nBy default, Ubuntu or Debian based \"apt\" or \"apt-get\" system installs recommended but not suggested packages .\r\n\r\nBy passing \"--no-install-recommends\" option, the user lets apt-get know not to consider recommended packages as a dependency to install.\r\n\r\nThis results in smaller downloads and installation of packages .\r\n\r\nRefer to blog at [Ubuntu Blog](https://ubuntu.com/blog/we-reduced-our-docker-images-by-60-with-no-install-recommends) .\r\n\r\nSigned-off-by: Pratik Raj <rajpratik71@gmail.com>",
+      "tree": {
+        "sha": "ed88c14392833f41d24f3bd86b808f88cdace421",
+        "url": "https://api.github.com/repos/apache/reef/git/trees/ed88c14392833f41d24f3bd86b808f88cdace421"
+      },
+      "url": "https://api.github.com/repos/apache/reef/git/commits/677a5348b04a9774b6b2bd295a7d617dc3c401c0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe8LgsCRBK7hj4Ov3rIwAAdHIIAHcPrwFuDX290mkumEmZ+U/D\nGklschPhR+tlIp1s1CKAUycafa5xc4zSEQ0xgoN/QpzE0sGjHzv7gx0LYQCLA2Bh\nMGPWh7g6dnLati7xOlF6FKFBM66YDLuFIKK1VHCmhkjvQgLh7qQl8VMlj5zQksiU\npMOKmUUunVJgppZqf1opESSEMmjMMWNr6bxfkygErCR5W6Lm3DGmdUhCCrMQjLlN\nUBSdnQzY+8nOBLwZszbyiBiw+D1yWDaBmMjnJewN6axKBj9GVs2NXmfLwoA9a/ke\ntJbuXh02o6PfYEpBJMaB/m2XQa+KCDmNFmHYz9wgq11s+VsDlG2+0t/Ny+3GURU=\n=kfwj\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ed88c14392833f41d24f3bd86b808f88cdace421\nparent 0715691b64b5ab887c14a20db880537f8240da0a\nauthor Pratik Raj <Rajpratik71@gmail.com> 1592834092 +0530\ncommitter GitHub <noreply@github.com> 1592834092 -0700\n\noptimization debian package manager tweaks (#1504)\n\nBy default, Ubuntu or Debian based \"apt\" or \"apt-get\" system installs recommended but not suggested packages .\r\n\r\nBy passing \"--no-install-recommends\" option, the user lets apt-get know not to consider recommended packages as a dependency to install.\r\n\r\nThis results in smaller downloads and installation of packages .\r\n\r\nRefer to blog at [Ubuntu Blog](https://ubuntu.com/blog/we-reduced-our-docker-images-by-60-with-no-install-recommends) .\r\n\r\nSigned-off-by: Pratik Raj <rajpratik71@gmail.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/apache/reef/commits/677a5348b04a9774b6b2bd295a7d617dc3c401c0",
+    "html_url": "https://github.com/apache/reef/commit/677a5348b04a9774b6b2bd295a7d617dc3c401c0",
+    "comments_url": "https://api.github.com/repos/apache/reef/commits/677a5348b04a9774b6b2bd295a7d617dc3c401c0/comments",
+    "author": {
+      "login": "Rajpratik71",
+      "id": 12658912,
+      "node_id": "MDQ6VXNlcjEyNjU4OTEy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12658912?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Rajpratik71",
+      "html_url": "https://github.com/Rajpratik71",
+      "followers_url": "https://api.github.com/users/Rajpratik71/followers",
+      "following_url": "https://api.github.com/users/Rajpratik71/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Rajpratik71/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Rajpratik71/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Rajpratik71/subscriptions",
+      "organizations_url": "https://api.github.com/users/Rajpratik71/orgs",
+      "repos_url": "https://api.github.com/users/Rajpratik71/repos",
+      "events_url": "https://api.github.com/users/Rajpratik71/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Rajpratik71/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0715691b64b5ab887c14a20db880537f8240da0a",
+        "url": "https://api.github.com/repos/apache/reef/commits/0715691b64b5ab887c14a20db880537f8240da0a",
+        "html_url": "https://github.com/apache/reef/commit/0715691b64b5ab887c14a20db880537f8240da0a"
+      }
+    ]
+  },
+  {
+    "sha": "4c0207ed03a7596af4785ace4e8e920d2be14270",
+    "node_id": "MDY6Q29tbWl0MjU2MjM5NDE6NGMwMjA3ZWQwM2E3NTk2YWY0Nzg1YWNlNGU4ZTkyMGQyYmUxNDI3MA==",
+    "commit": {
+      "author": {
+        "name": "Dongjoon Hyun",
+        "email": "dongjoon@apache.org",
+        "date": "2016-05-29T06:03:11Z"
+      },
+      "committer": {
+        "name": "John Yang",
+        "email": "johnyangk@apache.org",
+        "date": "2016-05-31T03:03:22Z"
+      },
+      "message": "[REEF-1409] Upgrade HDP2.4 docker image to use 2.4.2 repository\n\nThis PR upgrades HDP2.4 docker images from HDP 2.4.0 into HDP 2.4.2.\nHDInsight was already upgraded to use HDP 2.4.2 two weeks ago.\nWe had better upgrade ours to HDP 2.4.2.\n\nJIRA:\n  [REEF-1409](https://issues.apache.org/jira/browse/REEF-1409)\n\nPull Request:\n  This closes #1018",
+      "tree": {
+        "sha": "22e75c1a61ade0f71e49e4de2b94e1cbebdf6ab3",
+        "url": "https://api.github.com/repos/apache/reef/git/trees/22e75c1a61ade0f71e49e4de2b94e1cbebdf6ab3"
+      },
+      "url": "https://api.github.com/repos/apache/reef/git/commits/4c0207ed03a7596af4785ace4e8e920d2be14270",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/apache/reef/commits/4c0207ed03a7596af4785ace4e8e920d2be14270",
+    "html_url": "https://github.com/apache/reef/commit/4c0207ed03a7596af4785ace4e8e920d2be14270",
+    "comments_url": "https://api.github.com/repos/apache/reef/commits/4c0207ed03a7596af4785ace4e8e920d2be14270/comments",
+    "author": {
+      "login": "dongjoon-hyun",
+      "id": 9700541,
+      "node_id": "MDQ6VXNlcjk3MDA1NDE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9700541?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dongjoon-hyun",
+      "html_url": "https://github.com/dongjoon-hyun",
+      "followers_url": "https://api.github.com/users/dongjoon-hyun/followers",
+      "following_url": "https://api.github.com/users/dongjoon-hyun/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dongjoon-hyun/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dongjoon-hyun/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dongjoon-hyun/subscriptions",
+      "organizations_url": "https://api.github.com/users/dongjoon-hyun/orgs",
+      "repos_url": "https://api.github.com/users/dongjoon-hyun/repos",
+      "events_url": "https://api.github.com/users/dongjoon-hyun/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dongjoon-hyun/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "johnyangk",
+      "id": 4114572,
+      "node_id": "MDQ6VXNlcjQxMTQ1NzI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4114572?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnyangk",
+      "html_url": "https://github.com/johnyangk",
+      "followers_url": "https://api.github.com/users/johnyangk/followers",
+      "following_url": "https://api.github.com/users/johnyangk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/johnyangk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/johnyangk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/johnyangk/subscriptions",
+      "organizations_url": "https://api.github.com/users/johnyangk/orgs",
+      "repos_url": "https://api.github.com/users/johnyangk/repos",
+      "events_url": "https://api.github.com/users/johnyangk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/johnyangk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "947b18e8c11d99f15241e957c054582eab7dd9bf",
+        "url": "https://api.github.com/repos/apache/reef/commits/947b18e8c11d99f15241e957c054582eab7dd9bf",
+        "html_url": "https://github.com/apache/reef/commit/947b18e8c11d99f15241e957c054582eab7dd9bf"
+      }
+    ]
+  },
+  {
+    "sha": "630124476b5c1a41c2e043a672ec2db79ac16da0",
+    "node_id": "MDY6Q29tbWl0MjU2MjM5NDE6NjMwMTI0NDc2YjVjMWE0MWMyZTA0M2E2NzJlYzJkYjc5YWMxNmRhMA==",
+    "commit": {
+      "author": {
+        "name": "Dongjoon Hyun",
+        "email": "dongjoon@apache.org",
+        "date": "2016-04-11T19:35:25Z"
+      },
+      "committer": {
+        "name": "John Yang",
+        "email": "johnyangk@apache.org",
+        "date": "2016-04-15T01:48:32Z"
+      },
+      "message": "[REEF-1329] Add dockerfiles for HDP 2.4\n\nHDP 2.4 was released on last month and HDInsight 3.4 also uses HDP 2.4.\nThis PR aims to provide HDP 2.4 for REEF integration test.\n\nJIRA:\n  [REEF-1329](https://issues.apache.org/jira/browse/REEF-1329)\n\nPull Request:\n  This closes #942",
+      "tree": {
+        "sha": "355bbd5394907da76caab5dd10e979b345c257f8",
+        "url": "https://api.github.com/repos/apache/reef/git/trees/355bbd5394907da76caab5dd10e979b345c257f8"
+      },
+      "url": "https://api.github.com/repos/apache/reef/git/commits/630124476b5c1a41c2e043a672ec2db79ac16da0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/apache/reef/commits/630124476b5c1a41c2e043a672ec2db79ac16da0",
+    "html_url": "https://github.com/apache/reef/commit/630124476b5c1a41c2e043a672ec2db79ac16da0",
+    "comments_url": "https://api.github.com/repos/apache/reef/commits/630124476b5c1a41c2e043a672ec2db79ac16da0/comments",
+    "author": {
+      "login": "dongjoon-hyun",
+      "id": 9700541,
+      "node_id": "MDQ6VXNlcjk3MDA1NDE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9700541?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dongjoon-hyun",
+      "html_url": "https://github.com/dongjoon-hyun",
+      "followers_url": "https://api.github.com/users/dongjoon-hyun/followers",
+      "following_url": "https://api.github.com/users/dongjoon-hyun/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dongjoon-hyun/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dongjoon-hyun/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dongjoon-hyun/subscriptions",
+      "organizations_url": "https://api.github.com/users/dongjoon-hyun/orgs",
+      "repos_url": "https://api.github.com/users/dongjoon-hyun/repos",
+      "events_url": "https://api.github.com/users/dongjoon-hyun/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dongjoon-hyun/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "johnyangk",
+      "id": 4114572,
+      "node_id": "MDQ6VXNlcjQxMTQ1NzI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4114572?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnyangk",
+      "html_url": "https://github.com/johnyangk",
+      "followers_url": "https://api.github.com/users/johnyangk/followers",
+      "following_url": "https://api.github.com/users/johnyangk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/johnyangk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/johnyangk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/johnyangk/subscriptions",
+      "organizations_url": "https://api.github.com/users/johnyangk/orgs",
+      "repos_url": "https://api.github.com/users/johnyangk/repos",
+      "events_url": "https://api.github.com/users/johnyangk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/johnyangk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1f22f2d94b8bd947b98b4087b214c306351d4a3a",
+        "url": "https://api.github.com/repos/apache/reef/commits/1f22f2d94b8bd947b98b4087b214c306351d4a3a",
+        "html_url": "https://github.com/apache/reef/commit/1f22f2d94b8bd947b98b4087b214c306351d4a3a"
+      }
+    ]
+  }
+]

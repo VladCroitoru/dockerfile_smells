@@ -1,0 +1,476 @@
+[
+  {
+    "sha": "d94de9db958ebe41058c40b492db887fb6d3bd15",
+    "node_id": "C_kwDOAJCgS9oAKGQ5NGRlOWRiOTU4ZWJlNDEwNThjNDBiNDkyZGI4ODdmYjZkM2JkMTU",
+    "commit": {
+      "author": {
+        "name": "Julia Eskew",
+        "email": "jeskew@edx.org",
+        "date": "2022-01-13T23:33:30Z"
+      },
+      "committer": {
+        "name": "Julia Eskew",
+        "email": "jeskew@edx.org",
+        "date": "2022-01-13T23:33:30Z"
+      },
+      "message": "chore: Upgrade the versions of the devpi components to the current latest version,\nincluding devpi-server, devpi-web, and devpi-client.\nAlso, change deprecated DEVPI_SERVERDIR var to new DEVPISERVER_SERVERDIR var.",
+      "tree": {
+        "sha": "4238053fccf26eb7bc4e7e3757e8da31e9207a39",
+        "url": "https://api.github.com/repos/openedx/configuration/git/trees/4238053fccf26eb7bc4e7e3757e8da31e9207a39"
+      },
+      "url": "https://api.github.com/repos/openedx/configuration/git/commits/d94de9db958ebe41058c40b492db887fb6d3bd15",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/openedx/configuration/commits/d94de9db958ebe41058c40b492db887fb6d3bd15",
+    "html_url": "https://github.com/openedx/configuration/commit/d94de9db958ebe41058c40b492db887fb6d3bd15",
+    "comments_url": "https://api.github.com/repos/openedx/configuration/commits/d94de9db958ebe41058c40b492db887fb6d3bd15/comments",
+    "author": {
+      "login": "doctoryes",
+      "id": 7285237,
+      "node_id": "MDQ6VXNlcjcyODUyMzc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7285237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doctoryes",
+      "html_url": "https://github.com/doctoryes",
+      "followers_url": "https://api.github.com/users/doctoryes/followers",
+      "following_url": "https://api.github.com/users/doctoryes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doctoryes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doctoryes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doctoryes/subscriptions",
+      "organizations_url": "https://api.github.com/users/doctoryes/orgs",
+      "repos_url": "https://api.github.com/users/doctoryes/repos",
+      "events_url": "https://api.github.com/users/doctoryes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doctoryes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doctoryes",
+      "id": 7285237,
+      "node_id": "MDQ6VXNlcjcyODUyMzc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7285237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doctoryes",
+      "html_url": "https://github.com/doctoryes",
+      "followers_url": "https://api.github.com/users/doctoryes/followers",
+      "following_url": "https://api.github.com/users/doctoryes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doctoryes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doctoryes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doctoryes/subscriptions",
+      "organizations_url": "https://api.github.com/users/doctoryes/orgs",
+      "repos_url": "https://api.github.com/users/doctoryes/repos",
+      "events_url": "https://api.github.com/users/doctoryes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doctoryes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1e57e680a4a232d15c3943c5343ca241bcb075f6",
+        "url": "https://api.github.com/repos/openedx/configuration/commits/1e57e680a4a232d15c3943c5343ca241bcb075f6",
+        "html_url": "https://github.com/openedx/configuration/commit/1e57e680a4a232d15c3943c5343ca241bcb075f6"
+      }
+    ]
+  },
+  {
+    "sha": "68bebfcf55bc5211f91359c0afd990836ee30b57",
+    "node_id": "C_kwDOAJCgS9oAKDY4YmViZmNmNTViYzUyMTFmOTEzNTljMGFmZDk5MDgzNmVlMzBiNTc",
+    "commit": {
+      "author": {
+        "name": "Aarif",
+        "email": "MrAarif@outlook.com",
+        "date": "2022-01-10T16:17:50Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-01-10T16:17:50Z"
+      },
+      "message": "fix: updated Docker file base to use focal (#6656)",
+      "tree": {
+        "sha": "b9d478046b926dff06b3b567ea9bd227404fce7d",
+        "url": "https://api.github.com/repos/openedx/configuration/git/trees/b9d478046b926dff06b3b567ea9bd227404fce7d"
+      },
+      "url": "https://api.github.com/repos/openedx/configuration/git/commits/68bebfcf55bc5211f91359c0afd990836ee30b57",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJh3FwuCRBK7hj4Ov3rIwAA2dsIABd1+uUwchiGmxmuddnrxG71\nwYeUP6+01iyiMqyxR5E/77nYCHLg9jPWaCQFBAFdCZZLyXwIqbj7JANefCSZMg7y\n+Yb91u0aX7SPtD7F1dN0+ubGH8+LZC4LXstS+NNFLlf3rCHWxpOEgSrNyeF/SMCI\ngEGuzPMO72s4x+DiUjVkiDw88WQAP2KDnME6WUxTHqvalGTrnprDGhmbYRBFd8l/\nO6aVDbYLm4pgZQPUULDtiN1z0VxzU+N3KX5VOGH+DkolvFkJeICMUYC/o8DjVtlG\nTJsfabUzoKXjW5zQBA93ejeGQQQuxp1ZWdkNGV/GgULLXhlpNB3QKJ0bsS8+c1A=\n=kpjh\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b9d478046b926dff06b3b567ea9bd227404fce7d\nparent 64b2cfef629c2f81cba297e6a414664ce98abfea\nauthor Aarif <MrAarif@outlook.com> 1641831470 +0500\ncommitter GitHub <noreply@github.com> 1641831470 +0500\n\nfix: updated Docker file base to use focal (#6656)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/openedx/configuration/commits/68bebfcf55bc5211f91359c0afd990836ee30b57",
+    "html_url": "https://github.com/openedx/configuration/commit/68bebfcf55bc5211f91359c0afd990836ee30b57",
+    "comments_url": "https://api.github.com/repos/openedx/configuration/commits/68bebfcf55bc5211f91359c0afd990836ee30b57/comments",
+    "author": {
+      "login": "mraarif",
+      "id": 19369651,
+      "node_id": "MDQ6VXNlcjE5MzY5NjUx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19369651?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mraarif",
+      "html_url": "https://github.com/mraarif",
+      "followers_url": "https://api.github.com/users/mraarif/followers",
+      "following_url": "https://api.github.com/users/mraarif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mraarif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mraarif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mraarif/subscriptions",
+      "organizations_url": "https://api.github.com/users/mraarif/orgs",
+      "repos_url": "https://api.github.com/users/mraarif/repos",
+      "events_url": "https://api.github.com/users/mraarif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mraarif/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "64b2cfef629c2f81cba297e6a414664ce98abfea",
+        "url": "https://api.github.com/repos/openedx/configuration/commits/64b2cfef629c2f81cba297e6a414664ce98abfea",
+        "html_url": "https://github.com/openedx/configuration/commit/64b2cfef629c2f81cba297e6a414664ce98abfea"
+      }
+    ]
+  },
+  {
+    "sha": "59ef0d5c6b787a54723f63ba3888328b715c11e4",
+    "node_id": "MDY6Q29tbWl0OTQ3ODIxOTo1OWVmMGQ1YzZiNzg3YTU0NzIzZjYzYmEzODg4MzI4YjcxNWMxMWU0",
+    "commit": {
+      "author": {
+        "name": "Mostafa Hussein",
+        "email": "mostafa.hussein91@gmail.com",
+        "date": "2019-04-16T15:28:03Z"
+      },
+      "committer": {
+        "name": "Mostafa Hussein",
+        "email": "mostafa.hussein91@gmail.com",
+        "date": "2019-04-16T15:30:06Z"
+      },
+      "message": "update Dockerfiles syntax\n\nSigned-off-by: Mostafa Hussein <mostafa.hussein91@gmail.com>",
+      "tree": {
+        "sha": "6d0034c30e79c0d3d9e0e67565ae4f9e5ce098f8",
+        "url": "https://api.github.com/repos/openedx/configuration/git/trees/6d0034c30e79c0d3d9e0e67565ae4f9e5ce098f8"
+      },
+      "url": "https://api.github.com/repos/openedx/configuration/git/commits/59ef0d5c6b787a54723f63ba3888328b715c11e4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/openedx/configuration/commits/59ef0d5c6b787a54723f63ba3888328b715c11e4",
+    "html_url": "https://github.com/openedx/configuration/commit/59ef0d5c6b787a54723f63ba3888328b715c11e4",
+    "comments_url": "https://api.github.com/repos/openedx/configuration/commits/59ef0d5c6b787a54723f63ba3888328b715c11e4/comments",
+    "author": {
+      "login": "mostafahussein",
+      "id": 4104127,
+      "node_id": "MDQ6VXNlcjQxMDQxMjc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4104127?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mostafahussein",
+      "html_url": "https://github.com/mostafahussein",
+      "followers_url": "https://api.github.com/users/mostafahussein/followers",
+      "following_url": "https://api.github.com/users/mostafahussein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mostafahussein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mostafahussein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mostafahussein/subscriptions",
+      "organizations_url": "https://api.github.com/users/mostafahussein/orgs",
+      "repos_url": "https://api.github.com/users/mostafahussein/repos",
+      "events_url": "https://api.github.com/users/mostafahussein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mostafahussein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mostafahussein",
+      "id": 4104127,
+      "node_id": "MDQ6VXNlcjQxMDQxMjc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4104127?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mostafahussein",
+      "html_url": "https://github.com/mostafahussein",
+      "followers_url": "https://api.github.com/users/mostafahussein/followers",
+      "following_url": "https://api.github.com/users/mostafahussein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mostafahussein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mostafahussein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mostafahussein/subscriptions",
+      "organizations_url": "https://api.github.com/users/mostafahussein/orgs",
+      "repos_url": "https://api.github.com/users/mostafahussein/repos",
+      "events_url": "https://api.github.com/users/mostafahussein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mostafahussein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "28305f644ac20cb20c77ffe911876fb4b5327b46",
+        "url": "https://api.github.com/repos/openedx/configuration/commits/28305f644ac20cb20c77ffe911876fb4b5327b46",
+        "html_url": "https://github.com/openedx/configuration/commit/28305f644ac20cb20c77ffe911876fb4b5327b46"
+      }
+    ]
+  },
+  {
+    "sha": "ed8f34eccc3efb4d6cbbb399be923404a4f42469",
+    "node_id": "MDY6Q29tbWl0OTQ3ODIxOTplZDhmMzRlY2NjM2VmYjRkNmNiYmIzOTliZTkyMzQwNGE0ZjQyNDY5",
+    "commit": {
+      "author": {
+        "name": "Cory Lee",
+        "email": "cl10001123@gmail.com",
+        "date": "2019-01-03T18:35:33Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-01-03T18:35:33Z"
+      },
+      "message": "Render auth and env json to single yml file (#4906)\n\n* Render lms and studio config as yml",
+      "tree": {
+        "sha": "6186357cb48002d2fdf7f7d4311eec29bd2512f6",
+        "url": "https://api.github.com/repos/openedx/configuration/git/trees/6186357cb48002d2fdf7f7d4311eec29bd2512f6"
+      },
+      "url": "https://api.github.com/repos/openedx/configuration/git/commits/ed8f34eccc3efb4d6cbbb399be923404a4f42469",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcLlX1CRBK7hj4Ov3rIwAAdHIIALDQpApI1tQeUDpKjvrM3P/u\nqWktFBLFfQV9aJ/irkCZyfq+a3es7aLn86Z0GNf5e9FUFpYeEQYCPa9LVAU2m7wb\n87tTa9HKY6uvlQ2TSiFdbVzC5h/5PTrOB71RuIqvKV82+KeCbMWBDYB+uPrVWGrw\nGDshcjMg0HNQrA2zLbh1QuQ402okcqzGSRbuIDfwluZIA1+3WH0iisSpNis+oIBm\nTLbj7Ad/cAxbdxZopDsBbXOi2a5FKePz6Nx/QkwMEKfMrje1iG8UCbfzl8BZ5aCj\nbphpJJ+LzUEJDVEVkfVeXT/FGaUueLBCfkz7Eqi/PR0E8dljAE1fZ4/DnvCQtwc=\n=v9c+\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 6186357cb48002d2fdf7f7d4311eec29bd2512f6\nparent 073244ba5998e6f1550fb63832e237de1a70fda0\nauthor Cory Lee <cl10001123@gmail.com> 1546540533 -0500\ncommitter GitHub <noreply@github.com> 1546540533 -0500\n\nRender auth and env json to single yml file (#4906)\n\n* Render lms and studio config as yml\r\n\r\n"
+      }
+    },
+    "url": "https://api.github.com/repos/openedx/configuration/commits/ed8f34eccc3efb4d6cbbb399be923404a4f42469",
+    "html_url": "https://github.com/openedx/configuration/commit/ed8f34eccc3efb4d6cbbb399be923404a4f42469",
+    "comments_url": "https://api.github.com/repos/openedx/configuration/commits/ed8f34eccc3efb4d6cbbb399be923404a4f42469/comments",
+    "author": {
+      "login": "coryleeio",
+      "id": 678853,
+      "node_id": "MDQ6VXNlcjY3ODg1Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/678853?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/coryleeio",
+      "html_url": "https://github.com/coryleeio",
+      "followers_url": "https://api.github.com/users/coryleeio/followers",
+      "following_url": "https://api.github.com/users/coryleeio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/coryleeio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/coryleeio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/coryleeio/subscriptions",
+      "organizations_url": "https://api.github.com/users/coryleeio/orgs",
+      "repos_url": "https://api.github.com/users/coryleeio/repos",
+      "events_url": "https://api.github.com/users/coryleeio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/coryleeio/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "073244ba5998e6f1550fb63832e237de1a70fda0",
+        "url": "https://api.github.com/repos/openedx/configuration/commits/073244ba5998e6f1550fb63832e237de1a70fda0",
+        "html_url": "https://github.com/openedx/configuration/commit/073244ba5998e6f1550fb63832e237de1a70fda0"
+      }
+    ]
+  },
+  {
+    "sha": "9663401a8839f02f4bf0134f0d6f08ab684af608",
+    "node_id": "MDY6Q29tbWl0OTQ3ODIxOTo5NjYzNDAxYTg4MzlmMDJmNGJmMDEzNGYwZDZmMDhhYjY4NGFmNjA4",
+    "commit": {
+      "author": {
+        "name": "Jeremy Bowman",
+        "email": "jbowman@edx.org",
+        "date": "2018-04-20T18:31:31Z"
+      },
+      "committer": {
+        "name": "Jeremy Bowman",
+        "email": "jbowman@edx.org",
+        "date": "2018-04-25T18:44:33Z"
+      },
+      "message": "TE-2548 Support for building Open edX release Docker images",
+      "tree": {
+        "sha": "ed37c2db51e13bee96c9e97449e7bc0d3c7b4cf5",
+        "url": "https://api.github.com/repos/openedx/configuration/git/trees/ed37c2db51e13bee96c9e97449e7bc0d3c7b4cf5"
+      },
+      "url": "https://api.github.com/repos/openedx/configuration/git/commits/9663401a8839f02f4bf0134f0d6f08ab684af608",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/openedx/configuration/commits/9663401a8839f02f4bf0134f0d6f08ab684af608",
+    "html_url": "https://github.com/openedx/configuration/commit/9663401a8839f02f4bf0134f0d6f08ab684af608",
+    "comments_url": "https://api.github.com/repos/openedx/configuration/commits/9663401a8839f02f4bf0134f0d6f08ab684af608/comments",
+    "author": {
+      "login": "jmbowman",
+      "id": 1005375,
+      "node_id": "MDQ6VXNlcjEwMDUzNzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1005375?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmbowman",
+      "html_url": "https://github.com/jmbowman",
+      "followers_url": "https://api.github.com/users/jmbowman/followers",
+      "following_url": "https://api.github.com/users/jmbowman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jmbowman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jmbowman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jmbowman/subscriptions",
+      "organizations_url": "https://api.github.com/users/jmbowman/orgs",
+      "repos_url": "https://api.github.com/users/jmbowman/repos",
+      "events_url": "https://api.github.com/users/jmbowman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jmbowman/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jmbowman",
+      "id": 1005375,
+      "node_id": "MDQ6VXNlcjEwMDUzNzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1005375?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmbowman",
+      "html_url": "https://github.com/jmbowman",
+      "followers_url": "https://api.github.com/users/jmbowman/followers",
+      "following_url": "https://api.github.com/users/jmbowman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jmbowman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jmbowman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jmbowman/subscriptions",
+      "organizations_url": "https://api.github.com/users/jmbowman/orgs",
+      "repos_url": "https://api.github.com/users/jmbowman/repos",
+      "events_url": "https://api.github.com/users/jmbowman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jmbowman/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2263f944ed20d25d42d76866a45c3b34588771c6",
+        "url": "https://api.github.com/repos/openedx/configuration/commits/2263f944ed20d25d42d76866a45c3b34588771c6",
+        "html_url": "https://github.com/openedx/configuration/commit/2263f944ed20d25d42d76866a45c3b34588771c6"
+      }
+    ]
+  },
+  {
+    "sha": "388fb907ff0522de5b11c4fcaf3f09384f28a577",
+    "node_id": "MDY6Q29tbWl0OTQ3ODIxOTozODhmYjkwN2ZmMDUyMmRlNWIxMWM0ZmNhZjNmMDkzODRmMjhhNTc3",
+    "commit": {
+      "author": {
+        "name": "John Eskew",
+        "email": "jeskew@edx.org",
+        "date": "2018-01-31T15:08:08Z"
+      },
+      "committer": {
+        "name": "John Eskew",
+        "email": "jeskew@edx.org",
+        "date": "2018-02-23T18:14:19Z"
+      },
+      "message": "Add devpi Docker container building and a devpi Ansible role.",
+      "tree": {
+        "sha": "38d1c844c717df38e255569bb4c20942f8b978a3",
+        "url": "https://api.github.com/repos/openedx/configuration/git/trees/38d1c844c717df38e255569bb4c20942f8b978a3"
+      },
+      "url": "https://api.github.com/repos/openedx/configuration/git/commits/388fb907ff0522de5b11c4fcaf3f09384f28a577",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/openedx/configuration/commits/388fb907ff0522de5b11c4fcaf3f09384f28a577",
+    "html_url": "https://github.com/openedx/configuration/commit/388fb907ff0522de5b11c4fcaf3f09384f28a577",
+    "comments_url": "https://api.github.com/repos/openedx/configuration/commits/388fb907ff0522de5b11c4fcaf3f09384f28a577/comments",
+    "author": {
+      "login": "doctoryes",
+      "id": 7285237,
+      "node_id": "MDQ6VXNlcjcyODUyMzc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7285237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doctoryes",
+      "html_url": "https://github.com/doctoryes",
+      "followers_url": "https://api.github.com/users/doctoryes/followers",
+      "following_url": "https://api.github.com/users/doctoryes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doctoryes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doctoryes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doctoryes/subscriptions",
+      "organizations_url": "https://api.github.com/users/doctoryes/orgs",
+      "repos_url": "https://api.github.com/users/doctoryes/repos",
+      "events_url": "https://api.github.com/users/doctoryes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doctoryes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doctoryes",
+      "id": 7285237,
+      "node_id": "MDQ6VXNlcjcyODUyMzc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7285237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doctoryes",
+      "html_url": "https://github.com/doctoryes",
+      "followers_url": "https://api.github.com/users/doctoryes/followers",
+      "following_url": "https://api.github.com/users/doctoryes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doctoryes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doctoryes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doctoryes/subscriptions",
+      "organizations_url": "https://api.github.com/users/doctoryes/orgs",
+      "repos_url": "https://api.github.com/users/doctoryes/repos",
+      "events_url": "https://api.github.com/users/doctoryes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doctoryes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "143bb230d54279763a780ee43cd56b9075fadd6a",
+        "url": "https://api.github.com/repos/openedx/configuration/commits/143bb230d54279763a780ee43cd56b9075fadd6a",
+        "html_url": "https://github.com/openedx/configuration/commit/143bb230d54279763a780ee43cd56b9075fadd6a"
+      }
+    ]
+  }
+]

@@ -1,0 +1,678 @@
+[
+  {
+    "sha": "6eb5ab7f018e4ac64db217a2599d5ab242cc9c8c",
+    "node_id": "C_kwDOGGxdjtoAKDZlYjVhYjdmMDE4ZTRhYzY0ZGIyMTdhMjU5OWQ1YWIyNDJjYzljOGM",
+    "commit": {
+      "author": {
+        "name": "Travis Lawrence",
+        "email": "travis@Traviss-MacBook-Air.local",
+        "date": "2021-10-22T23:29:17Z"
+      },
+      "committer": {
+        "name": "Travis Lawrence",
+        "email": "travis@Traviss-MacBook-Air.local",
+        "date": "2021-10-22T23:29:17Z"
+      },
+      "message": "uncomment raxml",
+      "tree": {
+        "sha": "1b66c52a3af93f6e294846d2fbb202f452e5d2cd",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/trees/1b66c52a3af93f6e294846d2fbb202f452e5d2cd"
+      },
+      "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/commits/6eb5ab7f018e4ac64db217a2599d5ab242cc9c8c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/6eb5ab7f018e4ac64db217a2599d5ab242cc9c8c",
+    "html_url": "https://github.com/McTavishLab/extensiphy/commit/6eb5ab7f018e4ac64db217a2599d5ab242cc9c8c",
+    "comments_url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/6eb5ab7f018e4ac64db217a2599d5ab242cc9c8c/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "d72c191c1ac4b5df2f9daab217b77a00b0b3c5a4",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/d72c191c1ac4b5df2f9daab217b77a00b0b3c5a4",
+        "html_url": "https://github.com/McTavishLab/extensiphy/commit/d72c191c1ac4b5df2f9daab217b77a00b0b3c5a4"
+      }
+    ]
+  },
+  {
+    "sha": "d72c191c1ac4b5df2f9daab217b77a00b0b3c5a4",
+    "node_id": "C_kwDOGGxdjtoAKGQ3MmMxOTFjMWFjNGI1ZGYyZjlkYWFiMjE3Yjc3YTAwYjBiM2M1YTQ",
+    "commit": {
+      "author": {
+        "name": "Travis Lawrence",
+        "email": "travis@Traviss-MacBook-Air.local",
+        "date": "2021-10-22T23:24:47Z"
+      },
+      "committer": {
+        "name": "Travis Lawrence",
+        "email": "travis@Traviss-MacBook-Air.local",
+        "date": "2021-10-22T23:24:47Z"
+      },
+      "message": "updated dockerfile",
+      "tree": {
+        "sha": "134dc6758e3083ae2cdd512fb65ed504d5de2ddf",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/trees/134dc6758e3083ae2cdd512fb65ed504d5de2ddf"
+      },
+      "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/commits/d72c191c1ac4b5df2f9daab217b77a00b0b3c5a4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/d72c191c1ac4b5df2f9daab217b77a00b0b3c5a4",
+    "html_url": "https://github.com/McTavishLab/extensiphy/commit/d72c191c1ac4b5df2f9daab217b77a00b0b3c5a4",
+    "comments_url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/d72c191c1ac4b5df2f9daab217b77a00b0b3c5a4/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "afa700ae614716ab62e7da087697a3516be64416",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/afa700ae614716ab62e7da087697a3516be64416",
+        "html_url": "https://github.com/McTavishLab/extensiphy/commit/afa700ae614716ab62e7da087697a3516be64416"
+      }
+    ]
+  },
+  {
+    "sha": "b208efc1b13a0eaacaca73e388cb108c83f33f42",
+    "node_id": "C_kwDOGGxdjtoAKGIyMDhlZmMxYjEzYTBlYWFjYWNhNzNlMzg4Y2IxMDhjODNmMzNmNDI",
+    "commit": {
+      "author": {
+        "name": "Travis Lawrence",
+        "email": "travis@Traviss-MacBook-Air.local",
+        "date": "2021-10-22T21:14:12Z"
+      },
+      "committer": {
+        "name": "Travis Lawrence",
+        "email": "travis@Traviss-MacBook-Air.local",
+        "date": "2021-10-22T21:14:12Z"
+      },
+      "message": "update docker and bash script",
+      "tree": {
+        "sha": "5ba5237a167e67c320b90661e6de33b0b4a3037b",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/trees/5ba5237a167e67c320b90661e6de33b0b4a3037b"
+      },
+      "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/commits/b208efc1b13a0eaacaca73e388cb108c83f33f42",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/b208efc1b13a0eaacaca73e388cb108c83f33f42",
+    "html_url": "https://github.com/McTavishLab/extensiphy/commit/b208efc1b13a0eaacaca73e388cb108c83f33f42",
+    "comments_url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/b208efc1b13a0eaacaca73e388cb108c83f33f42/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "b4a313b29c82123254ea7b953096c52fe8939077",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/b4a313b29c82123254ea7b953096c52fe8939077",
+        "html_url": "https://github.com/McTavishLab/extensiphy/commit/b4a313b29c82123254ea7b953096c52fe8939077"
+      }
+    ]
+  },
+  {
+    "sha": "c4ba20ec6d16ba45a5039102d9bc9ff233fda12c",
+    "node_id": "C_kwDOGGxdjtoAKGM0YmEyMGVjNmQxNmJhNDVhNTAzOTEwMmQ5YmM5ZmYyMzNmZGExMmM",
+    "commit": {
+      "author": {
+        "name": "snacktavish",
+        "email": "ejmctavish@gmail.com",
+        "date": "2021-10-07T20:13:41Z"
+      },
+      "committer": {
+        "name": "snacktavish",
+        "email": "ejmctavish@gmail.com",
+        "date": "2021-10-07T20:13:41Z"
+      },
+      "message": "simplify paths",
+      "tree": {
+        "sha": "ab486d360c6c780e3f1be589fd7d501081fd389d",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/trees/ab486d360c6c780e3f1be589fd7d501081fd389d"
+      },
+      "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/commits/c4ba20ec6d16ba45a5039102d9bc9ff233fda12c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/c4ba20ec6d16ba45a5039102d9bc9ff233fda12c",
+    "html_url": "https://github.com/McTavishLab/extensiphy/commit/c4ba20ec6d16ba45a5039102d9bc9ff233fda12c",
+    "comments_url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/c4ba20ec6d16ba45a5039102d9bc9ff233fda12c/comments",
+    "author": {
+      "login": "snacktavish",
+      "id": 1652782,
+      "node_id": "MDQ6VXNlcjE2NTI3ODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1652782?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/snacktavish",
+      "html_url": "https://github.com/snacktavish",
+      "followers_url": "https://api.github.com/users/snacktavish/followers",
+      "following_url": "https://api.github.com/users/snacktavish/following{/other_user}",
+      "gists_url": "https://api.github.com/users/snacktavish/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/snacktavish/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/snacktavish/subscriptions",
+      "organizations_url": "https://api.github.com/users/snacktavish/orgs",
+      "repos_url": "https://api.github.com/users/snacktavish/repos",
+      "events_url": "https://api.github.com/users/snacktavish/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/snacktavish/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "snacktavish",
+      "id": 1652782,
+      "node_id": "MDQ6VXNlcjE2NTI3ODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1652782?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/snacktavish",
+      "html_url": "https://github.com/snacktavish",
+      "followers_url": "https://api.github.com/users/snacktavish/followers",
+      "following_url": "https://api.github.com/users/snacktavish/following{/other_user}",
+      "gists_url": "https://api.github.com/users/snacktavish/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/snacktavish/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/snacktavish/subscriptions",
+      "organizations_url": "https://api.github.com/users/snacktavish/orgs",
+      "repos_url": "https://api.github.com/users/snacktavish/repos",
+      "events_url": "https://api.github.com/users/snacktavish/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/snacktavish/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2d71953aae5938e8a34cef5f3befcbc10e18de0c",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/2d71953aae5938e8a34cef5f3befcbc10e18de0c",
+        "html_url": "https://github.com/McTavishLab/extensiphy/commit/2d71953aae5938e8a34cef5f3befcbc10e18de0c"
+      }
+    ]
+  },
+  {
+    "sha": "c995b888a95cf679e432aec867ef428836320a62",
+    "node_id": "C_kwDOGGxdjtoAKGM5OTViODg4YTk1Y2Y2NzllNDMyYWVjODY3ZWY0Mjg4MzYzMjBhNjI",
+    "commit": {
+      "author": {
+        "name": "vortacs",
+        "email": "jtoscanifield@ucmerced.edu",
+        "date": "2021-10-07T03:09:08Z"
+      },
+      "committer": {
+        "name": "vortacs",
+        "email": "jtoscanifield@ucmerced.edu",
+        "date": "2021-10-07T03:09:08Z"
+      },
+      "message": "dockerfile now checkouts master",
+      "tree": {
+        "sha": "2878022f4c2575dace0f6e6c8800dce3374779ea",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/trees/2878022f4c2575dace0f6e6c8800dce3374779ea"
+      },
+      "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/commits/c995b888a95cf679e432aec867ef428836320a62",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/c995b888a95cf679e432aec867ef428836320a62",
+    "html_url": "https://github.com/McTavishLab/extensiphy/commit/c995b888a95cf679e432aec867ef428836320a62",
+    "comments_url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/c995b888a95cf679e432aec867ef428836320a62/comments",
+    "author": {
+      "login": "jtfield",
+      "id": 20957048,
+      "node_id": "MDQ6VXNlcjIwOTU3MDQ4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20957048?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtfield",
+      "html_url": "https://github.com/jtfield",
+      "followers_url": "https://api.github.com/users/jtfield/followers",
+      "following_url": "https://api.github.com/users/jtfield/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtfield/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtfield/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtfield/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtfield/orgs",
+      "repos_url": "https://api.github.com/users/jtfield/repos",
+      "events_url": "https://api.github.com/users/jtfield/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtfield/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jtfield",
+      "id": 20957048,
+      "node_id": "MDQ6VXNlcjIwOTU3MDQ4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20957048?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtfield",
+      "html_url": "https://github.com/jtfield",
+      "followers_url": "https://api.github.com/users/jtfield/followers",
+      "following_url": "https://api.github.com/users/jtfield/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtfield/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtfield/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtfield/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtfield/orgs",
+      "repos_url": "https://api.github.com/users/jtfield/repos",
+      "events_url": "https://api.github.com/users/jtfield/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtfield/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "12c5785148d106412bf3f3c4133f721899e2e815",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/12c5785148d106412bf3f3c4133f721899e2e815",
+        "html_url": "https://github.com/McTavishLab/extensiphy/commit/12c5785148d106412bf3f3c4133f721899e2e815"
+      }
+    ]
+  },
+  {
+    "sha": "2418fa13a0bd783a3c46529a80df64c11c0ea384",
+    "node_id": "C_kwDOGGxdjtoAKDI0MThmYTEzYTBiZDc4M2EzYzQ2NTI5YTgwZGY2NGMxMWMwZWEzODQ",
+    "commit": {
+      "author": {
+        "name": "vortacs",
+        "email": "jtoscanifield@ucmerced.edu",
+        "date": "2021-10-05T19:35:22Z"
+      },
+      "committer": {
+        "name": "vortacs",
+        "email": "jtoscanifield@ucmerced.edu",
+        "date": "2021-10-05T19:35:22Z"
+      },
+      "message": "tutorial reorganization. cleaned multi_map help menu. added seaview to dockerfile",
+      "tree": {
+        "sha": "15ae09bbc62d6b0a7390f6a4222796be224bc1f8",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/trees/15ae09bbc62d6b0a7390f6a4222796be224bc1f8"
+      },
+      "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/commits/2418fa13a0bd783a3c46529a80df64c11c0ea384",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/2418fa13a0bd783a3c46529a80df64c11c0ea384",
+    "html_url": "https://github.com/McTavishLab/extensiphy/commit/2418fa13a0bd783a3c46529a80df64c11c0ea384",
+    "comments_url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/2418fa13a0bd783a3c46529a80df64c11c0ea384/comments",
+    "author": {
+      "login": "jtfield",
+      "id": 20957048,
+      "node_id": "MDQ6VXNlcjIwOTU3MDQ4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20957048?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtfield",
+      "html_url": "https://github.com/jtfield",
+      "followers_url": "https://api.github.com/users/jtfield/followers",
+      "following_url": "https://api.github.com/users/jtfield/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtfield/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtfield/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtfield/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtfield/orgs",
+      "repos_url": "https://api.github.com/users/jtfield/repos",
+      "events_url": "https://api.github.com/users/jtfield/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtfield/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jtfield",
+      "id": 20957048,
+      "node_id": "MDQ6VXNlcjIwOTU3MDQ4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20957048?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtfield",
+      "html_url": "https://github.com/jtfield",
+      "followers_url": "https://api.github.com/users/jtfield/followers",
+      "following_url": "https://api.github.com/users/jtfield/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtfield/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtfield/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtfield/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtfield/orgs",
+      "repos_url": "https://api.github.com/users/jtfield/repos",
+      "events_url": "https://api.github.com/users/jtfield/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtfield/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "39d5bfc6bcf7e6daf1fbe289edad4c5d39ae0f36",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/39d5bfc6bcf7e6daf1fbe289edad4c5d39ae0f36",
+        "html_url": "https://github.com/McTavishLab/extensiphy/commit/39d5bfc6bcf7e6daf1fbe289edad4c5d39ae0f36"
+      }
+    ]
+  },
+  {
+    "sha": "5232d2cf46f2e79e719ff12e3a16319e014b4bc3",
+    "node_id": "C_kwDOGGxdjtoAKDUyMzJkMmNmNDZmMmU3OWU3MTlmZjEyZTNhMTYzMTllMDE0YjRiYzM",
+    "commit": {
+      "author": {
+        "name": "vortacs",
+        "email": "jtoscanifield@ucmerced.edu",
+        "date": "2021-10-03T23:51:40Z"
+      },
+      "committer": {
+        "name": "vortacs",
+        "email": "jtoscanifield@ucmerced.edu",
+        "date": "2021-10-03T23:51:40Z"
+      },
+      "message": "more readme and dockerfile changes",
+      "tree": {
+        "sha": "6c9bfe0b92ba7ac7b93e8ad20e7fa87cfaa24b84",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/trees/6c9bfe0b92ba7ac7b93e8ad20e7fa87cfaa24b84"
+      },
+      "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/commits/5232d2cf46f2e79e719ff12e3a16319e014b4bc3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/5232d2cf46f2e79e719ff12e3a16319e014b4bc3",
+    "html_url": "https://github.com/McTavishLab/extensiphy/commit/5232d2cf46f2e79e719ff12e3a16319e014b4bc3",
+    "comments_url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/5232d2cf46f2e79e719ff12e3a16319e014b4bc3/comments",
+    "author": {
+      "login": "jtfield",
+      "id": 20957048,
+      "node_id": "MDQ6VXNlcjIwOTU3MDQ4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20957048?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtfield",
+      "html_url": "https://github.com/jtfield",
+      "followers_url": "https://api.github.com/users/jtfield/followers",
+      "following_url": "https://api.github.com/users/jtfield/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtfield/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtfield/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtfield/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtfield/orgs",
+      "repos_url": "https://api.github.com/users/jtfield/repos",
+      "events_url": "https://api.github.com/users/jtfield/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtfield/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jtfield",
+      "id": 20957048,
+      "node_id": "MDQ6VXNlcjIwOTU3MDQ4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20957048?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtfield",
+      "html_url": "https://github.com/jtfield",
+      "followers_url": "https://api.github.com/users/jtfield/followers",
+      "following_url": "https://api.github.com/users/jtfield/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtfield/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtfield/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtfield/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtfield/orgs",
+      "repos_url": "https://api.github.com/users/jtfield/repos",
+      "events_url": "https://api.github.com/users/jtfield/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtfield/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "baaeb04dcef4b08c63b7027cb4cff6b6f29d3d8c",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/baaeb04dcef4b08c63b7027cb4cff6b6f29d3d8c",
+        "html_url": "https://github.com/McTavishLab/extensiphy/commit/baaeb04dcef4b08c63b7027cb4cff6b6f29d3d8c"
+      }
+    ]
+  },
+  {
+    "sha": "baaeb04dcef4b08c63b7027cb4cff6b6f29d3d8c",
+    "node_id": "C_kwDOGGxdjtoAKGJhYWViMDRkY2VmNGIwOGM2M2I3MDI3Y2I0Y2ZmNmI2ZjI5ZDNkOGM",
+    "commit": {
+      "author": {
+        "name": "vortacs",
+        "email": "jtoscanifield@ucmerced.edu",
+        "date": "2021-10-03T22:56:00Z"
+      },
+      "committer": {
+        "name": "vortacs",
+        "email": "jtoscanifield@ucmerced.edu",
+        "date": "2021-10-03T22:56:00Z"
+      },
+      "message": "updates to readme, dockerfile, added data folder for linking data",
+      "tree": {
+        "sha": "d57263b3f24bf1222ae2a953cc6f8ead2690ccdf",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/trees/d57263b3f24bf1222ae2a953cc6f8ead2690ccdf"
+      },
+      "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/commits/baaeb04dcef4b08c63b7027cb4cff6b6f29d3d8c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/baaeb04dcef4b08c63b7027cb4cff6b6f29d3d8c",
+    "html_url": "https://github.com/McTavishLab/extensiphy/commit/baaeb04dcef4b08c63b7027cb4cff6b6f29d3d8c",
+    "comments_url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/baaeb04dcef4b08c63b7027cb4cff6b6f29d3d8c/comments",
+    "author": {
+      "login": "jtfield",
+      "id": 20957048,
+      "node_id": "MDQ6VXNlcjIwOTU3MDQ4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20957048?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtfield",
+      "html_url": "https://github.com/jtfield",
+      "followers_url": "https://api.github.com/users/jtfield/followers",
+      "following_url": "https://api.github.com/users/jtfield/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtfield/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtfield/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtfield/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtfield/orgs",
+      "repos_url": "https://api.github.com/users/jtfield/repos",
+      "events_url": "https://api.github.com/users/jtfield/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtfield/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jtfield",
+      "id": 20957048,
+      "node_id": "MDQ6VXNlcjIwOTU3MDQ4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20957048?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtfield",
+      "html_url": "https://github.com/jtfield",
+      "followers_url": "https://api.github.com/users/jtfield/followers",
+      "following_url": "https://api.github.com/users/jtfield/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtfield/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtfield/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtfield/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtfield/orgs",
+      "repos_url": "https://api.github.com/users/jtfield/repos",
+      "events_url": "https://api.github.com/users/jtfield/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtfield/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eda103715742437730d14f22597a8fdde9228ae3",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/eda103715742437730d14f22597a8fdde9228ae3",
+        "html_url": "https://github.com/McTavishLab/extensiphy/commit/eda103715742437730d14f22597a8fdde9228ae3"
+      }
+    ]
+  },
+  {
+    "sha": "a24c246868076125416f206c66e8dbe4f561bb8d",
+    "node_id": "C_kwDOGGxdjtoAKGEyNGMyNDY4NjgwNzYxMjU0MTZmMjA2YzY2ZThkYmU0ZjU2MWJiOGQ",
+    "commit": {
+      "author": {
+        "name": "vortacs",
+        "email": "jtoscanifield@ucmerced.edu",
+        "date": "2021-10-01T21:58:11Z"
+      },
+      "committer": {
+        "name": "vortacs",
+        "email": "jtoscanifield@ucmerced.edu",
+        "date": "2021-10-01T21:58:11Z"
+      },
+      "message": "expanded dockerfile and README. removed references to rapup",
+      "tree": {
+        "sha": "7978fad197b70269f0b3fd03a548fbcb4a0460b3",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/trees/7978fad197b70269f0b3fd03a548fbcb4a0460b3"
+      },
+      "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/commits/a24c246868076125416f206c66e8dbe4f561bb8d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/a24c246868076125416f206c66e8dbe4f561bb8d",
+    "html_url": "https://github.com/McTavishLab/extensiphy/commit/a24c246868076125416f206c66e8dbe4f561bb8d",
+    "comments_url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/a24c246868076125416f206c66e8dbe4f561bb8d/comments",
+    "author": {
+      "login": "jtfield",
+      "id": 20957048,
+      "node_id": "MDQ6VXNlcjIwOTU3MDQ4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20957048?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtfield",
+      "html_url": "https://github.com/jtfield",
+      "followers_url": "https://api.github.com/users/jtfield/followers",
+      "following_url": "https://api.github.com/users/jtfield/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtfield/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtfield/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtfield/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtfield/orgs",
+      "repos_url": "https://api.github.com/users/jtfield/repos",
+      "events_url": "https://api.github.com/users/jtfield/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtfield/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jtfield",
+      "id": 20957048,
+      "node_id": "MDQ6VXNlcjIwOTU3MDQ4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20957048?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtfield",
+      "html_url": "https://github.com/jtfield",
+      "followers_url": "https://api.github.com/users/jtfield/followers",
+      "following_url": "https://api.github.com/users/jtfield/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtfield/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtfield/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtfield/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtfield/orgs",
+      "repos_url": "https://api.github.com/users/jtfield/repos",
+      "events_url": "https://api.github.com/users/jtfield/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtfield/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5ae40853bfe3979e9fab549518c56ac8f3653fab",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/5ae40853bfe3979e9fab549518c56ac8f3653fab",
+        "html_url": "https://github.com/McTavishLab/extensiphy/commit/5ae40853bfe3979e9fab549518c56ac8f3653fab"
+      }
+    ]
+  },
+  {
+    "sha": "5ae40853bfe3979e9fab549518c56ac8f3653fab",
+    "node_id": "C_kwDOGGxdjtoAKDVhZTQwODUzYmZlMzk3OWU5ZmFiNTQ5NTE4YzU2YWM4ZjM2NTNmYWI",
+    "commit": {
+      "author": {
+        "name": "vortacs",
+        "email": "jtoscanifield@ucmerced.edu",
+        "date": "2021-10-01T01:55:18Z"
+      },
+      "committer": {
+        "name": "vortacs",
+        "email": "jtoscanifield@ucmerced.edu",
+        "date": "2021-10-01T01:55:18Z"
+      },
+      "message": "added dockerfile and readme re-organization start",
+      "tree": {
+        "sha": "af4bc57a07d7f325700f0775ed7d3b192b5bbfe9",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/trees/af4bc57a07d7f325700f0775ed7d3b192b5bbfe9"
+      },
+      "url": "https://api.github.com/repos/McTavishLab/extensiphy/git/commits/5ae40853bfe3979e9fab549518c56ac8f3653fab",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/5ae40853bfe3979e9fab549518c56ac8f3653fab",
+    "html_url": "https://github.com/McTavishLab/extensiphy/commit/5ae40853bfe3979e9fab549518c56ac8f3653fab",
+    "comments_url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/5ae40853bfe3979e9fab549518c56ac8f3653fab/comments",
+    "author": {
+      "login": "jtfield",
+      "id": 20957048,
+      "node_id": "MDQ6VXNlcjIwOTU3MDQ4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20957048?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtfield",
+      "html_url": "https://github.com/jtfield",
+      "followers_url": "https://api.github.com/users/jtfield/followers",
+      "following_url": "https://api.github.com/users/jtfield/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtfield/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtfield/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtfield/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtfield/orgs",
+      "repos_url": "https://api.github.com/users/jtfield/repos",
+      "events_url": "https://api.github.com/users/jtfield/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtfield/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jtfield",
+      "id": 20957048,
+      "node_id": "MDQ6VXNlcjIwOTU3MDQ4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20957048?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtfield",
+      "html_url": "https://github.com/jtfield",
+      "followers_url": "https://api.github.com/users/jtfield/followers",
+      "following_url": "https://api.github.com/users/jtfield/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtfield/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtfield/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtfield/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtfield/orgs",
+      "repos_url": "https://api.github.com/users/jtfield/repos",
+      "events_url": "https://api.github.com/users/jtfield/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtfield/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d5a1727d4a1c0c6a9275d87a89d405c322f1ab86",
+        "url": "https://api.github.com/repos/McTavishLab/extensiphy/commits/d5a1727d4a1c0c6a9275d87a89d405c322f1ab86",
+        "html_url": "https://github.com/McTavishLab/extensiphy/commit/d5a1727d4a1c0c6a9275d87a89d405c322f1ab86"
+      }
+    ]
+  }
+]

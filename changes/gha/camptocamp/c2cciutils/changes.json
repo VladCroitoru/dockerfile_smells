@@ -1,0 +1,476 @@
+[
+  {
+    "sha": "81f253e425502b3d08ce770d9137ebf47a50a8e6",
+    "node_id": "C_kwDOEsrzJ9oAKDgxZjI1M2U0MjU1MDJiM2QwOGNlNzcwZDkxMzdlYmY0N2E1MGE4ZTY",
+    "commit": {
+      "author": {
+        "name": "Stéphane Brunner",
+        "email": "stephane.brunner@camptocamp.com",
+        "date": "2021-11-24T09:37:55Z"
+      },
+      "committer": {
+        "name": "Stéphane Brunner",
+        "email": "stephane.brunner@camptocamp.com",
+        "date": "2021-11-24T10:52:16Z"
+      },
+      "message": "Add cache",
+      "tree": {
+        "sha": "47c528c3a0a4ed0ed2309c8cb05f3c78e817cecd",
+        "url": "https://api.github.com/repos/camptocamp/c2cciutils/git/trees/47c528c3a0a4ed0ed2309c8cb05f3c78e817cecd"
+      },
+      "url": "https://api.github.com/repos/camptocamp/c2cciutils/git/commits/81f253e425502b3d08ce770d9137ebf47a50a8e6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/81f253e425502b3d08ce770d9137ebf47a50a8e6",
+    "html_url": "https://github.com/camptocamp/c2cciutils/commit/81f253e425502b3d08ce770d9137ebf47a50a8e6",
+    "comments_url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/81f253e425502b3d08ce770d9137ebf47a50a8e6/comments",
+    "author": {
+      "login": "sbrunner",
+      "id": 353872,
+      "node_id": "MDQ6VXNlcjM1Mzg3Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/353872?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbrunner",
+      "html_url": "https://github.com/sbrunner",
+      "followers_url": "https://api.github.com/users/sbrunner/followers",
+      "following_url": "https://api.github.com/users/sbrunner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbrunner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbrunner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbrunner/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbrunner/orgs",
+      "repos_url": "https://api.github.com/users/sbrunner/repos",
+      "events_url": "https://api.github.com/users/sbrunner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbrunner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sbrunner",
+      "id": 353872,
+      "node_id": "MDQ6VXNlcjM1Mzg3Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/353872?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbrunner",
+      "html_url": "https://github.com/sbrunner",
+      "followers_url": "https://api.github.com/users/sbrunner/followers",
+      "following_url": "https://api.github.com/users/sbrunner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbrunner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbrunner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbrunner/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbrunner/orgs",
+      "repos_url": "https://api.github.com/users/sbrunner/repos",
+      "events_url": "https://api.github.com/users/sbrunner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbrunner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "358ea85f92ace8cdc7c723411489602369dc3b6b",
+        "url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/358ea85f92ace8cdc7c723411489602369dc3b6b",
+        "html_url": "https://github.com/camptocamp/c2cciutils/commit/358ea85f92ace8cdc7c723411489602369dc3b6b"
+      }
+    ]
+  },
+  {
+    "sha": "866c541e04e733c3165fd89e4219cafbfd2bce5f",
+    "node_id": "MDY6Q29tbWl0MzE1MjkwNDA3Ojg2NmM1NDFlMDRlNzMzYzMxNjVmZDg5ZTQyMTljYWZiZmQyYmNlNWY=",
+    "commit": {
+      "author": {
+        "name": "Stéphane Brunner",
+        "email": "stephane.brunner@camptocamp.com",
+        "date": "2020-12-24T16:26:01Z"
+      },
+      "committer": {
+        "name": "Stéphane Brunner",
+        "email": "stephane.brunner@camptocamp.com",
+        "date": "2021-07-09T15:08:08Z"
+      },
+      "message": "Add Prettier code formatting",
+      "tree": {
+        "sha": "4b12a2167a9a7bfaac113ac88e91afadd7681959",
+        "url": "https://api.github.com/repos/camptocamp/c2cciutils/git/trees/4b12a2167a9a7bfaac113ac88e91afadd7681959"
+      },
+      "url": "https://api.github.com/repos/camptocamp/c2cciutils/git/commits/866c541e04e733c3165fd89e4219cafbfd2bce5f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/866c541e04e733c3165fd89e4219cafbfd2bce5f",
+    "html_url": "https://github.com/camptocamp/c2cciutils/commit/866c541e04e733c3165fd89e4219cafbfd2bce5f",
+    "comments_url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/866c541e04e733c3165fd89e4219cafbfd2bce5f/comments",
+    "author": {
+      "login": "sbrunner",
+      "id": 353872,
+      "node_id": "MDQ6VXNlcjM1Mzg3Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/353872?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbrunner",
+      "html_url": "https://github.com/sbrunner",
+      "followers_url": "https://api.github.com/users/sbrunner/followers",
+      "following_url": "https://api.github.com/users/sbrunner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbrunner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbrunner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbrunner/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbrunner/orgs",
+      "repos_url": "https://api.github.com/users/sbrunner/repos",
+      "events_url": "https://api.github.com/users/sbrunner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbrunner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sbrunner",
+      "id": 353872,
+      "node_id": "MDQ6VXNlcjM1Mzg3Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/353872?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbrunner",
+      "html_url": "https://github.com/sbrunner",
+      "followers_url": "https://api.github.com/users/sbrunner/followers",
+      "following_url": "https://api.github.com/users/sbrunner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbrunner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbrunner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbrunner/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbrunner/orgs",
+      "repos_url": "https://api.github.com/users/sbrunner/repos",
+      "events_url": "https://api.github.com/users/sbrunner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbrunner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e9c09b056928d33b37c2841b9c36c1df1c136bec",
+        "url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/e9c09b056928d33b37c2841b9c36c1df1c136bec",
+        "html_url": "https://github.com/camptocamp/c2cciutils/commit/e9c09b056928d33b37c2841b9c36c1df1c136bec"
+      }
+    ]
+  },
+  {
+    "sha": "2cd0e6a1c09676d29d8c144009727c975434cff3",
+    "node_id": "MDY6Q29tbWl0MzE1MjkwNDA3OjJjZDBlNmExYzA5Njc2ZDI5ZDhjMTQ0MDA5NzI3Yzk3NTQzNGNmZjM=",
+    "commit": {
+      "author": {
+        "name": "Stéphane Brunner",
+        "email": "stephane.brunner@camptocamp.com",
+        "date": "2021-04-27T08:15:28Z"
+      },
+      "committer": {
+        "name": "Stéphane Brunner",
+        "email": "stephane.brunner@camptocamp.com",
+        "date": "2021-04-27T09:50:29Z"
+      },
+      "message": "Separate dependencies outer and inner Docker",
+      "tree": {
+        "sha": "d6bc9d3b8ac6538fd98369c872790a1a93a9d8c1",
+        "url": "https://api.github.com/repos/camptocamp/c2cciutils/git/trees/d6bc9d3b8ac6538fd98369c872790a1a93a9d8c1"
+      },
+      "url": "https://api.github.com/repos/camptocamp/c2cciutils/git/commits/2cd0e6a1c09676d29d8c144009727c975434cff3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/2cd0e6a1c09676d29d8c144009727c975434cff3",
+    "html_url": "https://github.com/camptocamp/c2cciutils/commit/2cd0e6a1c09676d29d8c144009727c975434cff3",
+    "comments_url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/2cd0e6a1c09676d29d8c144009727c975434cff3/comments",
+    "author": {
+      "login": "sbrunner",
+      "id": 353872,
+      "node_id": "MDQ6VXNlcjM1Mzg3Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/353872?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbrunner",
+      "html_url": "https://github.com/sbrunner",
+      "followers_url": "https://api.github.com/users/sbrunner/followers",
+      "following_url": "https://api.github.com/users/sbrunner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbrunner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbrunner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbrunner/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbrunner/orgs",
+      "repos_url": "https://api.github.com/users/sbrunner/repos",
+      "events_url": "https://api.github.com/users/sbrunner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbrunner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sbrunner",
+      "id": 353872,
+      "node_id": "MDQ6VXNlcjM1Mzg3Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/353872?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbrunner",
+      "html_url": "https://github.com/sbrunner",
+      "followers_url": "https://api.github.com/users/sbrunner/followers",
+      "following_url": "https://api.github.com/users/sbrunner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbrunner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbrunner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbrunner/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbrunner/orgs",
+      "repos_url": "https://api.github.com/users/sbrunner/repos",
+      "events_url": "https://api.github.com/users/sbrunner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbrunner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c607ad575ed6f72c61be2598f0f733810282bc7c",
+        "url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/c607ad575ed6f72c61be2598f0f733810282bc7c",
+        "html_url": "https://github.com/camptocamp/c2cciutils/commit/c607ad575ed6f72c61be2598f0f733810282bc7c"
+      }
+    ]
+  },
+  {
+    "sha": "e7e40adad8313a2156d6780df7d98fce183c1c25",
+    "node_id": "MDY6Q29tbWl0MzE1MjkwNDA3OmU3ZTQwYWRhZDgzMTNhMjE1NmQ2NzgwZGY3ZDk4ZmNlMTgzYzFjMjU=",
+    "commit": {
+      "author": {
+        "name": "Stéphane Brunner",
+        "email": "stephane.brunner@camptocamp.com",
+        "date": "2021-03-03T13:28:25Z"
+      },
+      "committer": {
+        "name": "Stéphane Brunner",
+        "email": "stephane.brunner@camptocamp.com",
+        "date": "2021-03-03T16:16:13Z"
+      },
+      "message": "Generalise to use Pipfile",
+      "tree": {
+        "sha": "376fd30f3771a14cb4954df74014babbea0c044f",
+        "url": "https://api.github.com/repos/camptocamp/c2cciutils/git/trees/376fd30f3771a14cb4954df74014babbea0c044f"
+      },
+      "url": "https://api.github.com/repos/camptocamp/c2cciutils/git/commits/e7e40adad8313a2156d6780df7d98fce183c1c25",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/e7e40adad8313a2156d6780df7d98fce183c1c25",
+    "html_url": "https://github.com/camptocamp/c2cciutils/commit/e7e40adad8313a2156d6780df7d98fce183c1c25",
+    "comments_url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/e7e40adad8313a2156d6780df7d98fce183c1c25/comments",
+    "author": {
+      "login": "sbrunner",
+      "id": 353872,
+      "node_id": "MDQ6VXNlcjM1Mzg3Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/353872?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbrunner",
+      "html_url": "https://github.com/sbrunner",
+      "followers_url": "https://api.github.com/users/sbrunner/followers",
+      "following_url": "https://api.github.com/users/sbrunner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbrunner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbrunner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbrunner/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbrunner/orgs",
+      "repos_url": "https://api.github.com/users/sbrunner/repos",
+      "events_url": "https://api.github.com/users/sbrunner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbrunner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sbrunner",
+      "id": 353872,
+      "node_id": "MDQ6VXNlcjM1Mzg3Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/353872?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbrunner",
+      "html_url": "https://github.com/sbrunner",
+      "followers_url": "https://api.github.com/users/sbrunner/followers",
+      "following_url": "https://api.github.com/users/sbrunner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbrunner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbrunner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbrunner/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbrunner/orgs",
+      "repos_url": "https://api.github.com/users/sbrunner/repos",
+      "events_url": "https://api.github.com/users/sbrunner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbrunner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d51e476eb7a12715a841b2becc56cd890146d7fd",
+        "url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/d51e476eb7a12715a841b2becc56cd890146d7fd",
+        "html_url": "https://github.com/camptocamp/c2cciutils/commit/d51e476eb7a12715a841b2becc56cd890146d7fd"
+      }
+    ]
+  },
+  {
+    "sha": "980343dc7429405d842517efcf4dd76539ae1b00",
+    "node_id": "MDY6Q29tbWl0MzE1MjkwNDA3Ojk4MDM0M2RjNzQyOTQwNWQ4NDI1MTdlZmNmNGRkNzY1MzlhZTFiMDA=",
+    "commit": {
+      "author": {
+        "name": "Stéphane Brunner",
+        "email": "stephane.brunner@camptocamp.com",
+        "date": "2020-12-23T15:25:27Z"
+      },
+      "committer": {
+        "name": "Stéphane Brunner",
+        "email": "stephane.brunner@camptocamp.com",
+        "date": "2020-12-23T15:26:11Z"
+      },
+      "message": "Be able to update Python easier",
+      "tree": {
+        "sha": "28dde0b2c5d7be02f6b24b76f8dd0aab9f316950",
+        "url": "https://api.github.com/repos/camptocamp/c2cciutils/git/trees/28dde0b2c5d7be02f6b24b76f8dd0aab9f316950"
+      },
+      "url": "https://api.github.com/repos/camptocamp/c2cciutils/git/commits/980343dc7429405d842517efcf4dd76539ae1b00",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/980343dc7429405d842517efcf4dd76539ae1b00",
+    "html_url": "https://github.com/camptocamp/c2cciutils/commit/980343dc7429405d842517efcf4dd76539ae1b00",
+    "comments_url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/980343dc7429405d842517efcf4dd76539ae1b00/comments",
+    "author": {
+      "login": "sbrunner",
+      "id": 353872,
+      "node_id": "MDQ6VXNlcjM1Mzg3Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/353872?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbrunner",
+      "html_url": "https://github.com/sbrunner",
+      "followers_url": "https://api.github.com/users/sbrunner/followers",
+      "following_url": "https://api.github.com/users/sbrunner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbrunner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbrunner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbrunner/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbrunner/orgs",
+      "repos_url": "https://api.github.com/users/sbrunner/repos",
+      "events_url": "https://api.github.com/users/sbrunner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbrunner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sbrunner",
+      "id": 353872,
+      "node_id": "MDQ6VXNlcjM1Mzg3Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/353872?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbrunner",
+      "html_url": "https://github.com/sbrunner",
+      "followers_url": "https://api.github.com/users/sbrunner/followers",
+      "following_url": "https://api.github.com/users/sbrunner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbrunner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbrunner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbrunner/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbrunner/orgs",
+      "repos_url": "https://api.github.com/users/sbrunner/repos",
+      "events_url": "https://api.github.com/users/sbrunner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbrunner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "387d44f6aa1da44324cbd5be7b67752b55034257",
+        "url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/387d44f6aa1da44324cbd5be7b67752b55034257",
+        "html_url": "https://github.com/camptocamp/c2cciutils/commit/387d44f6aa1da44324cbd5be7b67752b55034257"
+      }
+    ]
+  },
+  {
+    "sha": "43fcda83b08d851a87cc696a8d033202d9499ed9",
+    "node_id": "MDY6Q29tbWl0MzE1MjkwNDA3OjQzZmNkYTgzYjA4ZDg1MWE4N2NjNjk2YThkMDMzMjAyZDk0OTllZDk=",
+    "commit": {
+      "author": {
+        "name": "Stéphane Brunner",
+        "email": "stephane.brunner@camptocamp.com",
+        "date": "2020-11-23T17:22:05Z"
+      },
+      "committer": {
+        "name": "Stéphane Brunner",
+        "email": "stephane.brunner@camptocamp.com",
+        "date": "2020-12-02T07:54:10Z"
+      },
+      "message": "Initial commit",
+      "tree": {
+        "sha": "5d3176fb564162f2a7493c5832b40d8d298602a6",
+        "url": "https://api.github.com/repos/camptocamp/c2cciutils/git/trees/5d3176fb564162f2a7493c5832b40d8d298602a6"
+      },
+      "url": "https://api.github.com/repos/camptocamp/c2cciutils/git/commits/43fcda83b08d851a87cc696a8d033202d9499ed9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/43fcda83b08d851a87cc696a8d033202d9499ed9",
+    "html_url": "https://github.com/camptocamp/c2cciutils/commit/43fcda83b08d851a87cc696a8d033202d9499ed9",
+    "comments_url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/43fcda83b08d851a87cc696a8d033202d9499ed9/comments",
+    "author": {
+      "login": "sbrunner",
+      "id": 353872,
+      "node_id": "MDQ6VXNlcjM1Mzg3Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/353872?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbrunner",
+      "html_url": "https://github.com/sbrunner",
+      "followers_url": "https://api.github.com/users/sbrunner/followers",
+      "following_url": "https://api.github.com/users/sbrunner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbrunner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbrunner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbrunner/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbrunner/orgs",
+      "repos_url": "https://api.github.com/users/sbrunner/repos",
+      "events_url": "https://api.github.com/users/sbrunner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbrunner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sbrunner",
+      "id": 353872,
+      "node_id": "MDQ6VXNlcjM1Mzg3Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/353872?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbrunner",
+      "html_url": "https://github.com/sbrunner",
+      "followers_url": "https://api.github.com/users/sbrunner/followers",
+      "following_url": "https://api.github.com/users/sbrunner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbrunner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbrunner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbrunner/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbrunner/orgs",
+      "repos_url": "https://api.github.com/users/sbrunner/repos",
+      "events_url": "https://api.github.com/users/sbrunner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbrunner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f36594f741b5176988216f86a4930f7171455181",
+        "url": "https://api.github.com/repos/camptocamp/c2cciutils/commits/f36594f741b5176988216f86a4930f7171455181",
+        "html_url": "https://github.com/camptocamp/c2cciutils/commit/f36594f741b5176988216f86a4930f7171455181"
+      }
+    ]
+  }
+]

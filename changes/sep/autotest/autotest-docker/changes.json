@@ -1,0 +1,1089 @@
+[
+  {
+    "sha": "e8fa2207c3efbf99722d3ee9cd977713b9281f7d",
+    "node_id": "MDY6Q29tbWl0MTc4Njk3OTA6ZThmYTIyMDdjM2VmYmY5OTcyMmQzZWU5Y2Q5Nzc3MTNiOTI4MWY3ZA==",
+    "commit": {
+      "author": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2017-03-20T14:58:02Z"
+      },
+      "committer": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2017-03-20T19:44:13Z"
+      },
+      "message": "Switch default testing to RHEL from CentOS\n\nSome places, the CentOS image is still referenced because for those\nspecific tests, it's better to use a non-default image.  Also, in most\nplaces, updated the CentOS tag from 7 -> latest.  Mainly for cosmetic\npurposes, though it does squah any confusion that perhaps the 7-GA\nversion was being used.\n\nSigned-off-by: Chris Evich <cevich@redhat.com>",
+      "tree": {
+        "sha": "c7d109263ec58399d2dcd0cc24980c0ff5a82c94",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/git/trees/c7d109263ec58399d2dcd0cc24980c0ff5a82c94"
+      },
+      "url": "https://api.github.com/repos/autotest/autotest-docker/git/commits/e8fa2207c3efbf99722d3ee9cd977713b9281f7d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/autotest/autotest-docker/commits/e8fa2207c3efbf99722d3ee9cd977713b9281f7d",
+    "html_url": "https://github.com/autotest/autotest-docker/commit/e8fa2207c3efbf99722d3ee9cd977713b9281f7d",
+    "comments_url": "https://api.github.com/repos/autotest/autotest-docker/commits/e8fa2207c3efbf99722d3ee9cd977713b9281f7d/comments",
+    "author": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "899e98a8519b4777b59c81cf5231b2389c7674b4",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/commits/899e98a8519b4777b59c81cf5231b2389c7674b4",
+        "html_url": "https://github.com/autotest/autotest-docker/commit/899e98a8519b4777b59c81cf5231b2389c7674b4"
+      }
+    ]
+  },
+  {
+    "sha": "52086c49d662db7b1d20ca1ea32f4b819ba867f3",
+    "node_id": "MDY6Q29tbWl0MTc4Njk3OTA6NTIwODZjNDlkNjYyZGI3YjFkMjBjYTFlYTMyZjRiODE5YmE4NjdmMw==",
+    "commit": {
+      "author": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-06-24T13:44:37Z"
+      },
+      "committer": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-06-24T13:56:39Z"
+      },
+      "message": "Remove run-from atomic feature.\n\nLargely replaced by ADEPT:\nhttps://github.com/cevich/autotest-docker-enabled-product-testing\n\nSigned-off-by: Chris Evich <cevich@redhat.com>",
+      "tree": {
+        "sha": "00e0cade511c07b53e6ae76537b13c46c88407b1",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/git/trees/00e0cade511c07b53e6ae76537b13c46c88407b1"
+      },
+      "url": "https://api.github.com/repos/autotest/autotest-docker/git/commits/52086c49d662db7b1d20ca1ea32f4b819ba867f3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/autotest/autotest-docker/commits/52086c49d662db7b1d20ca1ea32f4b819ba867f3",
+    "html_url": "https://github.com/autotest/autotest-docker/commit/52086c49d662db7b1d20ca1ea32f4b819ba867f3",
+    "comments_url": "https://api.github.com/repos/autotest/autotest-docker/commits/52086c49d662db7b1d20ca1ea32f4b819ba867f3/comments",
+    "author": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "52d231384187b8aa27cff94131c2b6d0ee9af17d",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/commits/52d231384187b8aa27cff94131c2b6d0ee9af17d",
+        "html_url": "https://github.com/autotest/autotest-docker/commit/52d231384187b8aa27cff94131c2b6d0ee9af17d"
+      }
+    ]
+  },
+  {
+    "sha": "4cfc7fcfa536073fdfafd688faade976bbd81388",
+    "node_id": "MDY6Q29tbWl0MTc4Njk3OTA6NGNmYzdmY2ZhNTM2MDczZmRmYWZkNjg4ZmFhZGU5NzZiYmQ4MTM4OA==",
+    "commit": {
+      "author": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-04-27T18:45:02Z"
+      },
+      "committer": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-04-30T15:28:57Z"
+      },
+      "message": "Atomic: Simplify use on atomic to bare minumum\n\nSigned-off-by: Chris Evich <cevich@redhat.com>",
+      "tree": {
+        "sha": "8d21be94c340d9c81e936c7973980291831a60c0",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/git/trees/8d21be94c340d9c81e936c7973980291831a60c0"
+      },
+      "url": "https://api.github.com/repos/autotest/autotest-docker/git/commits/4cfc7fcfa536073fdfafd688faade976bbd81388",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/autotest/autotest-docker/commits/4cfc7fcfa536073fdfafd688faade976bbd81388",
+    "html_url": "https://github.com/autotest/autotest-docker/commit/4cfc7fcfa536073fdfafd688faade976bbd81388",
+    "comments_url": "https://api.github.com/repos/autotest/autotest-docker/commits/4cfc7fcfa536073fdfafd688faade976bbd81388/comments",
+    "author": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ae047bc1453f64623f0dd3feb3d0e0c17bee0498",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/commits/ae047bc1453f64623f0dd3feb3d0e0c17bee0498",
+        "html_url": "https://github.com/autotest/autotest-docker/commit/ae047bc1453f64623f0dd3feb3d0e0c17bee0498"
+      }
+    ]
+  },
+  {
+    "sha": "6f51c41a2f6dcac935cbe1add2f5f214ad3b11da",
+    "node_id": "MDY6Q29tbWl0MTc4Njk3OTA6NmY1MWM0MWEyZjZkY2FjOTM1Y2JlMWFkZDJmNWYyMTRhZDNiMTFkYQ==",
+    "commit": {
+      "author": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-03-19T19:00:57Z"
+      },
+      "committer": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-03-24T20:57:58Z"
+      },
+      "message": "Centralize Image/Container preservation & cleanup\n\n* Fix Atomic host scripts and config. to better preserve images/containers.\n\n* Fix Atomic host generated config. to be valid/proper.\n\n* Unify image & container cleanup from iterables in ``clean_all()``\n  methods.  Add basic unittests.\n\n* Move ``ignore_*`` options from intratests.ini into globals for access\n  by ``clean_all()`` during testing.\n\n* Clean up garbage_check intratest code, to use new global options.\n\n* Update most subtests and sub-subtests to use ``clean_all()``\n\n* Fix some faulty code in a handful of tests.\n\nSigned-off-by: Chris Evich <cevich@redhat.com>",
+      "tree": {
+        "sha": "43c8699e184160be3c8da10987e0889b7bce64b4",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/git/trees/43c8699e184160be3c8da10987e0889b7bce64b4"
+      },
+      "url": "https://api.github.com/repos/autotest/autotest-docker/git/commits/6f51c41a2f6dcac935cbe1add2f5f214ad3b11da",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/autotest/autotest-docker/commits/6f51c41a2f6dcac935cbe1add2f5f214ad3b11da",
+    "html_url": "https://github.com/autotest/autotest-docker/commit/6f51c41a2f6dcac935cbe1add2f5f214ad3b11da",
+    "comments_url": "https://api.github.com/repos/autotest/autotest-docker/commits/6f51c41a2f6dcac935cbe1add2f5f214ad3b11da/comments",
+    "author": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9472b3d04115c0c62fe7e8890100013773ff4017",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/commits/9472b3d04115c0c62fe7e8890100013773ff4017",
+        "html_url": "https://github.com/autotest/autotest-docker/commit/9472b3d04115c0c62fe7e8890100013773ff4017"
+      }
+    ]
+  },
+  {
+    "sha": "9472b3d04115c0c62fe7e8890100013773ff4017",
+    "node_id": "MDY6Q29tbWl0MTc4Njk3OTA6OTQ3MmIzZDA0MTE1YzBjNjJmZTdlODg5MDEwMDAxMzc3M2ZmNDAxNw==",
+    "commit": {
+      "author": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-03-16T20:57:55Z"
+      },
+      "committer": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-03-17T20:27:13Z"
+      },
+      "message": "Atomic: Switch back to building from repo\n\nThis makes it easier to have bundled custom\nconfiguration and tests.\n\nSigned-off-by: Chris Evich <cevich@redhat.com>",
+      "tree": {
+        "sha": "9ef8f0dc1c4a289e99afb9473eb054d25f652330",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/git/trees/9ef8f0dc1c4a289e99afb9473eb054d25f652330"
+      },
+      "url": "https://api.github.com/repos/autotest/autotest-docker/git/commits/9472b3d04115c0c62fe7e8890100013773ff4017",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/autotest/autotest-docker/commits/9472b3d04115c0c62fe7e8890100013773ff4017",
+    "html_url": "https://github.com/autotest/autotest-docker/commit/9472b3d04115c0c62fe7e8890100013773ff4017",
+    "comments_url": "https://api.github.com/repos/autotest/autotest-docker/commits/9472b3d04115c0c62fe7e8890100013773ff4017/comments",
+    "author": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "167c8291207d25e01151c866c74b08c55b82a00e",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/commits/167c8291207d25e01151c866c74b08c55b82a00e",
+        "html_url": "https://github.com/autotest/autotest-docker/commit/167c8291207d25e01151c866c74b08c55b82a00e"
+      }
+    ]
+  },
+  {
+    "sha": "4a72997d511f5cb51da51f66fdb3bfd4d89593a1",
+    "node_id": "MDY6Q29tbWl0MTc4Njk3OTA6NGE3Mjk5N2Q1MTFmNWNiNTFkYTUxZjY2ZmRiM2JmZDRkODk1OTNhMQ==",
+    "commit": {
+      "author": {
+        "name": "Chris Evich",
+        "email": "root@atomichost.local",
+        "date": "2015-03-10T20:04:17Z"
+      },
+      "committer": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-03-13T20:49:05Z"
+      },
+      "message": "Atomic: Make build/install easier + modular\n\nPreviously everything was jammed into a single Dockerfile,\nbut a handful of scripts are also included.  Since the command\nline for 'atomic install' is encoded in the Dockerfile,\nit's more flexible to just call a script to finish the build.\nThis allows for more flexibility in base-image, install options,\nand source locations.\n\nSigned-off-by: Chris Evich <root@atomichost.local>",
+      "tree": {
+        "sha": "fc6b4b5f53b316fd09bdd444711ef5d45e0ac14a",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/git/trees/fc6b4b5f53b316fd09bdd444711ef5d45e0ac14a"
+      },
+      "url": "https://api.github.com/repos/autotest/autotest-docker/git/commits/4a72997d511f5cb51da51f66fdb3bfd4d89593a1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/autotest/autotest-docker/commits/4a72997d511f5cb51da51f66fdb3bfd4d89593a1",
+    "html_url": "https://github.com/autotest/autotest-docker/commit/4a72997d511f5cb51da51f66fdb3bfd4d89593a1",
+    "comments_url": "https://api.github.com/repos/autotest/autotest-docker/commits/4a72997d511f5cb51da51f66fdb3bfd4d89593a1/comments",
+    "author": null,
+    "committer": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "20be88ba8d65d60e23f19dd9684a85f67bb44d17",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/commits/20be88ba8d65d60e23f19dd9684a85f67bb44d17",
+        "html_url": "https://github.com/autotest/autotest-docker/commit/20be88ba8d65d60e23f19dd9684a85f67bb44d17"
+      }
+    ]
+  },
+  {
+    "sha": "f6b2ab38a82de6dd1e5468cbe5c70cd9e354897e",
+    "node_id": "MDY6Q29tbWl0MTc4Njk3OTA6ZjZiMmFiMzhhODJkZTZkZDFlNTQ2OGNiZTVjNzBjZDllMzU0ODk3ZQ==",
+    "commit": {
+      "author": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-03-10T14:02:15Z"
+      },
+      "committer": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-03-10T15:14:28Z"
+      },
+      "message": "Atomic: Exclude unsafe/broken/failing tests\n\nSigned-off-by: Chris Evich <cevich@redhat.com>",
+      "tree": {
+        "sha": "1df58e34838076b42e09526c7c65916a57a647c6",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/git/trees/1df58e34838076b42e09526c7c65916a57a647c6"
+      },
+      "url": "https://api.github.com/repos/autotest/autotest-docker/git/commits/f6b2ab38a82de6dd1e5468cbe5c70cd9e354897e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/autotest/autotest-docker/commits/f6b2ab38a82de6dd1e5468cbe5c70cd9e354897e",
+    "html_url": "https://github.com/autotest/autotest-docker/commit/f6b2ab38a82de6dd1e5468cbe5c70cd9e354897e",
+    "comments_url": "https://api.github.com/repos/autotest/autotest-docker/commits/f6b2ab38a82de6dd1e5468cbe5c70cd9e354897e/comments",
+    "author": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "aff38b918ee2076fd5bb1a28407279c75df28070",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/commits/aff38b918ee2076fd5bb1a28407279c75df28070",
+        "html_url": "https://github.com/autotest/autotest-docker/commit/aff38b918ee2076fd5bb1a28407279c75df28070"
+      }
+    ]
+  },
+  {
+    "sha": "51c42c1dbceed07476cca328ee39efaf58892af9",
+    "node_id": "MDY6Q29tbWl0MTc4Njk3OTA6NTFjNDJjMWRiY2VlZDA3NDc2Y2NhMzI4ZWUzOWVmYWY1ODg5MmFmOQ==",
+    "commit": {
+      "author": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-03-09T22:18:33Z"
+      },
+      "committer": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-03-09T22:18:33Z"
+      },
+      "message": "Atomic: Fix container access to /run and /var/log\n\nWhen running under atomic, the docker_autotest container needs access to the docker socket and host logs",
+      "tree": {
+        "sha": "4f7941dab527e268615907201d661cf86b9ed6d8",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/git/trees/4f7941dab527e268615907201d661cf86b9ed6d8"
+      },
+      "url": "https://api.github.com/repos/autotest/autotest-docker/git/commits/51c42c1dbceed07476cca328ee39efaf58892af9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/autotest/autotest-docker/commits/51c42c1dbceed07476cca328ee39efaf58892af9",
+    "html_url": "https://github.com/autotest/autotest-docker/commit/51c42c1dbceed07476cca328ee39efaf58892af9",
+    "comments_url": "https://api.github.com/repos/autotest/autotest-docker/commits/51c42c1dbceed07476cca328ee39efaf58892af9/comments",
+    "author": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "767ae9940cafe7c50b5e7bd6924438a5620a1348",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/commits/767ae9940cafe7c50b5e7bd6924438a5620a1348",
+        "html_url": "https://github.com/autotest/autotest-docker/commit/767ae9940cafe7c50b5e7bd6924438a5620a1348"
+      }
+    ]
+  },
+  {
+    "sha": "a65a9a4ddd91d30f8bf4546a676410d3b173252a",
+    "node_id": "MDY6Q29tbWl0MTc4Njk3OTA6YTY1YTlhNGRkZDkxZDMwZjhiZjQ1NDZhNjc2NDEwZDNiMTczMjUyYQ==",
+    "commit": {
+      "author": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-03-09T17:24:45Z"
+      },
+      "committer": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-03-09T21:57:15Z"
+      },
+      "message": "Support running under project Atomic's atomic cmd\n\nSigned-off-by: Chris Evich <cevich@redhat.com>",
+      "tree": {
+        "sha": "6431a58367f45ae2daf0de55a0e9954b7d6985cc",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/git/trees/6431a58367f45ae2daf0de55a0e9954b7d6985cc"
+      },
+      "url": "https://api.github.com/repos/autotest/autotest-docker/git/commits/a65a9a4ddd91d30f8bf4546a676410d3b173252a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/autotest/autotest-docker/commits/a65a9a4ddd91d30f8bf4546a676410d3b173252a",
+    "html_url": "https://github.com/autotest/autotest-docker/commit/a65a9a4ddd91d30f8bf4546a676410d3b173252a",
+    "comments_url": "https://api.github.com/repos/autotest/autotest-docker/commits/a65a9a4ddd91d30f8bf4546a676410d3b173252a/comments",
+    "author": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d5269e972ac11a8543f4ddb37d2dde412d739ffc",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/commits/d5269e972ac11a8543f4ddb37d2dde412d739ffc",
+        "html_url": "https://github.com/autotest/autotest-docker/commit/d5269e972ac11a8543f4ddb37d2dde412d739ffc"
+      }
+    ]
+  },
+  {
+    "sha": "d5269e972ac11a8543f4ddb37d2dde412d739ffc",
+    "node_id": "MDY6Q29tbWl0MTc4Njk3OTA6ZDUyNjllOTcyYWMxMWE4NTQzZjRkZGIzN2QyZGRlNDEyZDczOWZmYw==",
+    "commit": {
+      "author": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-03-05T21:02:07Z"
+      },
+      "committer": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-03-05T23:04:34Z"
+      },
+      "message": "Dockerfile: Support building/testing in Docker SPC\n\nSPC: Super Provileged Container\n\nSigned-off-by: Chris Evich <cevich@redhat.com>",
+      "tree": {
+        "sha": "3d4622864c40fb9ce7abf070aec8eb63a0741b57",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/git/trees/3d4622864c40fb9ce7abf070aec8eb63a0741b57"
+      },
+      "url": "https://api.github.com/repos/autotest/autotest-docker/git/commits/d5269e972ac11a8543f4ddb37d2dde412d739ffc",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/autotest/autotest-docker/commits/d5269e972ac11a8543f4ddb37d2dde412d739ffc",
+    "html_url": "https://github.com/autotest/autotest-docker/commit/d5269e972ac11a8543f4ddb37d2dde412d739ffc",
+    "comments_url": "https://api.github.com/repos/autotest/autotest-docker/commits/d5269e972ac11a8543f4ddb37d2dde412d739ffc/comments",
+    "author": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "76438f411b0a088b348a51308c8d3c14d7b456d9",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/commits/76438f411b0a088b348a51308c8d3c14d7b456d9",
+        "html_url": "https://github.com/autotest/autotest-docker/commit/76438f411b0a088b348a51308c8d3c14d7b456d9"
+      }
+    ]
+  },
+  {
+    "sha": "6ff6346504d5e71e54a15f398454a2cfc99121a0",
+    "node_id": "MDY6Q29tbWl0MTc4Njk3OTA6NmZmNjM0NjUwNGQ1ZTcxZTU0YTE1ZjM5ODQ1NGEyY2ZjOTkxMjFhMA==",
+    "commit": {
+      "author": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-01-27T18:52:26Z"
+      },
+      "committer": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-01-27T19:20:37Z"
+      },
+      "message": "docker_cli/build: Fix cleanup() removing base images\n\nAlso added a .dockerignore and updated Dockerfile to actually change\nsome layer content during builds.\n\nSigned-off-by: Chris Evich <cevich@redhat.com>",
+      "tree": {
+        "sha": "05483c6dcc602e0ee3a21c8b7bd223b44abc5139",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/git/trees/05483c6dcc602e0ee3a21c8b7bd223b44abc5139"
+      },
+      "url": "https://api.github.com/repos/autotest/autotest-docker/git/commits/6ff6346504d5e71e54a15f398454a2cfc99121a0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/autotest/autotest-docker/commits/6ff6346504d5e71e54a15f398454a2cfc99121a0",
+    "html_url": "https://github.com/autotest/autotest-docker/commit/6ff6346504d5e71e54a15f398454a2cfc99121a0",
+    "comments_url": "https://api.github.com/repos/autotest/autotest-docker/commits/6ff6346504d5e71e54a15f398454a2cfc99121a0/comments",
+    "author": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eb5b100a51a0fcab933fa45498f4dea303033f4b",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/commits/eb5b100a51a0fcab933fa45498f4dea303033f4b",
+        "html_url": "https://github.com/autotest/autotest-docker/commit/eb5b100a51a0fcab933fa45498f4dea303033f4b"
+      }
+    ]
+  },
+  {
+    "sha": "9de399cf9639bfdae370a432c6f017f74cac1178",
+    "node_id": "MDY6Q29tbWl0MTc4Njk3OTA6OWRlMzk5Y2Y5NjM5YmZkYWUzNzBhNDMyYzZmMDE3Zjc0Y2FjMTE3OA==",
+    "commit": {
+      "author": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-01-27T19:16:09Z"
+      },
+      "committer": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-01-27T19:16:09Z"
+      },
+      "message": "Revert \"Test maintenance for recent docer versions\"",
+      "tree": {
+        "sha": "315e222df078ba916f839e4e501f75a4f87e21d3",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/git/trees/315e222df078ba916f839e4e501f75a4f87e21d3"
+      },
+      "url": "https://api.github.com/repos/autotest/autotest-docker/git/commits/9de399cf9639bfdae370a432c6f017f74cac1178",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/autotest/autotest-docker/commits/9de399cf9639bfdae370a432c6f017f74cac1178",
+    "html_url": "https://github.com/autotest/autotest-docker/commit/9de399cf9639bfdae370a432c6f017f74cac1178",
+    "comments_url": "https://api.github.com/repos/autotest/autotest-docker/commits/9de399cf9639bfdae370a432c6f017f74cac1178/comments",
+    "author": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d32e7517d97f17e4f4810403e67004533cf2984f",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/commits/d32e7517d97f17e4f4810403e67004533cf2984f",
+        "html_url": "https://github.com/autotest/autotest-docker/commit/d32e7517d97f17e4f4810403e67004533cf2984f"
+      }
+    ]
+  },
+  {
+    "sha": "e7c545986b96231abe2bd89ac37e1eb3ca70ce91",
+    "node_id": "MDY6Q29tbWl0MTc4Njk3OTA6ZTdjNTQ1OTg2Yjk2MjMxYWJlMmJkODlhYzM3ZTFlYjNjYTcwY2U5MQ==",
+    "commit": {
+      "author": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-01-27T18:52:26Z"
+      },
+      "committer": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2015-01-27T18:52:26Z"
+      },
+      "message": "docker_cli/build: Fix cleanup() removing base images\n\nAlso added a .dockerignore and updated Dockerfile to actually change\nsome layer content during builds.\n\nSigned-off-by: Chris Evich <cevich@redhat.com>",
+      "tree": {
+        "sha": "58c0895fc17bd14d7dec74f47943cfca5b2454b1",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/git/trees/58c0895fc17bd14d7dec74f47943cfca5b2454b1"
+      },
+      "url": "https://api.github.com/repos/autotest/autotest-docker/git/commits/e7c545986b96231abe2bd89ac37e1eb3ca70ce91",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/autotest/autotest-docker/commits/e7c545986b96231abe2bd89ac37e1eb3ca70ce91",
+    "html_url": "https://github.com/autotest/autotest-docker/commit/e7c545986b96231abe2bd89ac37e1eb3ca70ce91",
+    "comments_url": "https://api.github.com/repos/autotest/autotest-docker/commits/e7c545986b96231abe2bd89ac37e1eb3ca70ce91/comments",
+    "author": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0fb593d87bd8602c798c960f9a3604279c6e0f98",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/commits/0fb593d87bd8602c798c960f9a3604279c6e0f98",
+        "html_url": "https://github.com/autotest/autotest-docker/commit/0fb593d87bd8602c798c960f9a3604279c6e0f98"
+      }
+    ]
+  },
+  {
+    "sha": "856670f5266a1434f9f49ba32e475834206fb292",
+    "node_id": "MDY6Q29tbWl0MTc4Njk3OTA6ODU2NjcwZjUyNjZhMTQzNGY5ZjQ5YmEzMmU0NzU4MzQyMDZmYjI5Mg==",
+    "commit": {
+      "author": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2014-09-30T14:04:09Z"
+      },
+      "committer": {
+        "name": "Chris Evich",
+        "email": "cevich@redhat.com",
+        "date": "2014-09-30T14:10:50Z"
+      },
+      "message": "subtests...build: Provide self-contained and simple\n\nBuild test was failing with default configuration, provide\nstatic links less dependent on external projects.\n\nSigned-off-by: Chris Evich <cevich@redhat.com>",
+      "tree": {
+        "sha": "3c009d05c7309d38e1f70e5bda75a3f1f2818a87",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/git/trees/3c009d05c7309d38e1f70e5bda75a3f1f2818a87"
+      },
+      "url": "https://api.github.com/repos/autotest/autotest-docker/git/commits/856670f5266a1434f9f49ba32e475834206fb292",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/autotest/autotest-docker/commits/856670f5266a1434f9f49ba32e475834206fb292",
+    "html_url": "https://github.com/autotest/autotest-docker/commit/856670f5266a1434f9f49ba32e475834206fb292",
+    "comments_url": "https://api.github.com/repos/autotest/autotest-docker/commits/856670f5266a1434f9f49ba32e475834206fb292/comments",
+    "author": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cevich",
+      "id": 1183438,
+      "node_id": "MDQ6VXNlcjExODM0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1183438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cevich",
+      "html_url": "https://github.com/cevich",
+      "followers_url": "https://api.github.com/users/cevich/followers",
+      "following_url": "https://api.github.com/users/cevich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cevich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cevich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cevich/subscriptions",
+      "organizations_url": "https://api.github.com/users/cevich/orgs",
+      "repos_url": "https://api.github.com/users/cevich/repos",
+      "events_url": "https://api.github.com/users/cevich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cevich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "924218ee3662422750efe12f2f4bdadc5aef210e",
+        "url": "https://api.github.com/repos/autotest/autotest-docker/commits/924218ee3662422750efe12f2f4bdadc5aef210e",
+        "html_url": "https://github.com/autotest/autotest-docker/commit/924218ee3662422750efe12f2f4bdadc5aef210e"
+      }
+    ]
+  }
+]

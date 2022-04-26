@@ -1,0 +1,359 @@
+[
+  {
+    "sha": "b8803fbb45e2ced9ce312dd8fc0a0b7edcd1d528",
+    "node_id": "MDY6Q29tbWl0MjI3MzQ0NDQ6Yjg4MDNmYmI0NWUyY2VkOWNlMzEyZGQ4ZmMwYTBiN2VkY2QxZDUyOA==",
+    "commit": {
+      "author": {
+        "name": "Gustavo Pantuza Coelho Pinto",
+        "email": "gustavopantuza@gmail.com",
+        "date": "2018-06-22T21:14:57Z"
+      },
+      "committer": {
+        "name": "Gustavo Pantuza Coelho Pinto",
+        "email": "gustavopantuza@gmail.com",
+        "date": "2018-06-22T21:14:57Z"
+      },
+      "message": "Use only one docker stage to create virtualenv",
+      "tree": {
+        "sha": "6fda8a2645d3a1948c14ef075426617fef282541",
+        "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/git/trees/6fda8a2645d3a1948c14ef075426617fef282541"
+      },
+      "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/git/commits/b8803fbb45e2ced9ce312dd8fc0a0b7edcd1d528",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/b8803fbb45e2ced9ce312dd8fc0a0b7edcd1d528",
+    "html_url": "https://github.com/globocom/GloboNetworkAPI-WebUI/commit/b8803fbb45e2ced9ce312dd8fc0a0b7edcd1d528",
+    "comments_url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/b8803fbb45e2ced9ce312dd8fc0a0b7edcd1d528/comments",
+    "author": {
+      "login": "pantuza",
+      "id": 759784,
+      "node_id": "MDQ6VXNlcjc1OTc4NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/759784?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pantuza",
+      "html_url": "https://github.com/pantuza",
+      "followers_url": "https://api.github.com/users/pantuza/followers",
+      "following_url": "https://api.github.com/users/pantuza/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pantuza/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pantuza/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pantuza/subscriptions",
+      "organizations_url": "https://api.github.com/users/pantuza/orgs",
+      "repos_url": "https://api.github.com/users/pantuza/repos",
+      "events_url": "https://api.github.com/users/pantuza/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pantuza/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pantuza",
+      "id": 759784,
+      "node_id": "MDQ6VXNlcjc1OTc4NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/759784?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pantuza",
+      "html_url": "https://github.com/pantuza",
+      "followers_url": "https://api.github.com/users/pantuza/followers",
+      "following_url": "https://api.github.com/users/pantuza/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pantuza/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pantuza/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pantuza/subscriptions",
+      "organizations_url": "https://api.github.com/users/pantuza/orgs",
+      "repos_url": "https://api.github.com/users/pantuza/repos",
+      "events_url": "https://api.github.com/users/pantuza/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pantuza/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "595d8f74b0cb36e39f7f085e84cfb2c2ef91f9d1",
+        "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/595d8f74b0cb36e39f7f085e84cfb2c2ef91f9d1",
+        "html_url": "https://github.com/globocom/GloboNetworkAPI-WebUI/commit/595d8f74b0cb36e39f7f085e84cfb2c2ef91f9d1"
+      }
+    ]
+  },
+  {
+    "sha": "cabf67dd7ee4488d35c9f7829dc3cab7953cd93a",
+    "node_id": "MDY6Q29tbWl0MjI3MzQ0NDQ6Y2FiZjY3ZGQ3ZWU0NDg4ZDM1YzlmNzgyOWRjM2NhYjc5NTNjZDkzYQ==",
+    "commit": {
+      "author": {
+        "name": "Gustavo Pantuza Coelho Pinto",
+        "email": "gustavopantuza@gmail.com",
+        "date": "2018-06-21T18:49:39Z"
+      },
+      "committer": {
+        "name": "Gustavo Pantuza Coelho Pinto",
+        "email": "gustavopantuza@gmail.com",
+        "date": "2018-06-21T18:49:39Z"
+      },
+      "message": "Use bash as default container shell",
+      "tree": {
+        "sha": "19ab3b99d34479d0c15c34017fa692009dfadd07",
+        "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/git/trees/19ab3b99d34479d0c15c34017fa692009dfadd07"
+      },
+      "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/git/commits/cabf67dd7ee4488d35c9f7829dc3cab7953cd93a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/cabf67dd7ee4488d35c9f7829dc3cab7953cd93a",
+    "html_url": "https://github.com/globocom/GloboNetworkAPI-WebUI/commit/cabf67dd7ee4488d35c9f7829dc3cab7953cd93a",
+    "comments_url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/cabf67dd7ee4488d35c9f7829dc3cab7953cd93a/comments",
+    "author": {
+      "login": "pantuza",
+      "id": 759784,
+      "node_id": "MDQ6VXNlcjc1OTc4NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/759784?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pantuza",
+      "html_url": "https://github.com/pantuza",
+      "followers_url": "https://api.github.com/users/pantuza/followers",
+      "following_url": "https://api.github.com/users/pantuza/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pantuza/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pantuza/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pantuza/subscriptions",
+      "organizations_url": "https://api.github.com/users/pantuza/orgs",
+      "repos_url": "https://api.github.com/users/pantuza/repos",
+      "events_url": "https://api.github.com/users/pantuza/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pantuza/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pantuza",
+      "id": 759784,
+      "node_id": "MDQ6VXNlcjc1OTc4NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/759784?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pantuza",
+      "html_url": "https://github.com/pantuza",
+      "followers_url": "https://api.github.com/users/pantuza/followers",
+      "following_url": "https://api.github.com/users/pantuza/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pantuza/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pantuza/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pantuza/subscriptions",
+      "organizations_url": "https://api.github.com/users/pantuza/orgs",
+      "repos_url": "https://api.github.com/users/pantuza/repos",
+      "events_url": "https://api.github.com/users/pantuza/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pantuza/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "732fcbd027a8fd7181225dad9944d77b7b879b69",
+        "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/732fcbd027a8fd7181225dad9944d77b7b879b69",
+        "html_url": "https://github.com/globocom/GloboNetworkAPI-WebUI/commit/732fcbd027a8fd7181225dad9944d77b7b879b69"
+      }
+    ]
+  },
+  {
+    "sha": "8157738766787f98d416304c5cb3536401e083f7",
+    "node_id": "MDY6Q29tbWl0MjI3MzQ0NDQ6ODE1NzczODc2Njc4N2Y5OGQ0MTYzMDRjNWNiMzUzNjQwMWUwODNmNw==",
+    "commit": {
+      "author": {
+        "name": "Gustavo Pantuza Coelho Pinto",
+        "email": "gustavopantuza@gmail.com",
+        "date": "2018-06-13T18:24:38Z"
+      },
+      "committer": {
+        "name": "Gustavo Pantuza Coelho Pinto",
+        "email": "gustavopantuza@gmail.com",
+        "date": "2018-06-13T18:24:38Z"
+      },
+      "message": "Remove some stages to reduce image size in layers",
+      "tree": {
+        "sha": "a82ad93d1fac03689c7aebd961bf609ad27b6bd6",
+        "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/git/trees/a82ad93d1fac03689c7aebd961bf609ad27b6bd6"
+      },
+      "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/git/commits/8157738766787f98d416304c5cb3536401e083f7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/8157738766787f98d416304c5cb3536401e083f7",
+    "html_url": "https://github.com/globocom/GloboNetworkAPI-WebUI/commit/8157738766787f98d416304c5cb3536401e083f7",
+    "comments_url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/8157738766787f98d416304c5cb3536401e083f7/comments",
+    "author": {
+      "login": "pantuza",
+      "id": 759784,
+      "node_id": "MDQ6VXNlcjc1OTc4NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/759784?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pantuza",
+      "html_url": "https://github.com/pantuza",
+      "followers_url": "https://api.github.com/users/pantuza/followers",
+      "following_url": "https://api.github.com/users/pantuza/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pantuza/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pantuza/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pantuza/subscriptions",
+      "organizations_url": "https://api.github.com/users/pantuza/orgs",
+      "repos_url": "https://api.github.com/users/pantuza/repos",
+      "events_url": "https://api.github.com/users/pantuza/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pantuza/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pantuza",
+      "id": 759784,
+      "node_id": "MDQ6VXNlcjc1OTc4NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/759784?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pantuza",
+      "html_url": "https://github.com/pantuza",
+      "followers_url": "https://api.github.com/users/pantuza/followers",
+      "following_url": "https://api.github.com/users/pantuza/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pantuza/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pantuza/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pantuza/subscriptions",
+      "organizations_url": "https://api.github.com/users/pantuza/orgs",
+      "repos_url": "https://api.github.com/users/pantuza/repos",
+      "events_url": "https://api.github.com/users/pantuza/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pantuza/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d11893df77982990b363c9731f5799341d75deb7",
+        "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/d11893df77982990b363c9731f5799341d75deb7",
+        "html_url": "https://github.com/globocom/GloboNetworkAPI-WebUI/commit/d11893df77982990b363c9731f5799341d75deb7"
+      }
+    ]
+  },
+  {
+    "sha": "b3da9e0c46a8133b020416fccbdac97b88baba6c",
+    "node_id": "MDY6Q29tbWl0MjI3MzQ0NDQ6YjNkYTllMGM0NmE4MTMzYjAyMDQxNmZjY2JkYWM5N2I4OGJhYmE2Yw==",
+    "commit": {
+      "author": {
+        "name": "laurapanzariello",
+        "email": "laura.panzariello@corp.globo.com",
+        "date": "2018-05-18T13:57:36Z"
+      },
+      "committer": {
+        "name": "laurapanzariello",
+        "email": "laura.panzariello@corp.globo.com",
+        "date": "2018-05-18T13:57:36Z"
+      },
+      "message": "delete interface using v3",
+      "tree": {
+        "sha": "5553590f44a1e73e9bced8a50cbb868ecc094105",
+        "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/git/trees/5553590f44a1e73e9bced8a50cbb868ecc094105"
+      },
+      "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/git/commits/b3da9e0c46a8133b020416fccbdac97b88baba6c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/b3da9e0c46a8133b020416fccbdac97b88baba6c",
+    "html_url": "https://github.com/globocom/GloboNetworkAPI-WebUI/commit/b3da9e0c46a8133b020416fccbdac97b88baba6c",
+    "comments_url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/b3da9e0c46a8133b020416fccbdac97b88baba6c/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "357aeb6b26909e7d7d86f0b2ae17fa34ec8757a3",
+        "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/357aeb6b26909e7d7d86f0b2ae17fa34ec8757a3",
+        "html_url": "https://github.com/globocom/GloboNetworkAPI-WebUI/commit/357aeb6b26909e7d7d86f0b2ae17fa34ec8757a3"
+      }
+    ]
+  },
+  {
+    "sha": "63a4d3e7cbfba33bb034ff4e64d9146b16e46349",
+    "node_id": "MDY6Q29tbWl0MjI3MzQ0NDQ6NjNhNGQzZTdjYmZiYTMzYmIwMzRmZjRlNjRkOTE0NmIxNmU0NjM0OQ==",
+    "commit": {
+      "author": {
+        "name": "henriquebonadio",
+        "email": "henrique.bonadio@corp.globo.com",
+        "date": "2017-08-30T13:45:10Z"
+      },
+      "committer": {
+        "name": "henriquebonadio",
+        "email": "henrique.bonadio@corp.globo.com",
+        "date": "2017-08-30T13:45:10Z"
+      },
+      "message": "docker for netapi_webui",
+      "tree": {
+        "sha": "8c83baf1f12e38f3ef35c7379c41217465965b04",
+        "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/git/trees/8c83baf1f12e38f3ef35c7379c41217465965b04"
+      },
+      "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/git/commits/63a4d3e7cbfba33bb034ff4e64d9146b16e46349",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/63a4d3e7cbfba33bb034ff4e64d9146b16e46349",
+    "html_url": "https://github.com/globocom/GloboNetworkAPI-WebUI/commit/63a4d3e7cbfba33bb034ff4e64d9146b16e46349",
+    "comments_url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/63a4d3e7cbfba33bb034ff4e64d9146b16e46349/comments",
+    "author": {
+      "login": "henriquebonadio-zz",
+      "id": 2007133,
+      "node_id": "MDQ6VXNlcjIwMDcxMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2007133?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/henriquebonadio-zz",
+      "html_url": "https://github.com/henriquebonadio-zz",
+      "followers_url": "https://api.github.com/users/henriquebonadio-zz/followers",
+      "following_url": "https://api.github.com/users/henriquebonadio-zz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/henriquebonadio-zz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/henriquebonadio-zz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/henriquebonadio-zz/subscriptions",
+      "organizations_url": "https://api.github.com/users/henriquebonadio-zz/orgs",
+      "repos_url": "https://api.github.com/users/henriquebonadio-zz/repos",
+      "events_url": "https://api.github.com/users/henriquebonadio-zz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/henriquebonadio-zz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "henriquebonadio-zz",
+      "id": 2007133,
+      "node_id": "MDQ6VXNlcjIwMDcxMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2007133?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/henriquebonadio-zz",
+      "html_url": "https://github.com/henriquebonadio-zz",
+      "followers_url": "https://api.github.com/users/henriquebonadio-zz/followers",
+      "following_url": "https://api.github.com/users/henriquebonadio-zz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/henriquebonadio-zz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/henriquebonadio-zz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/henriquebonadio-zz/subscriptions",
+      "organizations_url": "https://api.github.com/users/henriquebonadio-zz/orgs",
+      "repos_url": "https://api.github.com/users/henriquebonadio-zz/repos",
+      "events_url": "https://api.github.com/users/henriquebonadio-zz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/henriquebonadio-zz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2899675294cc953e0cfb5e3b0531662336b0329a",
+        "url": "https://api.github.com/repos/globocom/GloboNetworkAPI-WebUI/commits/2899675294cc953e0cfb5e3b0531662336b0329a",
+        "html_url": "https://github.com/globocom/GloboNetworkAPI-WebUI/commit/2899675294cc953e0cfb5e3b0531662336b0329a"
+      }
+    ]
+  }
+]

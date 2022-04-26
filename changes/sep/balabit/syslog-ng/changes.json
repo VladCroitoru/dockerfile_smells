@@ -1,0 +1,479 @@
+[
+  {
+    "sha": "bdfcdb9ffa14e4952b8101db73ddf15b7b5dc71b",
+    "node_id": "C_kwDOANfcxdoAKGJkZmNkYjlmZmExNGU0OTUyYjgxMDFkYjczZGRmMTViN2I1ZGM3MWI",
+    "commit": {
+      "author": {
+        "name": "Attila Szakacs",
+        "email": "attila.szakacs@oneidentity.com",
+        "date": "2021-09-28T09:23:32Z"
+      },
+      "committer": {
+        "name": "Attila Szakacs",
+        "email": "attila.szakacs@oneidentity.com",
+        "date": "2021-09-28T09:23:32Z"
+      },
+      "message": "packaging/dbld: install libcriterion-dev from apt where it is available\n\nSigned-off-by: Attila Szakacs <attila.szakacs@oneidentity.com>",
+      "tree": {
+        "sha": "f3b7fbbe995f6b1b64f21cb3a47edf6fe089f7d5",
+        "url": "https://api.github.com/repos/syslog-ng/syslog-ng/git/trees/f3b7fbbe995f6b1b64f21cb3a47edf6fe089f7d5"
+      },
+      "url": "https://api.github.com/repos/syslog-ng/syslog-ng/git/commits/bdfcdb9ffa14e4952b8101db73ddf15b7b5dc71b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/bdfcdb9ffa14e4952b8101db73ddf15b7b5dc71b",
+    "html_url": "https://github.com/syslog-ng/syslog-ng/commit/bdfcdb9ffa14e4952b8101db73ddf15b7b5dc71b",
+    "comments_url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/bdfcdb9ffa14e4952b8101db73ddf15b7b5dc71b/comments",
+    "author": {
+      "login": "alltilla",
+      "id": 45236571,
+      "node_id": "MDQ6VXNlcjQ1MjM2NTcx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45236571?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alltilla",
+      "html_url": "https://github.com/alltilla",
+      "followers_url": "https://api.github.com/users/alltilla/followers",
+      "following_url": "https://api.github.com/users/alltilla/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alltilla/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alltilla/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alltilla/subscriptions",
+      "organizations_url": "https://api.github.com/users/alltilla/orgs",
+      "repos_url": "https://api.github.com/users/alltilla/repos",
+      "events_url": "https://api.github.com/users/alltilla/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alltilla/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "alltilla",
+      "id": 45236571,
+      "node_id": "MDQ6VXNlcjQ1MjM2NTcx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45236571?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alltilla",
+      "html_url": "https://github.com/alltilla",
+      "followers_url": "https://api.github.com/users/alltilla/followers",
+      "following_url": "https://api.github.com/users/alltilla/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alltilla/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alltilla/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alltilla/subscriptions",
+      "organizations_url": "https://api.github.com/users/alltilla/orgs",
+      "repos_url": "https://api.github.com/users/alltilla/repos",
+      "events_url": "https://api.github.com/users/alltilla/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alltilla/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d0fc488c834c0a665428847c262497ecd3b7011a",
+        "url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/d0fc488c834c0a665428847c262497ecd3b7011a",
+        "html_url": "https://github.com/syslog-ng/syslog-ng/commit/d0fc488c834c0a665428847c262497ecd3b7011a"
+      }
+    ]
+  },
+  {
+    "sha": "d60cc7ca209b19b6b1f2f10667ad8a0d7da8ba35",
+    "node_id": "MDY6Q29tbWl0MTQxNDY3NTc6ZDYwY2M3Y2EyMDliMTliNmIxZjJmMTA2NjdhZDhhMGQ3ZGE4YmEzNQ==",
+    "commit": {
+      "author": {
+        "name": "Balázs Barkó",
+        "email": "Balazs.Barko@oneidentity.com",
+        "date": "2021-06-29T12:04:21Z"
+      },
+      "committer": {
+        "name": "Balázs Barkó",
+        "email": "Balazs.Barko@oneidentity.com",
+        "date": "2021-07-06T08:52:36Z"
+      },
+      "message": "DBLD: refactor OS_PLATFORM\n\n* IMAGE_PLATFORM - which mean what is the name of the docker file.\n\nSigned-off-by: Balázs Barkó <Balazs.Barko@oneidentity.com>",
+      "tree": {
+        "sha": "af06054971b4fede6a3f0ec6c7cc58e7d95ec7b6",
+        "url": "https://api.github.com/repos/syslog-ng/syslog-ng/git/trees/af06054971b4fede6a3f0ec6c7cc58e7d95ec7b6"
+      },
+      "url": "https://api.github.com/repos/syslog-ng/syslog-ng/git/commits/d60cc7ca209b19b6b1f2f10667ad8a0d7da8ba35",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/d60cc7ca209b19b6b1f2f10667ad8a0d7da8ba35",
+    "html_url": "https://github.com/syslog-ng/syslog-ng/commit/d60cc7ca209b19b6b1f2f10667ad8a0d7da8ba35",
+    "comments_url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/d60cc7ca209b19b6b1f2f10667ad8a0d7da8ba35/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "504187cbeb6a0228b110a48e8fc2fbffc8ef9b10",
+        "url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/504187cbeb6a0228b110a48e8fc2fbffc8ef9b10",
+        "html_url": "https://github.com/syslog-ng/syslog-ng/commit/504187cbeb6a0228b110a48e8fc2fbffc8ef9b10"
+      }
+    ]
+  },
+  {
+    "sha": "504187cbeb6a0228b110a48e8fc2fbffc8ef9b10",
+    "node_id": "MDY6Q29tbWl0MTQxNDY3NTc6NTA0MTg3Y2JlYjZhMDIyOGIxMTBhNDhlOGZjMmZiZmZjOGVmOWIxMA==",
+    "commit": {
+      "author": {
+        "name": "Balázs Barkó",
+        "email": "Balazs.Barko@oneidentity.com",
+        "date": "2021-06-29T11:37:50Z"
+      },
+      "committer": {
+        "name": "Balázs Barkó",
+        "email": "Balazs.Barko@oneidentity.com",
+        "date": "2021-07-02T08:29:02Z"
+      },
+      "message": "DBLD: add new enviable variable\n\n* OS_DISTRIBUTION - which distribution is the current docker.\n* OS_DISTRIBUTION_CODE_NAME - which version of the system.\n\nSigned-off-by: Balázs Barkó <Balazs.Barko@oneidentity.com>",
+      "tree": {
+        "sha": "aa9b80816c096dec382fcd72093269abce2a83d3",
+        "url": "https://api.github.com/repos/syslog-ng/syslog-ng/git/trees/aa9b80816c096dec382fcd72093269abce2a83d3"
+      },
+      "url": "https://api.github.com/repos/syslog-ng/syslog-ng/git/commits/504187cbeb6a0228b110a48e8fc2fbffc8ef9b10",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/504187cbeb6a0228b110a48e8fc2fbffc8ef9b10",
+    "html_url": "https://github.com/syslog-ng/syslog-ng/commit/504187cbeb6a0228b110a48e8fc2fbffc8ef9b10",
+    "comments_url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/504187cbeb6a0228b110a48e8fc2fbffc8ef9b10/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "7663bf780b2421a4b85c7bf25a004493dbaeae9d",
+        "url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/7663bf780b2421a4b85c7bf25a004493dbaeae9d",
+        "html_url": "https://github.com/syslog-ng/syslog-ng/commit/7663bf780b2421a4b85c7bf25a004493dbaeae9d"
+      }
+    ]
+  },
+  {
+    "sha": "f258c8a66cd9a651c6dc9a5ef98752c5510a25e9",
+    "node_id": "MDY6Q29tbWl0MTQxNDY3NTc6ZjI1OGM4YTY2Y2Q5YTY1MWM2ZGM5YTVlZjk4NzUyYzU1MTBhMjVlOQ==",
+    "commit": {
+      "author": {
+        "name": "László Várady",
+        "email": "laszlo.varady@protonmail.com",
+        "date": "2021-06-17T10:16:15Z"
+      },
+      "committer": {
+        "name": "László Várady",
+        "email": "laszlo.varady@protonmail.com",
+        "date": "2021-06-17T10:16:15Z"
+      },
+      "message": "dbld: remove obsolete OBS-related notes\n\nSigned-off-by: László Várady <laszlo.varady@protonmail.com>",
+      "tree": {
+        "sha": "330db654e137e4bc30ebf03be33a4b52e909b8f8",
+        "url": "https://api.github.com/repos/syslog-ng/syslog-ng/git/trees/330db654e137e4bc30ebf03be33a4b52e909b8f8"
+      },
+      "url": "https://api.github.com/repos/syslog-ng/syslog-ng/git/commits/f258c8a66cd9a651c6dc9a5ef98752c5510a25e9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/f258c8a66cd9a651c6dc9a5ef98752c5510a25e9",
+    "html_url": "https://github.com/syslog-ng/syslog-ng/commit/f258c8a66cd9a651c6dc9a5ef98752c5510a25e9",
+    "comments_url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/f258c8a66cd9a651c6dc9a5ef98752c5510a25e9/comments",
+    "author": {
+      "login": "MrAnno",
+      "id": 3130044,
+      "node_id": "MDQ6VXNlcjMxMzAwNDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3130044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MrAnno",
+      "html_url": "https://github.com/MrAnno",
+      "followers_url": "https://api.github.com/users/MrAnno/followers",
+      "following_url": "https://api.github.com/users/MrAnno/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MrAnno/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MrAnno/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MrAnno/subscriptions",
+      "organizations_url": "https://api.github.com/users/MrAnno/orgs",
+      "repos_url": "https://api.github.com/users/MrAnno/repos",
+      "events_url": "https://api.github.com/users/MrAnno/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MrAnno/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "MrAnno",
+      "id": 3130044,
+      "node_id": "MDQ6VXNlcjMxMzAwNDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3130044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MrAnno",
+      "html_url": "https://github.com/MrAnno",
+      "followers_url": "https://api.github.com/users/MrAnno/followers",
+      "following_url": "https://api.github.com/users/MrAnno/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MrAnno/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MrAnno/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MrAnno/subscriptions",
+      "organizations_url": "https://api.github.com/users/MrAnno/orgs",
+      "repos_url": "https://api.github.com/users/MrAnno/repos",
+      "events_url": "https://api.github.com/users/MrAnno/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MrAnno/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9a8deb03c649468d6cec31563f7062cbc85f5acd",
+        "url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/9a8deb03c649468d6cec31563f7062cbc85f5acd",
+        "html_url": "https://github.com/syslog-ng/syslog-ng/commit/9a8deb03c649468d6cec31563f7062cbc85f5acd"
+      }
+    ]
+  },
+  {
+    "sha": "7b5b7e6901ed8a53a40aabd53393df01fd790132",
+    "node_id": "MDY6Q29tbWl0MTQxNDY3NTc6N2I1YjdlNjkwMWVkOGE1M2E0MGFhYmQ1MzM5M2RmMDFmZDc5MDEzMg==",
+    "commit": {
+      "author": {
+        "name": "Balazs Scheidler",
+        "email": "bazsi77@gmail.com",
+        "date": "2020-10-15T13:09:31Z"
+      },
+      "committer": {
+        "name": "Balazs Scheidler",
+        "email": "bazsi77@gmail.com",
+        "date": "2020-10-24T10:17:16Z"
+      },
+      "message": "dbld: install gosu from official repositories\n\nSigned-off-by: Balazs Scheidler <bazsi77@gmail.com>",
+      "tree": {
+        "sha": "b1738df16c2b21254bd1de23cabbf2b1843b0659",
+        "url": "https://api.github.com/repos/syslog-ng/syslog-ng/git/trees/b1738df16c2b21254bd1de23cabbf2b1843b0659"
+      },
+      "url": "https://api.github.com/repos/syslog-ng/syslog-ng/git/commits/7b5b7e6901ed8a53a40aabd53393df01fd790132",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/7b5b7e6901ed8a53a40aabd53393df01fd790132",
+    "html_url": "https://github.com/syslog-ng/syslog-ng/commit/7b5b7e6901ed8a53a40aabd53393df01fd790132",
+    "comments_url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/7b5b7e6901ed8a53a40aabd53393df01fd790132/comments",
+    "author": {
+      "login": "bazsi",
+      "id": 714102,
+      "node_id": "MDQ6VXNlcjcxNDEwMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/714102?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bazsi",
+      "html_url": "https://github.com/bazsi",
+      "followers_url": "https://api.github.com/users/bazsi/followers",
+      "following_url": "https://api.github.com/users/bazsi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bazsi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bazsi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bazsi/subscriptions",
+      "organizations_url": "https://api.github.com/users/bazsi/orgs",
+      "repos_url": "https://api.github.com/users/bazsi/repos",
+      "events_url": "https://api.github.com/users/bazsi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bazsi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "bazsi",
+      "id": 714102,
+      "node_id": "MDQ6VXNlcjcxNDEwMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/714102?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bazsi",
+      "html_url": "https://github.com/bazsi",
+      "followers_url": "https://api.github.com/users/bazsi/followers",
+      "following_url": "https://api.github.com/users/bazsi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bazsi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bazsi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bazsi/subscriptions",
+      "organizations_url": "https://api.github.com/users/bazsi/orgs",
+      "repos_url": "https://api.github.com/users/bazsi/repos",
+      "events_url": "https://api.github.com/users/bazsi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bazsi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d22554c328c0a4d82398eb9863a6caab11a28d6d",
+        "url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/d22554c328c0a4d82398eb9863a6caab11a28d6d",
+        "html_url": "https://github.com/syslog-ng/syslog-ng/commit/d22554c328c0a4d82398eb9863a6caab11a28d6d"
+      }
+    ]
+  },
+  {
+    "sha": "98ca4a42674a3073c3f281fb71e2d2d90a321638",
+    "node_id": "MDY6Q29tbWl0MTQxNDY3NTc6OThjYTRhNDI2NzRhMzA3M2MzZjI4MWZiNzFlMmQyZDkwYTMyMTYzOA==",
+    "commit": {
+      "author": {
+        "name": "Balazs Scheidler",
+        "email": "bazsi77@gmail.com",
+        "date": "2020-04-14T11:48:52Z"
+      },
+      "committer": {
+        "name": "Balazs Scheidler",
+        "email": "bazsi77@gmail.com",
+        "date": "2020-04-16T14:40:28Z"
+      },
+      "message": "dbld/builddeps: add install_dbld_dependencies() step\n\nThis step attempts to install dependencies of builddeps itself,\nwhere packages.manifest would be too late.\n\nSigned-off-by: Balazs Scheidler <bazsi77@gmail.com>",
+      "tree": {
+        "sha": "6e66cb3fce26b0c243ce115ce07406dc7916d9ef",
+        "url": "https://api.github.com/repos/syslog-ng/syslog-ng/git/trees/6e66cb3fce26b0c243ce115ce07406dc7916d9ef"
+      },
+      "url": "https://api.github.com/repos/syslog-ng/syslog-ng/git/commits/98ca4a42674a3073c3f281fb71e2d2d90a321638",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/98ca4a42674a3073c3f281fb71e2d2d90a321638",
+    "html_url": "https://github.com/syslog-ng/syslog-ng/commit/98ca4a42674a3073c3f281fb71e2d2d90a321638",
+    "comments_url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/98ca4a42674a3073c3f281fb71e2d2d90a321638/comments",
+    "author": {
+      "login": "bazsi",
+      "id": 714102,
+      "node_id": "MDQ6VXNlcjcxNDEwMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/714102?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bazsi",
+      "html_url": "https://github.com/bazsi",
+      "followers_url": "https://api.github.com/users/bazsi/followers",
+      "following_url": "https://api.github.com/users/bazsi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bazsi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bazsi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bazsi/subscriptions",
+      "organizations_url": "https://api.github.com/users/bazsi/orgs",
+      "repos_url": "https://api.github.com/users/bazsi/repos",
+      "events_url": "https://api.github.com/users/bazsi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bazsi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "bazsi",
+      "id": 714102,
+      "node_id": "MDQ6VXNlcjcxNDEwMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/714102?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bazsi",
+      "html_url": "https://github.com/bazsi",
+      "followers_url": "https://api.github.com/users/bazsi/followers",
+      "following_url": "https://api.github.com/users/bazsi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bazsi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bazsi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bazsi/subscriptions",
+      "organizations_url": "https://api.github.com/users/bazsi/orgs",
+      "repos_url": "https://api.github.com/users/bazsi/repos",
+      "events_url": "https://api.github.com/users/bazsi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bazsi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e5e3bb1eae156f50b4a3187ea4e8ae7672cecd69",
+        "url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/e5e3bb1eae156f50b4a3187ea4e8ae7672cecd69",
+        "html_url": "https://github.com/syslog-ng/syslog-ng/commit/e5e3bb1eae156f50b4a3187ea4e8ae7672cecd69"
+      }
+    ]
+  },
+  {
+    "sha": "38f6cdfc3e0e5d9f12d69c0867a88b8e609977d9",
+    "node_id": "MDY6Q29tbWl0MTQxNDY3NTc6MzhmNmNkZmMzZTBlNWQ5ZjEyZDY5YzA4NjdhODhiOGU2MDk5NzdkOQ==",
+    "commit": {
+      "author": {
+        "name": "Balazs Scheidler",
+        "email": "bazsi77@gmail.com",
+        "date": "2020-01-13T05:50:03Z"
+      },
+      "committer": {
+        "name": "Balazs Scheidler",
+        "email": "bazsi77@gmail.com",
+        "date": "2020-04-16T14:40:28Z"
+      },
+      "message": "dbld: add Debian sid support\n\nSigned-off-by: Balazs Scheidler <bazsi77@gmail.com>",
+      "tree": {
+        "sha": "4bed4607e376c805543c35ab33884f6a25fff144",
+        "url": "https://api.github.com/repos/syslog-ng/syslog-ng/git/trees/4bed4607e376c805543c35ab33884f6a25fff144"
+      },
+      "url": "https://api.github.com/repos/syslog-ng/syslog-ng/git/commits/38f6cdfc3e0e5d9f12d69c0867a88b8e609977d9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/38f6cdfc3e0e5d9f12d69c0867a88b8e609977d9",
+    "html_url": "https://github.com/syslog-ng/syslog-ng/commit/38f6cdfc3e0e5d9f12d69c0867a88b8e609977d9",
+    "comments_url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/38f6cdfc3e0e5d9f12d69c0867a88b8e609977d9/comments",
+    "author": {
+      "login": "bazsi",
+      "id": 714102,
+      "node_id": "MDQ6VXNlcjcxNDEwMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/714102?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bazsi",
+      "html_url": "https://github.com/bazsi",
+      "followers_url": "https://api.github.com/users/bazsi/followers",
+      "following_url": "https://api.github.com/users/bazsi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bazsi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bazsi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bazsi/subscriptions",
+      "organizations_url": "https://api.github.com/users/bazsi/orgs",
+      "repos_url": "https://api.github.com/users/bazsi/repos",
+      "events_url": "https://api.github.com/users/bazsi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bazsi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "bazsi",
+      "id": 714102,
+      "node_id": "MDQ6VXNlcjcxNDEwMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/714102?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bazsi",
+      "html_url": "https://github.com/bazsi",
+      "followers_url": "https://api.github.com/users/bazsi/followers",
+      "following_url": "https://api.github.com/users/bazsi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bazsi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bazsi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bazsi/subscriptions",
+      "organizations_url": "https://api.github.com/users/bazsi/orgs",
+      "repos_url": "https://api.github.com/users/bazsi/repos",
+      "events_url": "https://api.github.com/users/bazsi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bazsi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "74e8f66b09c9b8e35d23406651ca5c962ad5e289",
+        "url": "https://api.github.com/repos/syslog-ng/syslog-ng/commits/74e8f66b09c9b8e35d23406651ca5c962ad5e289",
+        "html_url": "https://github.com/syslog-ng/syslog-ng/commit/74e8f66b09c9b8e35d23406651ca5c962ad5e289"
+      }
+    ]
+  }
+]

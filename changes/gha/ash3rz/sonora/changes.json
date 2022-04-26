@@ -1,0 +1,713 @@
+[
+  {
+    "sha": "df003aebb1d6fdf0aa979eb3e855b030aee19515",
+    "node_id": "MDY6Q29tbWl0MjMyMTk0MzM4OmRmMDAzYWViYjFkNmZkZjBhYTk3OWViM2U4NTViMDMwYWVlMTk1MTU=",
+    "commit": {
+      "author": {
+        "name": "Sarah Roberts",
+        "email": "sarahr@cyverse.org",
+        "date": "2021-03-31T01:08:11Z"
+      },
+      "committer": {
+        "name": "Sarah Roberts",
+        "email": "sarahr@cyverse.org",
+        "date": "2021-04-19T18:49:55Z"
+      },
+      "message": "CORE-1282: try the version of Node that is running on my computer to see if that fixes the PR check failure",
+      "tree": {
+        "sha": "f00a804aa24929ff86ff2579e84ddadeae7860c5",
+        "url": "https://api.github.com/repos/ash3rz/sonora/git/trees/f00a804aa24929ff86ff2579e84ddadeae7860c5"
+      },
+      "url": "https://api.github.com/repos/ash3rz/sonora/git/commits/df003aebb1d6fdf0aa979eb3e855b030aee19515",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ash3rz/sonora/commits/df003aebb1d6fdf0aa979eb3e855b030aee19515",
+    "html_url": "https://github.com/ash3rz/sonora/commit/df003aebb1d6fdf0aa979eb3e855b030aee19515",
+    "comments_url": "https://api.github.com/repos/ash3rz/sonora/commits/df003aebb1d6fdf0aa979eb3e855b030aee19515/comments",
+    "author": {
+      "login": "slr71",
+      "id": 415143,
+      "node_id": "MDQ6VXNlcjQxNTE0Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/415143?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/slr71",
+      "html_url": "https://github.com/slr71",
+      "followers_url": "https://api.github.com/users/slr71/followers",
+      "following_url": "https://api.github.com/users/slr71/following{/other_user}",
+      "gists_url": "https://api.github.com/users/slr71/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/slr71/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/slr71/subscriptions",
+      "organizations_url": "https://api.github.com/users/slr71/orgs",
+      "repos_url": "https://api.github.com/users/slr71/repos",
+      "events_url": "https://api.github.com/users/slr71/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/slr71/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "slr71",
+      "id": 415143,
+      "node_id": "MDQ6VXNlcjQxNTE0Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/415143?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/slr71",
+      "html_url": "https://github.com/slr71",
+      "followers_url": "https://api.github.com/users/slr71/followers",
+      "following_url": "https://api.github.com/users/slr71/following{/other_user}",
+      "gists_url": "https://api.github.com/users/slr71/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/slr71/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/slr71/subscriptions",
+      "organizations_url": "https://api.github.com/users/slr71/orgs",
+      "repos_url": "https://api.github.com/users/slr71/repos",
+      "events_url": "https://api.github.com/users/slr71/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/slr71/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0da9109da43c276d9f84da0f90f6ab195075cd41",
+        "url": "https://api.github.com/repos/ash3rz/sonora/commits/0da9109da43c276d9f84da0f90f6ab195075cd41",
+        "html_url": "https://github.com/ash3rz/sonora/commit/0da9109da43c276d9f84da0f90f6ab195075cd41"
+      }
+    ]
+  },
+  {
+    "sha": "77c0c2084de75599f7915bcbd960eb96989c021d",
+    "node_id": "MDY6Q29tbWl0MjMyMTk0MzM4Ojc3YzBjMjA4NGRlNzU1OTlmNzkxNWJjYmQ5NjBlYjk2OTg5YzAyMWQ=",
+    "commit": {
+      "author": {
+        "name": "Sarah Roberts",
+        "email": "sarahr@cyverse.org",
+        "date": "2020-06-08T22:25:39Z"
+      },
+      "committer": {
+        "name": "Sarah Roberts",
+        "email": "sarahr@cyverse.org",
+        "date": "2020-06-08T22:25:39Z"
+      },
+      "message": "removed the wrapper script",
+      "tree": {
+        "sha": "092c9eb2414717a1badf3bc3178eaa6c1e6b3ad9",
+        "url": "https://api.github.com/repos/ash3rz/sonora/git/trees/092c9eb2414717a1badf3bc3178eaa6c1e6b3ad9"
+      },
+      "url": "https://api.github.com/repos/ash3rz/sonora/git/commits/77c0c2084de75599f7915bcbd960eb96989c021d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ash3rz/sonora/commits/77c0c2084de75599f7915bcbd960eb96989c021d",
+    "html_url": "https://github.com/ash3rz/sonora/commit/77c0c2084de75599f7915bcbd960eb96989c021d",
+    "comments_url": "https://api.github.com/repos/ash3rz/sonora/commits/77c0c2084de75599f7915bcbd960eb96989c021d/comments",
+    "author": {
+      "login": "slr71",
+      "id": 415143,
+      "node_id": "MDQ6VXNlcjQxNTE0Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/415143?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/slr71",
+      "html_url": "https://github.com/slr71",
+      "followers_url": "https://api.github.com/users/slr71/followers",
+      "following_url": "https://api.github.com/users/slr71/following{/other_user}",
+      "gists_url": "https://api.github.com/users/slr71/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/slr71/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/slr71/subscriptions",
+      "organizations_url": "https://api.github.com/users/slr71/orgs",
+      "repos_url": "https://api.github.com/users/slr71/repos",
+      "events_url": "https://api.github.com/users/slr71/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/slr71/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "slr71",
+      "id": 415143,
+      "node_id": "MDQ6VXNlcjQxNTE0Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/415143?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/slr71",
+      "html_url": "https://github.com/slr71",
+      "followers_url": "https://api.github.com/users/slr71/followers",
+      "following_url": "https://api.github.com/users/slr71/following{/other_user}",
+      "gists_url": "https://api.github.com/users/slr71/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/slr71/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/slr71/subscriptions",
+      "organizations_url": "https://api.github.com/users/slr71/orgs",
+      "repos_url": "https://api.github.com/users/slr71/repos",
+      "events_url": "https://api.github.com/users/slr71/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/slr71/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "230cd4a43600ba62c7cdabe8ff3b3bef4d578f32",
+        "url": "https://api.github.com/repos/ash3rz/sonora/commits/230cd4a43600ba62c7cdabe8ff3b3bef4d578f32",
+        "html_url": "https://github.com/ash3rz/sonora/commit/230cd4a43600ba62c7cdabe8ff3b3bef4d578f32"
+      }
+    ]
+  },
+  {
+    "sha": "332d4fb79d5e80088086de9ac29f17b4bae2380e",
+    "node_id": "MDY6Q29tbWl0MjMyMTk0MzM4OjMzMmQ0ZmI3OWQ1ZTgwMDg4MDg2ZGU5YWMyOWYxN2I0YmFlMjM4MGU=",
+    "commit": {
+      "author": {
+        "name": "Sarah Roberts",
+        "email": "sarahr@cyverse.org",
+        "date": "2020-06-08T21:26:29Z"
+      },
+      "committer": {
+        "name": "Sarah Roberts",
+        "email": "sarahr@cyverse.org",
+        "date": "2020-06-08T21:26:29Z"
+      },
+      "message": "switch to node 13",
+      "tree": {
+        "sha": "b0bf76ff921eb6758d94d6ec4663c64683b629df",
+        "url": "https://api.github.com/repos/ash3rz/sonora/git/trees/b0bf76ff921eb6758d94d6ec4663c64683b629df"
+      },
+      "url": "https://api.github.com/repos/ash3rz/sonora/git/commits/332d4fb79d5e80088086de9ac29f17b4bae2380e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ash3rz/sonora/commits/332d4fb79d5e80088086de9ac29f17b4bae2380e",
+    "html_url": "https://github.com/ash3rz/sonora/commit/332d4fb79d5e80088086de9ac29f17b4bae2380e",
+    "comments_url": "https://api.github.com/repos/ash3rz/sonora/commits/332d4fb79d5e80088086de9ac29f17b4bae2380e/comments",
+    "author": {
+      "login": "slr71",
+      "id": 415143,
+      "node_id": "MDQ6VXNlcjQxNTE0Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/415143?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/slr71",
+      "html_url": "https://github.com/slr71",
+      "followers_url": "https://api.github.com/users/slr71/followers",
+      "following_url": "https://api.github.com/users/slr71/following{/other_user}",
+      "gists_url": "https://api.github.com/users/slr71/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/slr71/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/slr71/subscriptions",
+      "organizations_url": "https://api.github.com/users/slr71/orgs",
+      "repos_url": "https://api.github.com/users/slr71/repos",
+      "events_url": "https://api.github.com/users/slr71/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/slr71/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "slr71",
+      "id": 415143,
+      "node_id": "MDQ6VXNlcjQxNTE0Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/415143?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/slr71",
+      "html_url": "https://github.com/slr71",
+      "followers_url": "https://api.github.com/users/slr71/followers",
+      "following_url": "https://api.github.com/users/slr71/following{/other_user}",
+      "gists_url": "https://api.github.com/users/slr71/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/slr71/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/slr71/subscriptions",
+      "organizations_url": "https://api.github.com/users/slr71/orgs",
+      "repos_url": "https://api.github.com/users/slr71/repos",
+      "events_url": "https://api.github.com/users/slr71/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/slr71/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ef9300010998083ef80db5bd71c09437e82da5e2",
+        "url": "https://api.github.com/repos/ash3rz/sonora/commits/ef9300010998083ef80db5bd71c09437e82da5e2",
+        "html_url": "https://github.com/ash3rz/sonora/commit/ef9300010998083ef80db5bd71c09437e82da5e2"
+      }
+    ]
+  },
+  {
+    "sha": "ef9300010998083ef80db5bd71c09437e82da5e2",
+    "node_id": "MDY6Q29tbWl0MjMyMTk0MzM4OmVmOTMwMDAxMDk5ODA4M2VmODBkYjViZDcxYzA5NDM3ZTgyZGE1ZTI=",
+    "commit": {
+      "author": {
+        "name": "Sarah Roberts",
+        "email": "sarahr@cyverse.org",
+        "date": "2020-06-08T21:10:28Z"
+      },
+      "committer": {
+        "name": "Sarah Roberts",
+        "email": "sarahr@cyverse.org",
+        "date": "2020-06-08T21:10:28Z"
+      },
+      "message": "set the executable bit on the wrapper script",
+      "tree": {
+        "sha": "99dec5739d0e4888090acfd3bc3810df65864c55",
+        "url": "https://api.github.com/repos/ash3rz/sonora/git/trees/99dec5739d0e4888090acfd3bc3810df65864c55"
+      },
+      "url": "https://api.github.com/repos/ash3rz/sonora/git/commits/ef9300010998083ef80db5bd71c09437e82da5e2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ash3rz/sonora/commits/ef9300010998083ef80db5bd71c09437e82da5e2",
+    "html_url": "https://github.com/ash3rz/sonora/commit/ef9300010998083ef80db5bd71c09437e82da5e2",
+    "comments_url": "https://api.github.com/repos/ash3rz/sonora/commits/ef9300010998083ef80db5bd71c09437e82da5e2/comments",
+    "author": {
+      "login": "slr71",
+      "id": 415143,
+      "node_id": "MDQ6VXNlcjQxNTE0Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/415143?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/slr71",
+      "html_url": "https://github.com/slr71",
+      "followers_url": "https://api.github.com/users/slr71/followers",
+      "following_url": "https://api.github.com/users/slr71/following{/other_user}",
+      "gists_url": "https://api.github.com/users/slr71/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/slr71/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/slr71/subscriptions",
+      "organizations_url": "https://api.github.com/users/slr71/orgs",
+      "repos_url": "https://api.github.com/users/slr71/repos",
+      "events_url": "https://api.github.com/users/slr71/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/slr71/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "slr71",
+      "id": 415143,
+      "node_id": "MDQ6VXNlcjQxNTE0Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/415143?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/slr71",
+      "html_url": "https://github.com/slr71",
+      "followers_url": "https://api.github.com/users/slr71/followers",
+      "following_url": "https://api.github.com/users/slr71/following{/other_user}",
+      "gists_url": "https://api.github.com/users/slr71/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/slr71/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/slr71/subscriptions",
+      "organizations_url": "https://api.github.com/users/slr71/orgs",
+      "repos_url": "https://api.github.com/users/slr71/repos",
+      "events_url": "https://api.github.com/users/slr71/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/slr71/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d4eb42c7b7e5c8674a3efa4ef7b3286f34ebd85b",
+        "url": "https://api.github.com/repos/ash3rz/sonora/commits/d4eb42c7b7e5c8674a3efa4ef7b3286f34ebd85b",
+        "html_url": "https://github.com/ash3rz/sonora/commit/d4eb42c7b7e5c8674a3efa4ef7b3286f34ebd85b"
+      }
+    ]
+  },
+  {
+    "sha": "d4eb42c7b7e5c8674a3efa4ef7b3286f34ebd85b",
+    "node_id": "MDY6Q29tbWl0MjMyMTk0MzM4OmQ0ZWI0MmM3YjdlNWM4Njc0YTNlZmE0ZWY3YjMyODZmMzRlYmQ4NWI=",
+    "commit": {
+      "author": {
+        "name": "Sarah Roberts",
+        "email": "sarahr@cyverse.org",
+        "date": "2020-06-08T20:56:17Z"
+      },
+      "committer": {
+        "name": "Sarah Roberts",
+        "email": "sarahr@cyverse.org",
+        "date": "2020-06-08T20:56:36Z"
+      },
+      "message": "use a wrapper script to build the code with the config files present",
+      "tree": {
+        "sha": "f8caa91c3e9fb27929cde79a6617c672d9a95cf3",
+        "url": "https://api.github.com/repos/ash3rz/sonora/git/trees/f8caa91c3e9fb27929cde79a6617c672d9a95cf3"
+      },
+      "url": "https://api.github.com/repos/ash3rz/sonora/git/commits/d4eb42c7b7e5c8674a3efa4ef7b3286f34ebd85b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ash3rz/sonora/commits/d4eb42c7b7e5c8674a3efa4ef7b3286f34ebd85b",
+    "html_url": "https://github.com/ash3rz/sonora/commit/d4eb42c7b7e5c8674a3efa4ef7b3286f34ebd85b",
+    "comments_url": "https://api.github.com/repos/ash3rz/sonora/commits/d4eb42c7b7e5c8674a3efa4ef7b3286f34ebd85b/comments",
+    "author": {
+      "login": "slr71",
+      "id": 415143,
+      "node_id": "MDQ6VXNlcjQxNTE0Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/415143?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/slr71",
+      "html_url": "https://github.com/slr71",
+      "followers_url": "https://api.github.com/users/slr71/followers",
+      "following_url": "https://api.github.com/users/slr71/following{/other_user}",
+      "gists_url": "https://api.github.com/users/slr71/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/slr71/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/slr71/subscriptions",
+      "organizations_url": "https://api.github.com/users/slr71/orgs",
+      "repos_url": "https://api.github.com/users/slr71/repos",
+      "events_url": "https://api.github.com/users/slr71/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/slr71/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "slr71",
+      "id": 415143,
+      "node_id": "MDQ6VXNlcjQxNTE0Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/415143?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/slr71",
+      "html_url": "https://github.com/slr71",
+      "followers_url": "https://api.github.com/users/slr71/followers",
+      "following_url": "https://api.github.com/users/slr71/following{/other_user}",
+      "gists_url": "https://api.github.com/users/slr71/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/slr71/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/slr71/subscriptions",
+      "organizations_url": "https://api.github.com/users/slr71/orgs",
+      "repos_url": "https://api.github.com/users/slr71/repos",
+      "events_url": "https://api.github.com/users/slr71/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/slr71/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6554c9c0a522c03a832d24664e19b6c8dfa50800",
+        "url": "https://api.github.com/repos/ash3rz/sonora/commits/6554c9c0a522c03a832d24664e19b6c8dfa50800",
+        "html_url": "https://github.com/ash3rz/sonora/commit/6554c9c0a522c03a832d24664e19b6c8dfa50800"
+      }
+    ]
+  },
+  {
+    "sha": "ff1a0254f5a50bb2a934c0c9e9bcfa1bbd911dcf",
+    "node_id": "MDY6Q29tbWl0MjMyMTk0MzM4OmZmMWEwMjU0ZjVhNTBiYjJhOTM0YzBjOWU5YmNmYTFiYmQ5MTFkY2Y=",
+    "commit": {
+      "author": {
+        "name": "Ian McEwen",
+        "email": "mian@cyverse.org",
+        "date": "2020-06-05T02:37:39Z"
+      },
+      "committer": {
+        "name": "Ian McEwen",
+        "email": "mian@cyverse.org",
+        "date": "2020-06-05T02:37:39Z"
+      },
+      "message": "Use npm ci in Dockerfile for more reproducible builds",
+      "tree": {
+        "sha": "0fb3b1d5e1f8744d681920abd2c3f517312327be",
+        "url": "https://api.github.com/repos/ash3rz/sonora/git/trees/0fb3b1d5e1f8744d681920abd2c3f517312327be"
+      },
+      "url": "https://api.github.com/repos/ash3rz/sonora/git/commits/ff1a0254f5a50bb2a934c0c9e9bcfa1bbd911dcf",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "expired_key",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEETAo2xkeFon0s0KRp8MyKqcWF+JIFAl7Zr/MACgkQ8MyKqcWF\n+JKjvA/8CE7zWjMHIqXGTKSfofBqTLndJsocCHgRZbbxWs96VMPDp8w5Dh0DC46u\nevEsQVf448UjCcj8OnCdqK0T3HDIEEMo5PKYtRg0u/n3ZtJfnqNzrshuOPw5wcA1\nTofOCZtvCT/YLKCyahknKik8kjZBCBX66Rss/WcSnk2aMNJJhuseSEOIZHLazPNV\ntq68lEErd2QiffIe6R2knDi8Gy7gEJgv6FgggZ1zGhcNl37XE7wYNhdNMsOjrxlu\nSkXS6vf/Lw4EEiKd0jRizsIzzUNCI3vfcbg9wwMzolmHJcNIEXmvflEClFiPhNP1\nexvqwTsHdjE4In+0EA1uAAh88bIUZaVotnUZuZzueHEdmk4fc+FCpXAvomydPOvg\nbJVSfQ5pz0P/29zIoNMy0NNQTBxEjj5ckcnq+ICOQnoa4EsSnej6yw3JwHszgyB9\nU3xLrgWB2B2D1ciLuM6bve76NWw8q+dVRtmzcb8MGQePRbeKHSHG2UuxyKhgvnWQ\nBjoHoqORSukUCdESovQSGW0BZkE1bPclnglPrso+Gx59ogZQD0WXGRuWPO6N8H60\ndmTBj65BVYAocmoICNB3ptJ8ewncQx4BbkXgtfBAhixuGXt4Xx3CIDZuak9P+4nZ\nSLgsRpnEOCw/8AwFm3nYmEduBvgL1dwvKgsIW8JYL8tZkKT9jiw=\n=9win\n-----END PGP SIGNATURE-----",
+        "payload": "tree 0fb3b1d5e1f8744d681920abd2c3f517312327be\nparent 07752203172c2c1b75c3ec71e10ce9fbebc08a0d\nauthor Ian McEwen <mian@cyverse.org> 1591324659 -0700\ncommitter Ian McEwen <mian@cyverse.org> 1591324659 -0700\n\nUse npm ci in Dockerfile for more reproducible builds\n"
+      }
+    },
+    "url": "https://api.github.com/repos/ash3rz/sonora/commits/ff1a0254f5a50bb2a934c0c9e9bcfa1bbd911dcf",
+    "html_url": "https://github.com/ash3rz/sonora/commit/ff1a0254f5a50bb2a934c0c9e9bcfa1bbd911dcf",
+    "comments_url": "https://api.github.com/repos/ash3rz/sonora/commits/ff1a0254f5a50bb2a934c0c9e9bcfa1bbd911dcf/comments",
+    "author": {
+      "login": "ianmcorvidae",
+      "id": 106004,
+      "node_id": "MDQ6VXNlcjEwNjAwNA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106004?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ianmcorvidae",
+      "html_url": "https://github.com/ianmcorvidae",
+      "followers_url": "https://api.github.com/users/ianmcorvidae/followers",
+      "following_url": "https://api.github.com/users/ianmcorvidae/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ianmcorvidae/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ianmcorvidae/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ianmcorvidae/subscriptions",
+      "organizations_url": "https://api.github.com/users/ianmcorvidae/orgs",
+      "repos_url": "https://api.github.com/users/ianmcorvidae/repos",
+      "events_url": "https://api.github.com/users/ianmcorvidae/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ianmcorvidae/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ianmcorvidae",
+      "id": 106004,
+      "node_id": "MDQ6VXNlcjEwNjAwNA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106004?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ianmcorvidae",
+      "html_url": "https://github.com/ianmcorvidae",
+      "followers_url": "https://api.github.com/users/ianmcorvidae/followers",
+      "following_url": "https://api.github.com/users/ianmcorvidae/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ianmcorvidae/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ianmcorvidae/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ianmcorvidae/subscriptions",
+      "organizations_url": "https://api.github.com/users/ianmcorvidae/orgs",
+      "repos_url": "https://api.github.com/users/ianmcorvidae/repos",
+      "events_url": "https://api.github.com/users/ianmcorvidae/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ianmcorvidae/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "07752203172c2c1b75c3ec71e10ce9fbebc08a0d",
+        "url": "https://api.github.com/repos/ash3rz/sonora/commits/07752203172c2c1b75c3ec71e10ce9fbebc08a0d",
+        "html_url": "https://github.com/ash3rz/sonora/commit/07752203172c2c1b75c3ec71e10ce9fbebc08a0d"
+      }
+    ]
+  },
+  {
+    "sha": "52584255a9dacee9531b43c84e84810955b54645",
+    "node_id": "MDY6Q29tbWl0MjMyMTk0MzM4OjUyNTg0MjU1YTlkYWNlZTk1MzFiNDNjODRlODQ4MTA5NTViNTQ2NDU=",
+    "commit": {
+      "author": {
+        "name": "Ash",
+        "email": "asherz@email.arizona.edu",
+        "date": "2020-02-21T23:27:52Z"
+      },
+      "committer": {
+        "name": "Ash",
+        "email": "asherz@email.arizona.edu",
+        "date": "2020-02-21T23:27:52Z"
+      },
+      "message": "Remove unnecessary args in Dockerfile",
+      "tree": {
+        "sha": "a52996a34f68de8fa5b6fec65eda83ad634c41c5",
+        "url": "https://api.github.com/repos/ash3rz/sonora/git/trees/a52996a34f68de8fa5b6fec65eda83ad634c41c5"
+      },
+      "url": "https://api.github.com/repos/ash3rz/sonora/git/commits/52584255a9dacee9531b43c84e84810955b54645",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ash3rz/sonora/commits/52584255a9dacee9531b43c84e84810955b54645",
+    "html_url": "https://github.com/ash3rz/sonora/commit/52584255a9dacee9531b43c84e84810955b54645",
+    "comments_url": "https://api.github.com/repos/ash3rz/sonora/commits/52584255a9dacee9531b43c84e84810955b54645/comments",
+    "author": {
+      "login": "ash3rz",
+      "id": 8909156,
+      "node_id": "MDQ6VXNlcjg5MDkxNTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8909156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ash3rz",
+      "html_url": "https://github.com/ash3rz",
+      "followers_url": "https://api.github.com/users/ash3rz/followers",
+      "following_url": "https://api.github.com/users/ash3rz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ash3rz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ash3rz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ash3rz/subscriptions",
+      "organizations_url": "https://api.github.com/users/ash3rz/orgs",
+      "repos_url": "https://api.github.com/users/ash3rz/repos",
+      "events_url": "https://api.github.com/users/ash3rz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ash3rz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ash3rz",
+      "id": 8909156,
+      "node_id": "MDQ6VXNlcjg5MDkxNTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8909156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ash3rz",
+      "html_url": "https://github.com/ash3rz",
+      "followers_url": "https://api.github.com/users/ash3rz/followers",
+      "following_url": "https://api.github.com/users/ash3rz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ash3rz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ash3rz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ash3rz/subscriptions",
+      "organizations_url": "https://api.github.com/users/ash3rz/orgs",
+      "repos_url": "https://api.github.com/users/ash3rz/repos",
+      "events_url": "https://api.github.com/users/ash3rz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ash3rz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "887c929773d9520a2a02571173af89af35422af0",
+        "url": "https://api.github.com/repos/ash3rz/sonora/commits/887c929773d9520a2a02571173af89af35422af0",
+        "html_url": "https://github.com/ash3rz/sonora/commit/887c929773d9520a2a02571173af89af35422af0"
+      }
+    ]
+  },
+  {
+    "sha": "729bc2c0aa86ef548b1a924eeefc2da936425b00",
+    "node_id": "MDY6Q29tbWl0MjMyMTk0MzM4OjcyOWJjMmMwYWE4NmVmNTQ4YjFhOTI0ZWVlZmMyZGE5MzY0MjViMDA=",
+    "commit": {
+      "author": {
+        "name": "Ash",
+        "email": "asherz@email.arizona.edu",
+        "date": "2020-02-21T23:24:02Z"
+      },
+      "committer": {
+        "name": "Ash",
+        "email": "asherz@email.arizona.edu",
+        "date": "2020-02-21T23:24:02Z"
+      },
+      "message": "Remove unused labels from Dockerfile",
+      "tree": {
+        "sha": "443a37c7cad4a2049acb34aa6ed1f46a1470ebaf",
+        "url": "https://api.github.com/repos/ash3rz/sonora/git/trees/443a37c7cad4a2049acb34aa6ed1f46a1470ebaf"
+      },
+      "url": "https://api.github.com/repos/ash3rz/sonora/git/commits/729bc2c0aa86ef548b1a924eeefc2da936425b00",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ash3rz/sonora/commits/729bc2c0aa86ef548b1a924eeefc2da936425b00",
+    "html_url": "https://github.com/ash3rz/sonora/commit/729bc2c0aa86ef548b1a924eeefc2da936425b00",
+    "comments_url": "https://api.github.com/repos/ash3rz/sonora/commits/729bc2c0aa86ef548b1a924eeefc2da936425b00/comments",
+    "author": {
+      "login": "ash3rz",
+      "id": 8909156,
+      "node_id": "MDQ6VXNlcjg5MDkxNTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8909156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ash3rz",
+      "html_url": "https://github.com/ash3rz",
+      "followers_url": "https://api.github.com/users/ash3rz/followers",
+      "following_url": "https://api.github.com/users/ash3rz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ash3rz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ash3rz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ash3rz/subscriptions",
+      "organizations_url": "https://api.github.com/users/ash3rz/orgs",
+      "repos_url": "https://api.github.com/users/ash3rz/repos",
+      "events_url": "https://api.github.com/users/ash3rz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ash3rz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ash3rz",
+      "id": 8909156,
+      "node_id": "MDQ6VXNlcjg5MDkxNTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8909156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ash3rz",
+      "html_url": "https://github.com/ash3rz",
+      "followers_url": "https://api.github.com/users/ash3rz/followers",
+      "following_url": "https://api.github.com/users/ash3rz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ash3rz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ash3rz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ash3rz/subscriptions",
+      "organizations_url": "https://api.github.com/users/ash3rz/orgs",
+      "repos_url": "https://api.github.com/users/ash3rz/repos",
+      "events_url": "https://api.github.com/users/ash3rz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ash3rz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1e0e9eaddc4aacfa4dfb545f352f946abf8fea8a",
+        "url": "https://api.github.com/repos/ash3rz/sonora/commits/1e0e9eaddc4aacfa4dfb545f352f946abf8fea8a",
+        "html_url": "https://github.com/ash3rz/sonora/commit/1e0e9eaddc4aacfa4dfb545f352f946abf8fea8a"
+      }
+    ]
+  },
+  {
+    "sha": "8465b6fe5ae9303a335e30beeb5920121db0faa5",
+    "node_id": "MDY6Q29tbWl0MjMyMTk0MzM4Ojg0NjViNmZlNWFlOTMwM2EzMzVlMzBiZWViNTkyMDEyMWRiMGZhYTU=",
+    "commit": {
+      "author": {
+        "name": "Ash",
+        "email": "asherz@email.arizona.edu",
+        "date": "2020-02-20T22:45:17Z"
+      },
+      "committer": {
+        "name": "Ash",
+        "email": "asherz@email.arizona.edu",
+        "date": "2020-02-21T23:08:06Z"
+      },
+      "message": "Add Dockerfile",
+      "tree": {
+        "sha": "10d32c6ae579109075ddac5dd6ac8393f09f5c7a",
+        "url": "https://api.github.com/repos/ash3rz/sonora/git/trees/10d32c6ae579109075ddac5dd6ac8393f09f5c7a"
+      },
+      "url": "https://api.github.com/repos/ash3rz/sonora/git/commits/8465b6fe5ae9303a335e30beeb5920121db0faa5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ash3rz/sonora/commits/8465b6fe5ae9303a335e30beeb5920121db0faa5",
+    "html_url": "https://github.com/ash3rz/sonora/commit/8465b6fe5ae9303a335e30beeb5920121db0faa5",
+    "comments_url": "https://api.github.com/repos/ash3rz/sonora/commits/8465b6fe5ae9303a335e30beeb5920121db0faa5/comments",
+    "author": {
+      "login": "ash3rz",
+      "id": 8909156,
+      "node_id": "MDQ6VXNlcjg5MDkxNTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8909156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ash3rz",
+      "html_url": "https://github.com/ash3rz",
+      "followers_url": "https://api.github.com/users/ash3rz/followers",
+      "following_url": "https://api.github.com/users/ash3rz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ash3rz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ash3rz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ash3rz/subscriptions",
+      "organizations_url": "https://api.github.com/users/ash3rz/orgs",
+      "repos_url": "https://api.github.com/users/ash3rz/repos",
+      "events_url": "https://api.github.com/users/ash3rz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ash3rz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ash3rz",
+      "id": 8909156,
+      "node_id": "MDQ6VXNlcjg5MDkxNTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8909156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ash3rz",
+      "html_url": "https://github.com/ash3rz",
+      "followers_url": "https://api.github.com/users/ash3rz/followers",
+      "following_url": "https://api.github.com/users/ash3rz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ash3rz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ash3rz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ash3rz/subscriptions",
+      "organizations_url": "https://api.github.com/users/ash3rz/orgs",
+      "repos_url": "https://api.github.com/users/ash3rz/repos",
+      "events_url": "https://api.github.com/users/ash3rz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ash3rz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6c002916581d167da002de0f2a3263efcef3c892",
+        "url": "https://api.github.com/repos/ash3rz/sonora/commits/6c002916581d167da002de0f2a3263efcef3c892",
+        "html_url": "https://github.com/ash3rz/sonora/commit/6c002916581d167da002de0f2a3263efcef3c892"
+      }
+    ]
+  }
+]

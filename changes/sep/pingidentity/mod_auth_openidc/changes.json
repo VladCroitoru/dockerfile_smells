@@ -1,0 +1,81 @@
+[
+  {
+    "sha": "160a7f2ab3e610ea5b18368ee7c09c89c55bad2b",
+    "node_id": "C_kwDOARWE9NoAKDE2MGE3ZjJhYjNlNjEwZWE1YjE4MzY4ZWU3YzA5Yzg5YzU1YmFkMmI",
+    "commit": {
+      "author": {
+        "name": "Hans Zandbelt",
+        "email": "hans.zandbelt@zmartzone.eu",
+        "date": "2022-02-01T22:50:51Z"
+      },
+      "committer": {
+        "name": "Hans Zandbelt",
+        "email": "hans.zandbelt@zmartzone.eu",
+        "date": "2022-02-01T22:50:51Z"
+      },
+      "message": "add docker-compose jmeter testing\n\nSigned-off-by: Hans Zandbelt <hans.zandbelt@zmartzone.eu>",
+      "tree": {
+        "sha": "fcb87c7324715fccc42d8911dd4e654f6ef946a3",
+        "url": "https://api.github.com/repos/zmartzone/mod_auth_openidc/git/trees/fcb87c7324715fccc42d8911dd4e654f6ef946a3"
+      },
+      "url": "https://api.github.com/repos/zmartzone/mod_auth_openidc/git/commits/160a7f2ab3e610ea5b18368ee7c09c89c55bad2b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/zmartzone/mod_auth_openidc/commits/160a7f2ab3e610ea5b18368ee7c09c89c55bad2b",
+    "html_url": "https://github.com/zmartzone/mod_auth_openidc/commit/160a7f2ab3e610ea5b18368ee7c09c89c55bad2b",
+    "comments_url": "https://api.github.com/repos/zmartzone/mod_auth_openidc/commits/160a7f2ab3e610ea5b18368ee7c09c89c55bad2b/comments",
+    "author": {
+      "login": "zandbelt",
+      "id": 2339879,
+      "node_id": "MDQ6VXNlcjIzMzk4Nzk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2339879?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zandbelt",
+      "html_url": "https://github.com/zandbelt",
+      "followers_url": "https://api.github.com/users/zandbelt/followers",
+      "following_url": "https://api.github.com/users/zandbelt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zandbelt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zandbelt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zandbelt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zandbelt/orgs",
+      "repos_url": "https://api.github.com/users/zandbelt/repos",
+      "events_url": "https://api.github.com/users/zandbelt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zandbelt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "zandbelt",
+      "id": 2339879,
+      "node_id": "MDQ6VXNlcjIzMzk4Nzk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2339879?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zandbelt",
+      "html_url": "https://github.com/zandbelt",
+      "followers_url": "https://api.github.com/users/zandbelt/followers",
+      "following_url": "https://api.github.com/users/zandbelt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zandbelt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zandbelt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zandbelt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zandbelt/orgs",
+      "repos_url": "https://api.github.com/users/zandbelt/repos",
+      "events_url": "https://api.github.com/users/zandbelt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zandbelt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5131a4660a6026bd670dd40bd367801240d023d9",
+        "url": "https://api.github.com/repos/zmartzone/mod_auth_openidc/commits/5131a4660a6026bd670dd40bd367801240d023d9",
+        "html_url": "https://github.com/zmartzone/mod_auth_openidc/commit/5131a4660a6026bd670dd40bd367801240d023d9"
+      }
+    ]
+  }
+]

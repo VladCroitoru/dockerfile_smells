@@ -1,0 +1,318 @@
+[
+  {
+    "sha": "a01164adbc518627d0ee8e5c655c7dfd6e922de7",
+    "node_id": "MDY6Q29tbWl0MjExMjAyNTk6YTAxMTY0YWRiYzUxODYyN2QwZWU4ZTVjNjU1YzdkZmQ2ZTkyMmRlNw==",
+    "commit": {
+      "author": {
+        "name": "Diego Rodriguez",
+        "email": "diego.rodriguez@cern.ch",
+        "date": "2021-01-05T15:03:29Z"
+      },
+      "committer": {
+        "name": "Diego Rodriguez",
+        "email": "diego.rodriguez@cern.ch",
+        "date": "2021-01-11T15:40:03Z"
+      },
+      "message": "installation: ssl config and secure headers\n\n* Close #2980.",
+      "tree": {
+        "sha": "8826bbdf6d90c9827fcd468f08c4fa0e4635c54a",
+        "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/git/trees/8826bbdf6d90c9827fcd468f08c4fa0e4635c54a"
+      },
+      "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/git/commits/a01164adbc518627d0ee8e5c655c7dfd6e922de7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/commits/a01164adbc518627d0ee8e5c655c7dfd6e922de7",
+    "html_url": "https://github.com/cernopendata/opendata.cern.ch/commit/a01164adbc518627d0ee8e5c655c7dfd6e922de7",
+    "comments_url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/commits/a01164adbc518627d0ee8e5c655c7dfd6e922de7/comments",
+    "author": {
+      "login": "diegodelemos",
+      "id": 9035606,
+      "node_id": "MDQ6VXNlcjkwMzU2MDY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9035606?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/diegodelemos",
+      "html_url": "https://github.com/diegodelemos",
+      "followers_url": "https://api.github.com/users/diegodelemos/followers",
+      "following_url": "https://api.github.com/users/diegodelemos/following{/other_user}",
+      "gists_url": "https://api.github.com/users/diegodelemos/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/diegodelemos/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/diegodelemos/subscriptions",
+      "organizations_url": "https://api.github.com/users/diegodelemos/orgs",
+      "repos_url": "https://api.github.com/users/diegodelemos/repos",
+      "events_url": "https://api.github.com/users/diegodelemos/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/diegodelemos/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "diegodelemos",
+      "id": 9035606,
+      "node_id": "MDQ6VXNlcjkwMzU2MDY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9035606?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/diegodelemos",
+      "html_url": "https://github.com/diegodelemos",
+      "followers_url": "https://api.github.com/users/diegodelemos/followers",
+      "following_url": "https://api.github.com/users/diegodelemos/following{/other_user}",
+      "gists_url": "https://api.github.com/users/diegodelemos/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/diegodelemos/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/diegodelemos/subscriptions",
+      "organizations_url": "https://api.github.com/users/diegodelemos/orgs",
+      "repos_url": "https://api.github.com/users/diegodelemos/repos",
+      "events_url": "https://api.github.com/users/diegodelemos/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/diegodelemos/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ab698c7ab152e20b456c5c134a704b247d5905d9",
+        "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/commits/ab698c7ab152e20b456c5c134a704b247d5905d9",
+        "html_url": "https://github.com/cernopendata/opendata.cern.ch/commit/ab698c7ab152e20b456c5c134a704b247d5905d9"
+      }
+    ]
+  },
+  {
+    "sha": "2159d2dd32a03da821bd27441ab34a7a6350173d",
+    "node_id": "MDY6Q29tbWl0MjExMjAyNTk6MjE1OWQyZGQzMmEwM2RhODIxYmQyNzQ0MWFiMzRhN2E2MzUwMTczZA==",
+    "commit": {
+      "author": {
+        "name": "Harri Hirvonsalo",
+        "email": "harri.hirvonsalo@cern.ch",
+        "date": "2017-12-12T18:36:15Z"
+      },
+      "committer": {
+        "name": "Harri Hirvonsalo",
+        "email": "harri.hirvonsalo@cern.ch",
+        "date": "2017-12-12T18:36:15Z"
+      },
+      "message": "installation: dev friendly docker deployment\n\n* Add a docker-compose-dev.yml that handles development\n  friendly docker deployment of cernopendata.\n  (Turns off nginx-caching, sets DEBUG environment variable, etc.)\n  Use `docker-compose -f docker-compose-dev.yml up` to run.\n* Update docker-compose.yml to represent a production-like\n  deployment of opendata.cern.ch.\n  (closes #1769)\n\nSigned-off-by: Harri Hirvonsalo <harri.hirvonsalo@cern.ch>",
+      "tree": {
+        "sha": "915fffe7a5298b6f2328af3b2e406b137f1fabbf",
+        "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/git/trees/915fffe7a5298b6f2328af3b2e406b137f1fabbf"
+      },
+      "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/git/commits/2159d2dd32a03da821bd27441ab34a7a6350173d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/commits/2159d2dd32a03da821bd27441ab34a7a6350173d",
+    "html_url": "https://github.com/cernopendata/opendata.cern.ch/commit/2159d2dd32a03da821bd27441ab34a7a6350173d",
+    "comments_url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/commits/2159d2dd32a03da821bd27441ab34a7a6350173d/comments",
+    "author": {
+      "login": "hjhsalo",
+      "id": 9445833,
+      "node_id": "MDQ6VXNlcjk0NDU4MzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9445833?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hjhsalo",
+      "html_url": "https://github.com/hjhsalo",
+      "followers_url": "https://api.github.com/users/hjhsalo/followers",
+      "following_url": "https://api.github.com/users/hjhsalo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hjhsalo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hjhsalo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hjhsalo/subscriptions",
+      "organizations_url": "https://api.github.com/users/hjhsalo/orgs",
+      "repos_url": "https://api.github.com/users/hjhsalo/repos",
+      "events_url": "https://api.github.com/users/hjhsalo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hjhsalo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "hjhsalo",
+      "id": 9445833,
+      "node_id": "MDQ6VXNlcjk0NDU4MzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9445833?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hjhsalo",
+      "html_url": "https://github.com/hjhsalo",
+      "followers_url": "https://api.github.com/users/hjhsalo/followers",
+      "following_url": "https://api.github.com/users/hjhsalo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hjhsalo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hjhsalo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hjhsalo/subscriptions",
+      "organizations_url": "https://api.github.com/users/hjhsalo/orgs",
+      "repos_url": "https://api.github.com/users/hjhsalo/repos",
+      "events_url": "https://api.github.com/users/hjhsalo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hjhsalo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2cd69f705590bdd80bf26b438445d5a035d61cfd",
+        "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/commits/2cd69f705590bdd80bf26b438445d5a035d61cfd",
+        "html_url": "https://github.com/cernopendata/opendata.cern.ch/commit/2cd69f705590bdd80bf26b438445d5a035d61cfd"
+      }
+    ]
+  },
+  {
+    "sha": "8153b1ea59201a9150f9f57bfbf0c7f23d1c39b0",
+    "node_id": "MDY6Q29tbWl0MjExMjAyNTk6ODE1M2IxZWE1OTIwMWE5MTUwZjlmNTdiZmJmMGM3ZjIzZDFjMzliMA==",
+    "commit": {
+      "author": {
+        "name": "Harri Hirvonsalo",
+        "email": "harri.hirvonsalo@cern.ch",
+        "date": "2017-11-15T08:12:08Z"
+      },
+      "committer": {
+        "name": "Harri Hirvonsalo",
+        "email": "harri.hirvonsalo@cern.ch",
+        "date": "2017-11-16T10:30:40Z"
+      },
+      "message": "nginx: rewrite non-lowercase URLs to lowercase\n\n* Rewrite non-lowercase URLs to lowercase.\n  Supports excluding of specific path(s) from lowercasing.\n  Doesn't update URL displayed in browser.\n* Currently URLs starting with `/files/`, `/record/`, `/static/`\n  and `/eos/` are not lowercased.\n  (closes #1664)\n\nSigned-off-by: Harri Hirvonsalo <harri.hirvonsalo@cern.ch>",
+      "tree": {
+        "sha": "2f9d798102a08833719bb1f1c6164316d991762e",
+        "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/git/trees/2f9d798102a08833719bb1f1c6164316d991762e"
+      },
+      "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/git/commits/8153b1ea59201a9150f9f57bfbf0c7f23d1c39b0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/commits/8153b1ea59201a9150f9f57bfbf0c7f23d1c39b0",
+    "html_url": "https://github.com/cernopendata/opendata.cern.ch/commit/8153b1ea59201a9150f9f57bfbf0c7f23d1c39b0",
+    "comments_url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/commits/8153b1ea59201a9150f9f57bfbf0c7f23d1c39b0/comments",
+    "author": {
+      "login": "hjhsalo",
+      "id": 9445833,
+      "node_id": "MDQ6VXNlcjk0NDU4MzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9445833?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hjhsalo",
+      "html_url": "https://github.com/hjhsalo",
+      "followers_url": "https://api.github.com/users/hjhsalo/followers",
+      "following_url": "https://api.github.com/users/hjhsalo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hjhsalo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hjhsalo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hjhsalo/subscriptions",
+      "organizations_url": "https://api.github.com/users/hjhsalo/orgs",
+      "repos_url": "https://api.github.com/users/hjhsalo/repos",
+      "events_url": "https://api.github.com/users/hjhsalo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hjhsalo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "hjhsalo",
+      "id": 9445833,
+      "node_id": "MDQ6VXNlcjk0NDU4MzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9445833?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hjhsalo",
+      "html_url": "https://github.com/hjhsalo",
+      "followers_url": "https://api.github.com/users/hjhsalo/followers",
+      "following_url": "https://api.github.com/users/hjhsalo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hjhsalo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hjhsalo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hjhsalo/subscriptions",
+      "organizations_url": "https://api.github.com/users/hjhsalo/orgs",
+      "repos_url": "https://api.github.com/users/hjhsalo/repos",
+      "events_url": "https://api.github.com/users/hjhsalo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hjhsalo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6bdbbf88054227a90d8db7d42edae64eb0ca9c87",
+        "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/commits/6bdbbf88054227a90d8db7d42edae64eb0ca9c87",
+        "html_url": "https://github.com/cernopendata/opendata.cern.ch/commit/6bdbbf88054227a90d8db7d42edae64eb0ca9c87"
+      }
+    ]
+  },
+  {
+    "sha": "3bc13b40fcb852d4e8add1251b9fd295b7beae28",
+    "node_id": "MDY6Q29tbWl0MjExMjAyNTk6M2JjMTNiNDBmY2I4NTJkNGU4YWRkMTI1MWI5ZmQyOTViN2JlYWUyOA==",
+    "commit": {
+      "author": {
+        "name": "Jiri Kuncar",
+        "email": "jiri.kuncar@cern.ch",
+        "date": "2016-03-27T12:23:16Z"
+      },
+      "committer": {
+        "name": "Tibor Simko",
+        "email": "tibor.simko@cern.ch",
+        "date": "2017-08-29T12:39:59Z"
+      },
+      "message": "global: initial refactoring for Invenio 3\n\nSigned-off-by: Jiri Kuncar <jiri.kuncar@cern.ch>",
+      "tree": {
+        "sha": "d3f1ea2d86802118e8ef99014131a2fa151f71b5",
+        "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/git/trees/d3f1ea2d86802118e8ef99014131a2fa151f71b5"
+      },
+      "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/git/commits/3bc13b40fcb852d4e8add1251b9fd295b7beae28",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/commits/3bc13b40fcb852d4e8add1251b9fd295b7beae28",
+    "html_url": "https://github.com/cernopendata/opendata.cern.ch/commit/3bc13b40fcb852d4e8add1251b9fd295b7beae28",
+    "comments_url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/commits/3bc13b40fcb852d4e8add1251b9fd295b7beae28/comments",
+    "author": {
+      "login": "jirikuncar",
+      "id": 189798,
+      "node_id": "MDQ6VXNlcjE4OTc5OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/189798?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jirikuncar",
+      "html_url": "https://github.com/jirikuncar",
+      "followers_url": "https://api.github.com/users/jirikuncar/followers",
+      "following_url": "https://api.github.com/users/jirikuncar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jirikuncar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jirikuncar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jirikuncar/subscriptions",
+      "organizations_url": "https://api.github.com/users/jirikuncar/orgs",
+      "repos_url": "https://api.github.com/users/jirikuncar/repos",
+      "events_url": "https://api.github.com/users/jirikuncar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jirikuncar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tiborsimko",
+      "id": 517546,
+      "node_id": "MDQ6VXNlcjUxNzU0Ng==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/517546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tiborsimko",
+      "html_url": "https://github.com/tiborsimko",
+      "followers_url": "https://api.github.com/users/tiborsimko/followers",
+      "following_url": "https://api.github.com/users/tiborsimko/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tiborsimko/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tiborsimko/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tiborsimko/subscriptions",
+      "organizations_url": "https://api.github.com/users/tiborsimko/orgs",
+      "repos_url": "https://api.github.com/users/tiborsimko/repos",
+      "events_url": "https://api.github.com/users/tiborsimko/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tiborsimko/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6921afbb570e4a0e329afbbc2871aadb26370ae3",
+        "url": "https://api.github.com/repos/cernopendata/opendata.cern.ch/commits/6921afbb570e4a0e329afbbc2871aadb26370ae3",
+        "html_url": "https://github.com/cernopendata/opendata.cern.ch/commit/6921afbb570e4a0e329afbbc2871aadb26370ae3"
+      }
+    ]
+  }
+]

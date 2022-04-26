@@ -1,0 +1,1582 @@
+[
+  {
+    "sha": "c7939d50dcb5a37dde750da1b4f9c3b9f4c169e5",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6Yzc5MzlkNTBkY2I1YTM3ZGRlNzUwZGExYjRmOWMzYjlmNGMxNjllNQ==",
+    "commit": {
+      "author": {
+        "name": "Nitesh Turaga",
+        "email": "nitesh.turaga@gmail.com",
+        "date": "2020-01-16T14:39:53Z"
+      },
+      "committer": {
+        "name": "Nitesh Turaga",
+        "email": "nitesh.turaga@gmail.com",
+        "date": "2020-01-16T14:39:53Z"
+      },
+      "message": "Deprecation of Docker images in favor of\n\ngithub.com/bioconductor/bioconductor_docker.\n\nThese images will be supported till Release 3.11 of Bioconductor, but we\nrecommend users transition to the new docker images.",
+      "tree": {
+        "sha": "7c5a471d234ee201256e2c5ae4dc8f7054f2698f",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/7c5a471d234ee201256e2c5ae4dc8f7054f2698f"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/c7939d50dcb5a37dde750da1b4f9c3b9f4c169e5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/c7939d50dcb5a37dde750da1b4f9c3b9f4c169e5",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/c7939d50dcb5a37dde750da1b4f9c3b9f4c169e5",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/c7939d50dcb5a37dde750da1b4f9c3b9f4c169e5/comments",
+    "author": {
+      "login": "nturaga",
+      "id": 2746443,
+      "node_id": "MDQ6VXNlcjI3NDY0NDM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2746443?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nturaga",
+      "html_url": "https://github.com/nturaga",
+      "followers_url": "https://api.github.com/users/nturaga/followers",
+      "following_url": "https://api.github.com/users/nturaga/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nturaga/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nturaga/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nturaga/subscriptions",
+      "organizations_url": "https://api.github.com/users/nturaga/orgs",
+      "repos_url": "https://api.github.com/users/nturaga/repos",
+      "events_url": "https://api.github.com/users/nturaga/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nturaga/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "nturaga",
+      "id": 2746443,
+      "node_id": "MDQ6VXNlcjI3NDY0NDM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2746443?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nturaga",
+      "html_url": "https://github.com/nturaga",
+      "followers_url": "https://api.github.com/users/nturaga/followers",
+      "following_url": "https://api.github.com/users/nturaga/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nturaga/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nturaga/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nturaga/subscriptions",
+      "organizations_url": "https://api.github.com/users/nturaga/orgs",
+      "repos_url": "https://api.github.com/users/nturaga/repos",
+      "events_url": "https://api.github.com/users/nturaga/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nturaga/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f06ebca06c29822610ea85a6eea0ecf9ca898d10",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/f06ebca06c29822610ea85a6eea0ecf9ca898d10",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/f06ebca06c29822610ea85a6eea0ecf9ca898d10"
+      }
+    ]
+  },
+  {
+    "sha": "8987fdef4bd062716dcd5a4a7ff9174620679b48",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6ODk4N2ZkZWY0YmQwNjI3MTZkY2Q1YTRhN2ZmOTE3NDYyMDY3OWI0OA==",
+    "commit": {
+      "author": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2019-05-06T19:43:45Z"
+      },
+      "committer": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2019-05-06T19:43:45Z"
+      },
+      "message": "Change R version for devel_* to R-3.6.0",
+      "tree": {
+        "sha": "c81aa2ffdf1d6e57db804a3bb0b77b0911e964fa",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/c81aa2ffdf1d6e57db804a3bb0b77b0911e964fa"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/8987fdef4bd062716dcd5a4a7ff9174620679b48",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/8987fdef4bd062716dcd5a4a7ff9174620679b48",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/8987fdef4bd062716dcd5a4a7ff9174620679b48",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/8987fdef4bd062716dcd5a4a7ff9174620679b48/comments",
+    "author": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7eb97a6609a5e831d625708d3dde171d982f8b5a",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/7eb97a6609a5e831d625708d3dde171d982f8b5a",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/7eb97a6609a5e831d625708d3dde171d982f8b5a"
+      }
+    ]
+  },
+  {
+    "sha": "7eb97a6609a5e831d625708d3dde171d982f8b5a",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6N2ViOTdhNjYwOWE1ZTgzMWQ2MjU3MDhkM2RkZTE3MWQ5ODJmOGI1YQ==",
+    "commit": {
+      "author": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2019-05-04T21:57:57Z"
+      },
+      "committer": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2019-05-04T21:57:57Z"
+      },
+      "message": "Add TK dependency in metabolomics, disable Rchemcpp in proteomics",
+      "tree": {
+        "sha": "9cde94e939cdb0310e14c3f3b055c0a5b924ea62",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/9cde94e939cdb0310e14c3f3b055c0a5b924ea62"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/7eb97a6609a5e831d625708d3dde171d982f8b5a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/7eb97a6609a5e831d625708d3dde171d982f8b5a",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/7eb97a6609a5e831d625708d3dde171d982f8b5a",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/7eb97a6609a5e831d625708d3dde171d982f8b5a/comments",
+    "author": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a5a412472d0c22ae0f98d3b89e7e62d057fbfb78",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/a5a412472d0c22ae0f98d3b89e7e62d057fbfb78",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/a5a412472d0c22ae0f98d3b89e7e62d057fbfb78"
+      }
+    ]
+  },
+  {
+    "sha": "a5a412472d0c22ae0f98d3b89e7e62d057fbfb78",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6YTVhNDEyNDcyZDBjMjJhZTBmOThkM2I4OWU3ZTYyZDA1N2ZiZmI3OA==",
+    "commit": {
+      "author": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2019-05-04T21:33:31Z"
+      },
+      "committer": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2019-05-04T21:33:31Z"
+      },
+      "message": "Add TCL dependency in metabolomics",
+      "tree": {
+        "sha": "4455f388fca4828c0970f6e2819308cdb154dc7c",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/4455f388fca4828c0970f6e2819308cdb154dc7c"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/a5a412472d0c22ae0f98d3b89e7e62d057fbfb78",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/a5a412472d0c22ae0f98d3b89e7e62d057fbfb78",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/a5a412472d0c22ae0f98d3b89e7e62d057fbfb78",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/a5a412472d0c22ae0f98d3b89e7e62d057fbfb78/comments",
+    "author": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1d4b60ead0fe534e7f8bc0a7f4ee06805b8faaa1",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/1d4b60ead0fe534e7f8bc0a7f4ee06805b8faaa1",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/1d4b60ead0fe534e7f8bc0a7f4ee06805b8faaa1"
+      }
+    ]
+  },
+  {
+    "sha": "667ee1507d582b290ae8b9224bbb562109a0c8a6",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6NjY3ZWUxNTA3ZDU4MmIyOTBhZThiOTIyNGJiYjU2MjEwOWEwYzhhNg==",
+    "commit": {
+      "author": {
+        "name": "lshep",
+        "email": "lori.shepherd@roswellpark.org",
+        "date": "2019-04-16T12:53:15Z"
+      },
+      "committer": {
+        "name": "lshep",
+        "email": "lori.shepherd@roswellpark.org",
+        "date": "2019-04-16T12:53:15Z"
+      },
+      "message": "Update out files for OpenBable environment variables",
+      "tree": {
+        "sha": "a62bdb5f2df557bfa72178e6a26961571ace48f6",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/a62bdb5f2df557bfa72178e6a26961571ace48f6"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/667ee1507d582b290ae8b9224bbb562109a0c8a6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/667ee1507d582b290ae8b9224bbb562109a0c8a6",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/667ee1507d582b290ae8b9224bbb562109a0c8a6",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/667ee1507d582b290ae8b9224bbb562109a0c8a6/comments",
+    "author": {
+      "login": "lshep",
+      "id": 18724380,
+      "node_id": "MDQ6VXNlcjE4NzI0Mzgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18724380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lshep",
+      "html_url": "https://github.com/lshep",
+      "followers_url": "https://api.github.com/users/lshep/followers",
+      "following_url": "https://api.github.com/users/lshep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lshep/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lshep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lshep/subscriptions",
+      "organizations_url": "https://api.github.com/users/lshep/orgs",
+      "repos_url": "https://api.github.com/users/lshep/repos",
+      "events_url": "https://api.github.com/users/lshep/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lshep/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lshep",
+      "id": 18724380,
+      "node_id": "MDQ6VXNlcjE4NzI0Mzgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18724380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lshep",
+      "html_url": "https://github.com/lshep",
+      "followers_url": "https://api.github.com/users/lshep/followers",
+      "following_url": "https://api.github.com/users/lshep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lshep/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lshep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lshep/subscriptions",
+      "organizations_url": "https://api.github.com/users/lshep/orgs",
+      "repos_url": "https://api.github.com/users/lshep/repos",
+      "events_url": "https://api.github.com/users/lshep/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lshep/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e28f9b385dff15a2384bc8e71e73a8a5bcfe89f0",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/e28f9b385dff15a2384bc8e71e73a8a5bcfe89f0",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/e28f9b385dff15a2384bc8e71e73a8a5bcfe89f0"
+      }
+    ]
+  },
+  {
+    "sha": "6ab6a8897c24194a69067ab02999ce3d5b8f7e73",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6NmFiNmE4ODk3YzI0MTk0YTY5MDY3YWIwMjk5OWNlM2Q1YjhmN2U3Mw==",
+    "commit": {
+      "author": {
+        "name": "lshep",
+        "email": "lori.shepherd@roswellpark.org",
+        "date": "2019-04-02T11:46:44Z"
+      },
+      "committer": {
+        "name": "lshep",
+        "email": "lori.shepherd@roswellpark.org",
+        "date": "2019-04-02T11:46:44Z"
+      },
+      "message": "Raked the new changes to proteomics and metabolmics repos.",
+      "tree": {
+        "sha": "eb9134d27844f136ef18d3ede6b048b5fb3104d0",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/eb9134d27844f136ef18d3ede6b048b5fb3104d0"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/6ab6a8897c24194a69067ab02999ce3d5b8f7e73",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/6ab6a8897c24194a69067ab02999ce3d5b8f7e73",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/6ab6a8897c24194a69067ab02999ce3d5b8f7e73",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/6ab6a8897c24194a69067ab02999ce3d5b8f7e73/comments",
+    "author": {
+      "login": "lshep",
+      "id": 18724380,
+      "node_id": "MDQ6VXNlcjE4NzI0Mzgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18724380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lshep",
+      "html_url": "https://github.com/lshep",
+      "followers_url": "https://api.github.com/users/lshep/followers",
+      "following_url": "https://api.github.com/users/lshep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lshep/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lshep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lshep/subscriptions",
+      "organizations_url": "https://api.github.com/users/lshep/orgs",
+      "repos_url": "https://api.github.com/users/lshep/repos",
+      "events_url": "https://api.github.com/users/lshep/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lshep/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lshep",
+      "id": 18724380,
+      "node_id": "MDQ6VXNlcjE4NzI0Mzgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18724380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lshep",
+      "html_url": "https://github.com/lshep",
+      "followers_url": "https://api.github.com/users/lshep/followers",
+      "following_url": "https://api.github.com/users/lshep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lshep/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lshep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lshep/subscriptions",
+      "organizations_url": "https://api.github.com/users/lshep/orgs",
+      "repos_url": "https://api.github.com/users/lshep/repos",
+      "events_url": "https://api.github.com/users/lshep/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lshep/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "21ca11c58aa96bf791baf13f91d34de37d82acc5",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/21ca11c58aa96bf791baf13f91d34de37d82acc5",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/21ca11c58aa96bf791baf13f91d34de37d82acc5"
+      }
+    ]
+  },
+  {
+    "sha": "b595a96053e4520e5d0cadf7bebd125d5196d1f7",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6YjU5NWE5NjA1M2U0NTIwZTVkMGNhZGY3YmViZDEyNWQ1MTk2ZDFmNw==",
+    "commit": {
+      "author": {
+        "name": "lshep",
+        "email": "lori.shepherd@roswellpark.org",
+        "date": "2019-01-03T12:41:19Z"
+      },
+      "committer": {
+        "name": "lshep",
+        "email": "lori.shepherd@roswellpark.org",
+        "date": "2019-01-03T12:41:19Z"
+      },
+      "message": "Update release R to 3.5.2",
+      "tree": {
+        "sha": "94deb4a4d8d32d8f745c1def898e40311f162f67",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/94deb4a4d8d32d8f745c1def898e40311f162f67"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/b595a96053e4520e5d0cadf7bebd125d5196d1f7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/b595a96053e4520e5d0cadf7bebd125d5196d1f7",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/b595a96053e4520e5d0cadf7bebd125d5196d1f7",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/b595a96053e4520e5d0cadf7bebd125d5196d1f7/comments",
+    "author": {
+      "login": "lshep",
+      "id": 18724380,
+      "node_id": "MDQ6VXNlcjE4NzI0Mzgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18724380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lshep",
+      "html_url": "https://github.com/lshep",
+      "followers_url": "https://api.github.com/users/lshep/followers",
+      "following_url": "https://api.github.com/users/lshep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lshep/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lshep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lshep/subscriptions",
+      "organizations_url": "https://api.github.com/users/lshep/orgs",
+      "repos_url": "https://api.github.com/users/lshep/repos",
+      "events_url": "https://api.github.com/users/lshep/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lshep/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lshep",
+      "id": 18724380,
+      "node_id": "MDQ6VXNlcjE4NzI0Mzgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18724380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lshep",
+      "html_url": "https://github.com/lshep",
+      "followers_url": "https://api.github.com/users/lshep/followers",
+      "following_url": "https://api.github.com/users/lshep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lshep/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lshep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lshep/subscriptions",
+      "organizations_url": "https://api.github.com/users/lshep/orgs",
+      "repos_url": "https://api.github.com/users/lshep/repos",
+      "events_url": "https://api.github.com/users/lshep/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lshep/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bb047f87093216f91f5e8df7712c732d5d9a4a1d",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/bb047f87093216f91f5e8df7712c732d5d9a4a1d",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/bb047f87093216f91f5e8df7712c732d5d9a4a1d"
+      }
+    ]
+  },
+  {
+    "sha": "b9ab232b03e9793186b251f592639de9281da722",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6YjlhYjIzMmIwM2U5NzkzMTg2YjI1MWY1OTI2MzlkZTkyODFkYTcyMg==",
+    "commit": {
+      "author": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2017-01-29T13:09:49Z"
+      },
+      "committer": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2017-01-29T13:09:49Z"
+      },
+      "message": "Re-generate output file with correct parent",
+      "tree": {
+        "sha": "3886a7daaefeae357f37eb0b177b6d0ddf016726",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/3886a7daaefeae357f37eb0b177b6d0ddf016726"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/b9ab232b03e9793186b251f592639de9281da722",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/b9ab232b03e9793186b251f592639de9281da722",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/b9ab232b03e9793186b251f592639de9281da722",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/b9ab232b03e9793186b251f592639de9281da722/comments",
+    "author": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "aa4626c52e4b30775a05b6a8bd9f5c263f0a3e94",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/aa4626c52e4b30775a05b6a8bd9f5c263f0a3e94",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/aa4626c52e4b30775a05b6a8bd9f5c263f0a3e94"
+      }
+    ]
+  },
+  {
+    "sha": "13b961afe5529f646539f34c9e814944f71c640c",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6MTNiOTYxYWZlNTUyOWY2NDY1MzlmMzRjOWU4MTQ5NDRmNzFjNjQwYw==",
+    "commit": {
+      "author": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2017-01-28T23:33:59Z"
+      },
+      "committer": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2017-01-28T23:33:59Z"
+      },
+      "message": "use core2 as parent",
+      "tree": {
+        "sha": "b3282ee027495694b4050c7dd13b06fffa416f39",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/b3282ee027495694b4050c7dd13b06fffa416f39"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/13b961afe5529f646539f34c9e814944f71c640c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/13b961afe5529f646539f34c9e814944f71c640c",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/13b961afe5529f646539f34c9e814944f71c640c",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/13b961afe5529f646539f34c9e814944f71c640c/comments",
+    "author": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "29e52f1176e662994677fb7c862787a0e2b2331d",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/29e52f1176e662994677fb7c862787a0e2b2331d",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/29e52f1176e662994677fb7c862787a0e2b2331d"
+      }
+    ]
+  },
+  {
+    "sha": "29e52f1176e662994677fb7c862787a0e2b2331d",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6MjllNTJmMTE3NmU2NjI5OTQ2NzdmYjdjODYyNzg3YTBlMmIyMzMxZA==",
+    "commit": {
+      "author": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2017-01-28T22:37:18Z"
+      },
+      "committer": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2017-01-28T22:37:18Z"
+      },
+      "message": "devel and release for metabolomics",
+      "tree": {
+        "sha": "2e24c75d5ca1fc2bca881449e565b95672343de4",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/2e24c75d5ca1fc2bca881449e565b95672343de4"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/29e52f1176e662994677fb7c862787a0e2b2331d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/29e52f1176e662994677fb7c862787a0e2b2331d",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/29e52f1176e662994677fb7c862787a0e2b2331d",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/29e52f1176e662994677fb7c862787a0e2b2331d/comments",
+    "author": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ac3562880210314d0fd05de104a7b9571e020a19",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/ac3562880210314d0fd05de104a7b9571e020a19",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/ac3562880210314d0fd05de104a7b9571e020a19"
+      }
+    ]
+  },
+  {
+    "sha": "34db185a8462b4647bd60734513ec8d533782b2f",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6MzRkYjE4NWE4NDYyYjQ2NDdiZDYwNzM0NTEzZWM4ZDUzMzc4MmIyZg==",
+    "commit": {
+      "author": {
+        "name": "Lori Shepherd",
+        "email": "shepherl@gmail.com",
+        "date": "2017-01-18T14:10:58Z"
+      },
+      "committer": {
+        "name": "Lori Shepherd",
+        "email": "shepherl@gmail.com",
+        "date": "2017-01-18T14:10:58Z"
+      },
+      "message": "Remove out/ directory of defunct dockers",
+      "tree": {
+        "sha": "41f568916590b8c7e4d2ef53341ec2e562508b7f",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/41f568916590b8c7e4d2ef53341ec2e562508b7f"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/34db185a8462b4647bd60734513ec8d533782b2f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/34db185a8462b4647bd60734513ec8d533782b2f",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/34db185a8462b4647bd60734513ec8d533782b2f",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/34db185a8462b4647bd60734513ec8d533782b2f/comments",
+    "author": {
+      "login": "lshep",
+      "id": 18724380,
+      "node_id": "MDQ6VXNlcjE4NzI0Mzgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18724380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lshep",
+      "html_url": "https://github.com/lshep",
+      "followers_url": "https://api.github.com/users/lshep/followers",
+      "following_url": "https://api.github.com/users/lshep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lshep/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lshep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lshep/subscriptions",
+      "organizations_url": "https://api.github.com/users/lshep/orgs",
+      "repos_url": "https://api.github.com/users/lshep/repos",
+      "events_url": "https://api.github.com/users/lshep/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lshep/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lshep",
+      "id": 18724380,
+      "node_id": "MDQ6VXNlcjE4NzI0Mzgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18724380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lshep",
+      "html_url": "https://github.com/lshep",
+      "followers_url": "https://api.github.com/users/lshep/followers",
+      "following_url": "https://api.github.com/users/lshep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lshep/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lshep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lshep/subscriptions",
+      "organizations_url": "https://api.github.com/users/lshep/orgs",
+      "repos_url": "https://api.github.com/users/lshep/repos",
+      "events_url": "https://api.github.com/users/lshep/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lshep/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "952a85d3f0660e347281e870dccbce924f755db9",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/952a85d3f0660e347281e870dccbce924f755db9",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/952a85d3f0660e347281e870dccbce924f755db9"
+      }
+    ]
+  },
+  {
+    "sha": "e8d45986752f6b3e33821aeb128e4bbd0717506a",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6ZThkNDU5ODY3NTJmNmIzZTMzODIxYWViMTI4ZTRiYmQwNzE3NTA2YQ==",
+    "commit": {
+      "author": {
+        "name": "Lori Shepherd",
+        "email": "shepherl@gmail.com",
+        "date": "2017-01-10T17:09:35Z"
+      },
+      "committer": {
+        "name": "Lori Shepherd",
+        "email": "shepherl@gmail.com",
+        "date": "2017-01-10T17:09:35Z"
+      },
+      "message": "Debug and Update devel_metabolomics\n\n  - Update to use devel_core2\n  - Clean up installFromBiocViews",
+      "tree": {
+        "sha": "bcde77365c5fe05f971e7801f60b8952cb099610",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/bcde77365c5fe05f971e7801f60b8952cb099610"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/e8d45986752f6b3e33821aeb128e4bbd0717506a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/e8d45986752f6b3e33821aeb128e4bbd0717506a",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/e8d45986752f6b3e33821aeb128e4bbd0717506a",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/e8d45986752f6b3e33821aeb128e4bbd0717506a/comments",
+    "author": {
+      "login": "lshep",
+      "id": 18724380,
+      "node_id": "MDQ6VXNlcjE4NzI0Mzgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18724380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lshep",
+      "html_url": "https://github.com/lshep",
+      "followers_url": "https://api.github.com/users/lshep/followers",
+      "following_url": "https://api.github.com/users/lshep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lshep/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lshep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lshep/subscriptions",
+      "organizations_url": "https://api.github.com/users/lshep/orgs",
+      "repos_url": "https://api.github.com/users/lshep/repos",
+      "events_url": "https://api.github.com/users/lshep/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lshep/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lshep",
+      "id": 18724380,
+      "node_id": "MDQ6VXNlcjE4NzI0Mzgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18724380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lshep",
+      "html_url": "https://github.com/lshep",
+      "followers_url": "https://api.github.com/users/lshep/followers",
+      "following_url": "https://api.github.com/users/lshep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lshep/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lshep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lshep/subscriptions",
+      "organizations_url": "https://api.github.com/users/lshep/orgs",
+      "repos_url": "https://api.github.com/users/lshep/repos",
+      "events_url": "https://api.github.com/users/lshep/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lshep/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4a52fae9e24fb0735bfa8f2530471ddec03612f5",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/4a52fae9e24fb0735bfa8f2530471ddec03612f5",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/4a52fae9e24fb0735bfa8f2530471ddec03612f5"
+      }
+    ]
+  },
+  {
+    "sha": "9acb54366d0770ae98f48127e8e7ba3d1604aed6",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6OWFjYjU0MzY2ZDA3NzBhZTk4ZjQ4MTI3ZThlN2JhM2QxNjA0YWVkNg==",
+    "commit": {
+      "author": {
+        "name": "Lori Shepherd",
+        "email": "shepherl@gmail.com",
+        "date": "2017-01-09T17:35:22Z"
+      },
+      "committer": {
+        "name": "Lori Shepherd",
+        "email": "shepherl@gmail.com",
+        "date": "2017-01-09T17:35:22Z"
+      },
+      "message": "Update to use Bioconductor repos and debug devel_base\n\n  - fix warnings from require\n  - add check for valid/out dated packages",
+      "tree": {
+        "sha": "21446708117959fd14bb01c09f7f0f7b19f79471",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/21446708117959fd14bb01c09f7f0f7b19f79471"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/9acb54366d0770ae98f48127e8e7ba3d1604aed6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/9acb54366d0770ae98f48127e8e7ba3d1604aed6",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/9acb54366d0770ae98f48127e8e7ba3d1604aed6",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/9acb54366d0770ae98f48127e8e7ba3d1604aed6/comments",
+    "author": {
+      "login": "lshep",
+      "id": 18724380,
+      "node_id": "MDQ6VXNlcjE4NzI0Mzgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18724380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lshep",
+      "html_url": "https://github.com/lshep",
+      "followers_url": "https://api.github.com/users/lshep/followers",
+      "following_url": "https://api.github.com/users/lshep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lshep/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lshep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lshep/subscriptions",
+      "organizations_url": "https://api.github.com/users/lshep/orgs",
+      "repos_url": "https://api.github.com/users/lshep/repos",
+      "events_url": "https://api.github.com/users/lshep/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lshep/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lshep",
+      "id": 18724380,
+      "node_id": "MDQ6VXNlcjE4NzI0Mzgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18724380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lshep",
+      "html_url": "https://github.com/lshep",
+      "followers_url": "https://api.github.com/users/lshep/followers",
+      "following_url": "https://api.github.com/users/lshep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lshep/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lshep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lshep/subscriptions",
+      "organizations_url": "https://api.github.com/users/lshep/orgs",
+      "repos_url": "https://api.github.com/users/lshep/repos",
+      "events_url": "https://api.github.com/users/lshep/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lshep/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "651f5e41337bd2ac2c96b92a9dbace9ba4c194fc",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/651f5e41337bd2ac2c96b92a9dbace9ba4c194fc",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/651f5e41337bd2ac2c96b92a9dbace9ba4c194fc"
+      }
+    ]
+  },
+  {
+    "sha": "6530d15d35d19eb17d806268688dbd2e5ed16e7f",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6NjUzMGQxNWQzNWQxOWViMTdkODA2MjY4Njg4ZGJkMmU1ZWQxNmU3Zg==",
+    "commit": {
+      "author": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2016-11-11T18:31:14Z"
+      },
+      "committer": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2016-11-11T18:31:14Z"
+      },
+      "message": "force unstable apt install for some packages",
+      "tree": {
+        "sha": "74bb63f37f57533df0337d507f66005e56b631a8",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/74bb63f37f57533df0337d507f66005e56b631a8"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/6530d15d35d19eb17d806268688dbd2e5ed16e7f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/6530d15d35d19eb17d806268688dbd2e5ed16e7f",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/6530d15d35d19eb17d806268688dbd2e5ed16e7f",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/6530d15d35d19eb17d806268688dbd2e5ed16e7f/comments",
+    "author": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "39635b7772d8adc3a044b2984d01be8577a80bd6",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/39635b7772d8adc3a044b2984d01be8577a80bd6",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/39635b7772d8adc3a044b2984d01be8577a80bd6"
+      }
+    ]
+  },
+  {
+    "sha": "0e390524b08bb92ca7210432c1652e7aa0bbc8c5",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6MGUzOTA1MjRiMDhiYjkyY2E3MjEwNDMyYzE2NTJlN2FhMGJiYzhjNQ==",
+    "commit": {
+      "author": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2016-10-25T22:00:20Z"
+      },
+      "committer": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2016-10-25T22:00:20Z"
+      },
+      "message": "change repo prefix, regenerate Dockerfiles",
+      "tree": {
+        "sha": "944e4a83df557af96ef3d1f4dacd0402c786459a",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/944e4a83df557af96ef3d1f4dacd0402c786459a"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/0e390524b08bb92ca7210432c1652e7aa0bbc8c5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/0e390524b08bb92ca7210432c1652e7aa0bbc8c5",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/0e390524b08bb92ca7210432c1652e7aa0bbc8c5",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/0e390524b08bb92ca7210432c1652e7aa0bbc8c5/comments",
+    "author": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9e88311fd34708f0e82b1a4b52c34dff6ca4a33d",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/9e88311fd34708f0e82b1a4b52c34dff6ca4a33d",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/9e88311fd34708f0e82b1a4b52c34dff6ca4a33d"
+      }
+    ]
+  },
+  {
+    "sha": "9f1b346dd229473459f388704c7a42c8c762d0a5",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6OWYxYjM0NmRkMjI5NDczNDU5ZjM4ODcwNGM3YTQyYzhjNzYyZDBhNQ==",
+    "commit": {
+      "author": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2016-08-03T21:03:03Z"
+      },
+      "committer": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2016-08-03T21:03:03Z"
+      },
+      "message": "Remove libgsl0ldbl from several Dockerfiles. Fix build documentation, closes #3.",
+      "tree": {
+        "sha": "677d486e10a06cbf18bed64c37f61a2bf3a69ff0",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/677d486e10a06cbf18bed64c37f61a2bf3a69ff0"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/9f1b346dd229473459f388704c7a42c8c762d0a5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/9f1b346dd229473459f388704c7a42c8c762d0a5",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/9f1b346dd229473459f388704c7a42c8c762d0a5",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/9f1b346dd229473459f388704c7a42c8c762d0a5/comments",
+    "author": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "836d52a1efd68881b7a57e4a16e528dcb33bc9fd",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/836d52a1efd68881b7a57e4a16e528dcb33bc9fd",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/836d52a1efd68881b7a57e4a16e528dcb33bc9fd"
+      }
+    ]
+  },
+  {
+    "sha": "04725b75147f3c7df11ff2d0ad0ed04cfa4c515f",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6MDQ3MjViNzUxNDdmM2M3ZGYxMWZmMmQwYWQwZWQwNGNmYTRjNTE1Zg==",
+    "commit": {
+      "author": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2016-07-27T13:42:03Z"
+      },
+      "committer": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2016-07-27T13:42:03Z"
+      },
+      "message": "explicitly call ldconfig to pick up libsbml.so",
+      "tree": {
+        "sha": "eb83624a2c30a9ef2ba8a90ef272b605e662c907",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/eb83624a2c30a9ef2ba8a90ef272b605e662c907"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/04725b75147f3c7df11ff2d0ad0ed04cfa4c515f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/04725b75147f3c7df11ff2d0ad0ed04cfa4c515f",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/04725b75147f3c7df11ff2d0ad0ed04cfa4c515f",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/04725b75147f3c7df11ff2d0ad0ed04cfa4c515f/comments",
+    "author": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "33482d22ab36342b8cfd8ae33e1032d217e20451",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/33482d22ab36342b8cfd8ae33e1032d217e20451",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/33482d22ab36342b8cfd8ae33e1032d217e20451"
+      }
+    ]
+  },
+  {
+    "sha": "33482d22ab36342b8cfd8ae33e1032d217e20451",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6MzM0ODJkMjJhYjM2MzQyYjhjZmQ4YWUzM2UxMDMyZDIxN2UyMDQ1MQ==",
+    "commit": {
+      "author": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2016-07-26T21:25:46Z"
+      },
+      "committer": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2016-07-26T21:25:46Z"
+      },
+      "message": "back down to single thread build for libsbml",
+      "tree": {
+        "sha": "8d4f439ceed348c837a342e32ee4c24bc77aa317",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/8d4f439ceed348c837a342e32ee4c24bc77aa317"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/33482d22ab36342b8cfd8ae33e1032d217e20451",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/33482d22ab36342b8cfd8ae33e1032d217e20451",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/33482d22ab36342b8cfd8ae33e1032d217e20451",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/33482d22ab36342b8cfd8ae33e1032d217e20451/comments",
+    "author": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9e8ed8437cc80b6b90315125911d9d1f27648b78",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/9e8ed8437cc80b6b90315125911d9d1f27648b78",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/9e8ed8437cc80b6b90315125911d9d1f27648b78"
+      }
+    ]
+  },
+  {
+    "sha": "9e8ed8437cc80b6b90315125911d9d1f27648b78",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6OWU4ZWQ4NDM3Y2M4MGI2YjkwMzE1MTI1OTExZDlkMWYyNzY0OGI3OA==",
+    "commit": {
+      "author": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2016-07-26T15:58:36Z"
+      },
+      "committer": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2016-07-26T15:58:36Z"
+      },
+      "message": "Build libsbml and rsbml from source",
+      "tree": {
+        "sha": "131c2cb5addef35f7a5bd0d8d5e08cb5e72a50ae",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/131c2cb5addef35f7a5bd0d8d5e08cb5e72a50ae"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/9e8ed8437cc80b6b90315125911d9d1f27648b78",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/9e8ed8437cc80b6b90315125911d9d1f27648b78",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/9e8ed8437cc80b6b90315125911d9d1f27648b78",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/9e8ed8437cc80b6b90315125911d9d1f27648b78/comments",
+    "author": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c36c37d7d2acf05cb317783c3c4e70aaeb66e2e7",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/c36c37d7d2acf05cb317783c3c4e70aaeb66e2e7",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/c36c37d7d2acf05cb317783c3c4e70aaeb66e2e7"
+      }
+    ]
+  },
+  {
+    "sha": "52a591ecdecc1aad70b973925d13e564a9352bac",
+    "node_id": "MDY6Q29tbWl0MjgzNjM0NTM6NTJhNTkxZWNkZWNjMWFhZDcwYjk3MzkyNWQxM2U1NjRhOTM1MmJhYw==",
+    "commit": {
+      "author": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2016-07-25T19:25:06Z"
+      },
+      "committer": {
+        "name": "Steffen Neumann",
+        "email": "sneumann@ipb-halle.de",
+        "date": "2016-07-25T19:25:06Z"
+      },
+      "message": "Added metabolomics biocView image",
+      "tree": {
+        "sha": "f2af6b0e42b7952708068ff8dbaa17f51f4c325d",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/trees/f2af6b0e42b7952708068ff8dbaa17f51f4c325d"
+      },
+      "url": "https://api.github.com/repos/Bioconductor/bioc_docker/git/commits/52a591ecdecc1aad70b973925d13e564a9352bac",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/52a591ecdecc1aad70b973925d13e564a9352bac",
+    "html_url": "https://github.com/Bioconductor/bioc_docker/commit/52a591ecdecc1aad70b973925d13e564a9352bac",
+    "comments_url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/52a591ecdecc1aad70b973925d13e564a9352bac/comments",
+    "author": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sneumann",
+      "id": 195385,
+      "node_id": "MDQ6VXNlcjE5NTM4NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sneumann",
+      "html_url": "https://github.com/sneumann",
+      "followers_url": "https://api.github.com/users/sneumann/followers",
+      "following_url": "https://api.github.com/users/sneumann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sneumann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sneumann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sneumann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sneumann/orgs",
+      "repos_url": "https://api.github.com/users/sneumann/repos",
+      "events_url": "https://api.github.com/users/sneumann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sneumann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "88240ae882200ef91a15388a3984bafbb578d20a",
+        "url": "https://api.github.com/repos/Bioconductor/bioc_docker/commits/88240ae882200ef91a15388a3984bafbb578d20a",
+        "html_url": "https://github.com/Bioconductor/bioc_docker/commit/88240ae882200ef91a15388a3984bafbb578d20a"
+      }
+    ]
+  }
+]

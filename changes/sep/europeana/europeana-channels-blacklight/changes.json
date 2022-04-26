@@ -1,0 +1,318 @@
+[
+  {
+    "sha": "e3279ec95f35a731ae45c0e12b10812ce38db5bd",
+    "node_id": "MDY6Q29tbWl0MjcxNzExNjI6ZTMyNzllYzk1ZjM1YTczMWFlNDVjMGUxMmIxMDgxMmNlMzhkYjViZA==",
+    "commit": {
+      "author": {
+        "name": "Richard Doe",
+        "email": "richard.doe@rwdit.net",
+        "date": "2019-05-22T14:10:03Z"
+      },
+      "committer": {
+        "name": "Richard Doe",
+        "email": "richard.doe@rwdit.net",
+        "date": "2019-05-22T14:10:03Z"
+      },
+      "message": "Add libcurl3\n\nAnd update CMD and ENTRYPOINT per best practice",
+      "tree": {
+        "sha": "c8460250798f0722955a2769f430d6549747a774",
+        "url": "https://api.github.com/repos/europeana/europeana-portal-collections/git/trees/c8460250798f0722955a2769f430d6549747a774"
+      },
+      "url": "https://api.github.com/repos/europeana/europeana-portal-collections/git/commits/e3279ec95f35a731ae45c0e12b10812ce38db5bd",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/europeana/europeana-portal-collections/commits/e3279ec95f35a731ae45c0e12b10812ce38db5bd",
+    "html_url": "https://github.com/europeana/europeana-portal-collections/commit/e3279ec95f35a731ae45c0e12b10812ce38db5bd",
+    "comments_url": "https://api.github.com/repos/europeana/europeana-portal-collections/commits/e3279ec95f35a731ae45c0e12b10812ce38db5bd/comments",
+    "author": {
+      "login": "rwd",
+      "id": 218337,
+      "node_id": "MDQ6VXNlcjIxODMzNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218337?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwd",
+      "html_url": "https://github.com/rwd",
+      "followers_url": "https://api.github.com/users/rwd/followers",
+      "following_url": "https://api.github.com/users/rwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwd/orgs",
+      "repos_url": "https://api.github.com/users/rwd/repos",
+      "events_url": "https://api.github.com/users/rwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwd",
+      "id": 218337,
+      "node_id": "MDQ6VXNlcjIxODMzNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218337?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwd",
+      "html_url": "https://github.com/rwd",
+      "followers_url": "https://api.github.com/users/rwd/followers",
+      "following_url": "https://api.github.com/users/rwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwd/orgs",
+      "repos_url": "https://api.github.com/users/rwd/repos",
+      "events_url": "https://api.github.com/users/rwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "26a3254e70ddbf626235573b5e1573d0f7979ca9",
+        "url": "https://api.github.com/repos/europeana/europeana-portal-collections/commits/26a3254e70ddbf626235573b5e1573d0f7979ca9",
+        "html_url": "https://github.com/europeana/europeana-portal-collections/commit/26a3254e70ddbf626235573b5e1573d0f7979ca9"
+      }
+    ]
+  },
+  {
+    "sha": "98262b9a14fb306bbb1278bb58365e92356093cf",
+    "node_id": "MDY6Q29tbWl0MjcxNzExNjI6OTgyNjJiOWExNGZiMzA2YmJiMTI3OGJiNTgzNjVlOTIzNTYwOTNjZg==",
+    "commit": {
+      "author": {
+        "name": "Richard Doe",
+        "email": "richard.doe@rwdit.net",
+        "date": "2019-01-23T12:36:37Z"
+      },
+      "committer": {
+        "name": "Richard Doe",
+        "email": "richard.doe@rwdit.net",
+        "date": "2019-01-23T12:36:37Z"
+      },
+      "message": "Update Ruby in Travis and Docker",
+      "tree": {
+        "sha": "a97d1da0fe3d18ef55581063a3559f6e2de88eda",
+        "url": "https://api.github.com/repos/europeana/europeana-portal-collections/git/trees/a97d1da0fe3d18ef55581063a3559f6e2de88eda"
+      },
+      "url": "https://api.github.com/repos/europeana/europeana-portal-collections/git/commits/98262b9a14fb306bbb1278bb58365e92356093cf",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/europeana/europeana-portal-collections/commits/98262b9a14fb306bbb1278bb58365e92356093cf",
+    "html_url": "https://github.com/europeana/europeana-portal-collections/commit/98262b9a14fb306bbb1278bb58365e92356093cf",
+    "comments_url": "https://api.github.com/repos/europeana/europeana-portal-collections/commits/98262b9a14fb306bbb1278bb58365e92356093cf/comments",
+    "author": {
+      "login": "rwd",
+      "id": 218337,
+      "node_id": "MDQ6VXNlcjIxODMzNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218337?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwd",
+      "html_url": "https://github.com/rwd",
+      "followers_url": "https://api.github.com/users/rwd/followers",
+      "following_url": "https://api.github.com/users/rwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwd/orgs",
+      "repos_url": "https://api.github.com/users/rwd/repos",
+      "events_url": "https://api.github.com/users/rwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwd",
+      "id": 218337,
+      "node_id": "MDQ6VXNlcjIxODMzNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218337?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwd",
+      "html_url": "https://github.com/rwd",
+      "followers_url": "https://api.github.com/users/rwd/followers",
+      "following_url": "https://api.github.com/users/rwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwd/orgs",
+      "repos_url": "https://api.github.com/users/rwd/repos",
+      "events_url": "https://api.github.com/users/rwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3cc50f893d54ecc6d873ae2d1e1f6668cc9f87f7",
+        "url": "https://api.github.com/repos/europeana/europeana-portal-collections/commits/3cc50f893d54ecc6d873ae2d1e1f6668cc9f87f7",
+        "html_url": "https://github.com/europeana/europeana-portal-collections/commit/3cc50f893d54ecc6d873ae2d1e1f6668cc9f87f7"
+      }
+    ]
+  },
+  {
+    "sha": "77be483770cf35436d240348d10f43a30bd08e47",
+    "node_id": "MDY6Q29tbWl0MjcxNzExNjI6NzdiZTQ4Mzc3MGNmMzU0MzZkMjQwMzQ4ZDEwZjQzYTMwYmQwOGU0Nw==",
+    "commit": {
+      "author": {
+        "name": "Richard Doe",
+        "email": "richard.doe@rwdit.net",
+        "date": "2019-01-11T10:20:49Z"
+      },
+      "committer": {
+        "name": "Richard Doe",
+        "email": "richard.doe@rwdit.net",
+        "date": "2019-01-11T10:20:49Z"
+      },
+      "message": "Update Ruby in Docker and Travis",
+      "tree": {
+        "sha": "1b34ee23ed289abd1212af410f0a74c8176672f4",
+        "url": "https://api.github.com/repos/europeana/europeana-portal-collections/git/trees/1b34ee23ed289abd1212af410f0a74c8176672f4"
+      },
+      "url": "https://api.github.com/repos/europeana/europeana-portal-collections/git/commits/77be483770cf35436d240348d10f43a30bd08e47",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/europeana/europeana-portal-collections/commits/77be483770cf35436d240348d10f43a30bd08e47",
+    "html_url": "https://github.com/europeana/europeana-portal-collections/commit/77be483770cf35436d240348d10f43a30bd08e47",
+    "comments_url": "https://api.github.com/repos/europeana/europeana-portal-collections/commits/77be483770cf35436d240348d10f43a30bd08e47/comments",
+    "author": {
+      "login": "rwd",
+      "id": 218337,
+      "node_id": "MDQ6VXNlcjIxODMzNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218337?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwd",
+      "html_url": "https://github.com/rwd",
+      "followers_url": "https://api.github.com/users/rwd/followers",
+      "following_url": "https://api.github.com/users/rwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwd/orgs",
+      "repos_url": "https://api.github.com/users/rwd/repos",
+      "events_url": "https://api.github.com/users/rwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwd",
+      "id": 218337,
+      "node_id": "MDQ6VXNlcjIxODMzNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218337?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwd",
+      "html_url": "https://github.com/rwd",
+      "followers_url": "https://api.github.com/users/rwd/followers",
+      "following_url": "https://api.github.com/users/rwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwd/orgs",
+      "repos_url": "https://api.github.com/users/rwd/repos",
+      "events_url": "https://api.github.com/users/rwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f7613373867a8dd9dce1e8936e023fcb35d322ac",
+        "url": "https://api.github.com/repos/europeana/europeana-portal-collections/commits/f7613373867a8dd9dce1e8936e023fcb35d322ac",
+        "html_url": "https://github.com/europeana/europeana-portal-collections/commit/f7613373867a8dd9dce1e8936e023fcb35d322ac"
+      }
+    ]
+  },
+  {
+    "sha": "a4b7f9f70366c1d8772f1cb096fc9caba69b00aa",
+    "node_id": "MDY6Q29tbWl0MjcxNzExNjI6YTRiN2Y5ZjcwMzY2YzFkODc3MmYxY2IwOTZmYzljYWJhNjliMDBhYQ==",
+    "commit": {
+      "author": {
+        "name": "Richard Doe",
+        "email": "richard.doe@rwdit.net",
+        "date": "2018-09-14T10:09:54Z"
+      },
+      "committer": {
+        "name": "Lutz Biedinger",
+        "email": "lutz.biedinger@gmail.com",
+        "date": "2018-09-14T10:09:54Z"
+      },
+      "message": "Merge chore/EC-2999-docker-compose PR #1141 Docker \n\n* Docker Compose generator\r\n\r\n* Use Docker on Travis\r\n\r\n* Lock Redis and PostgreSQL versions in Docker Compose\r\n\r\nTo those used in production.\r\n\r\n* Style\r\n\r\n* Use Thor CLI instead of Rails generator\r\n\r\nBecause generators require database to exist already.\r\n\r\n* Remove Postgres on Travis\r\n\r\n* Fix ERB command for bucket name\r\n\r\n* Higher port numbers\r\n\r\n* Add Docker ignore file\r\n\r\n* Instructions for generating test env\r\n\r\n* Update Docker Compose cmd for Travis\r\n\r\n* Downgrade minio\r\n\r\n* Reuse existing Minio and PostgreSQL credentials\r\n\r\n* Pre-pull and -build Docker Compose on Travis\r\n\r\n* Remove development config files\r\n\r\n* Fix volume path for Minio\r\n\r\n* Make empty Minio bucket dir\r\n\r\n* Filter out most files in lib/ from coverage analysis",
+      "tree": {
+        "sha": "624591dac71e660f815e5515d8566be91f44c5f3",
+        "url": "https://api.github.com/repos/europeana/europeana-portal-collections/git/trees/624591dac71e660f815e5515d8566be91f44c5f3"
+      },
+      "url": "https://api.github.com/repos/europeana/europeana-portal-collections/git/commits/a4b7f9f70366c1d8772f1cb096fc9caba69b00aa",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/europeana/europeana-portal-collections/commits/a4b7f9f70366c1d8772f1cb096fc9caba69b00aa",
+    "html_url": "https://github.com/europeana/europeana-portal-collections/commit/a4b7f9f70366c1d8772f1cb096fc9caba69b00aa",
+    "comments_url": "https://api.github.com/repos/europeana/europeana-portal-collections/commits/a4b7f9f70366c1d8772f1cb096fc9caba69b00aa/comments",
+    "author": {
+      "login": "rwd",
+      "id": 218337,
+      "node_id": "MDQ6VXNlcjIxODMzNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218337?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwd",
+      "html_url": "https://github.com/rwd",
+      "followers_url": "https://api.github.com/users/rwd/followers",
+      "following_url": "https://api.github.com/users/rwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwd/orgs",
+      "repos_url": "https://api.github.com/users/rwd/repos",
+      "events_url": "https://api.github.com/users/rwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lbiedinger",
+      "id": 1177719,
+      "node_id": "MDQ6VXNlcjExNzc3MTk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1177719?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lbiedinger",
+      "html_url": "https://github.com/lbiedinger",
+      "followers_url": "https://api.github.com/users/lbiedinger/followers",
+      "following_url": "https://api.github.com/users/lbiedinger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lbiedinger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lbiedinger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lbiedinger/subscriptions",
+      "organizations_url": "https://api.github.com/users/lbiedinger/orgs",
+      "repos_url": "https://api.github.com/users/lbiedinger/repos",
+      "events_url": "https://api.github.com/users/lbiedinger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lbiedinger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5f5223c39dbe287a6227d29641d35f4a81fb2312",
+        "url": "https://api.github.com/repos/europeana/europeana-portal-collections/commits/5f5223c39dbe287a6227d29641d35f4a81fb2312",
+        "html_url": "https://github.com/europeana/europeana-portal-collections/commit/5f5223c39dbe287a6227d29641d35f4a81fb2312"
+      }
+    ]
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "sha": "5d047da897d77d05c3e890a9be78da25b8283e10",
+    "node_id": "MDY6Q29tbWl0MjYwNjExMzQ6NWQwNDdkYTg5N2Q3N2QwNWMzZTg5MGE5YmU3OGRhMjViODI4M2UxMA==",
+    "commit": {
+      "author": {
+        "name": "Joachim Nilsson",
+        "email": "troglobit@gmail.com",
+        "date": "2020-05-24T20:22:49Z"
+      },
+      "committer": {
+        "name": "Joachim Nilsson",
+        "email": "troglobit@gmail.com",
+        "date": "2020-05-24T20:22:49Z"
+      },
+      "message": "Add basic Dockerfile\n\nSigned-off-by: Joachim Nilsson <troglobit@gmail.com>",
+      "tree": {
+        "sha": "0deebcb111db8a336b16aaf5a4365462b4ce6dc8",
+        "url": "https://api.github.com/repos/troglobit/netcalc/git/trees/0deebcb111db8a336b16aaf5a4365462b4ce6dc8"
+      },
+      "url": "https://api.github.com/repos/troglobit/netcalc/git/commits/5d047da897d77d05c3e890a9be78da25b8283e10",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/troglobit/netcalc/commits/5d047da897d77d05c3e890a9be78da25b8283e10",
+    "html_url": "https://github.com/troglobit/netcalc/commit/5d047da897d77d05c3e890a9be78da25b8283e10",
+    "comments_url": "https://api.github.com/repos/troglobit/netcalc/commits/5d047da897d77d05c3e890a9be78da25b8283e10/comments",
+    "author": {
+      "login": "troglobit",
+      "id": 183517,
+      "node_id": "MDQ6VXNlcjE4MzUxNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183517?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/troglobit",
+      "html_url": "https://github.com/troglobit",
+      "followers_url": "https://api.github.com/users/troglobit/followers",
+      "following_url": "https://api.github.com/users/troglobit/following{/other_user}",
+      "gists_url": "https://api.github.com/users/troglobit/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/troglobit/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/troglobit/subscriptions",
+      "organizations_url": "https://api.github.com/users/troglobit/orgs",
+      "repos_url": "https://api.github.com/users/troglobit/repos",
+      "events_url": "https://api.github.com/users/troglobit/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/troglobit/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "troglobit",
+      "id": 183517,
+      "node_id": "MDQ6VXNlcjE4MzUxNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183517?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/troglobit",
+      "html_url": "https://github.com/troglobit",
+      "followers_url": "https://api.github.com/users/troglobit/followers",
+      "following_url": "https://api.github.com/users/troglobit/following{/other_user}",
+      "gists_url": "https://api.github.com/users/troglobit/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/troglobit/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/troglobit/subscriptions",
+      "organizations_url": "https://api.github.com/users/troglobit/orgs",
+      "repos_url": "https://api.github.com/users/troglobit/repos",
+      "events_url": "https://api.github.com/users/troglobit/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/troglobit/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6ba04508217d00767aedca217134f257e39e9a45",
+        "url": "https://api.github.com/repos/troglobit/netcalc/commits/6ba04508217d00767aedca217134f257e39e9a45",
+        "html_url": "https://github.com/troglobit/netcalc/commit/6ba04508217d00767aedca217134f257e39e9a45"
+      }
+    ]
+  }
+]

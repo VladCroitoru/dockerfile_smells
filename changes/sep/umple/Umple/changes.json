@@ -1,0 +1,1582 @@
+[
+  {
+    "sha": "830f3240b558ac56991848e281aaa0c5cee46afc",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6ODMwZjMyNDBiNTU4YWM1Njk5MTg0OGUyODFhYWEwYzVjZWU0NmFmYw==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-09-04T15:15:06Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-09-04T15:15:06Z"
+      },
+      "message": "Trying making docker run under nginx",
+      "tree": {
+        "sha": "e403e127a1011428316496ed348253f646164e49",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/e403e127a1011428316496ed348253f646164e49"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/830f3240b558ac56991848e281aaa0c5cee46afc",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/830f3240b558ac56991848e281aaa0c5cee46afc",
+    "html_url": "https://github.com/umple/umple/commit/830f3240b558ac56991848e281aaa0c5cee46afc",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/830f3240b558ac56991848e281aaa0c5cee46afc/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f80fce732388b48da3ccba3f059e89f5d36f053e",
+        "url": "https://api.github.com/repos/umple/umple/commits/f80fce732388b48da3ccba3f059e89f5d36f053e",
+        "html_url": "https://github.com/umple/umple/commit/f80fce732388b48da3ccba3f059e89f5d36f053e"
+      }
+    ]
+  },
+  {
+    "sha": "f80fce732388b48da3ccba3f059e89f5d36f053e",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6ZjgwZmNlNzMyMzg4YjQ4ZGEzY2NiYTNmMDU5ZTg5ZjVkMzZmMDUzZQ==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-09-04T12:27:49Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-09-04T12:27:49Z"
+      },
+      "message": "making ump directory independent of repository",
+      "tree": {
+        "sha": "da06e7c98ef4038a0fc1a2ee36a1eed96e011336",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/da06e7c98ef4038a0fc1a2ee36a1eed96e011336"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/f80fce732388b48da3ccba3f059e89f5d36f053e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/f80fce732388b48da3ccba3f059e89f5d36f053e",
+    "html_url": "https://github.com/umple/umple/commit/f80fce732388b48da3ccba3f059e89f5d36f053e",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/f80fce732388b48da3ccba3f059e89f5d36f053e/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3cfb0a5daa09253fa06870d3510b4da4088f4287",
+        "url": "https://api.github.com/repos/umple/umple/commits/3cfb0a5daa09253fa06870d3510b4da4088f4287",
+        "html_url": "https://github.com/umple/umple/commit/3cfb0a5daa09253fa06870d3510b4da4088f4287"
+      }
+    ]
+  },
+  {
+    "sha": "a6b75f7f45ee2b272f7333768f7308c4c7964387",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6YTZiNzVmN2Y0NWVlMmIyNzJmNzMzMzc2OGY3MzA4YzRjNzk2NDM4Nw==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-08-28T20:37:36Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-08-28T20:37:36Z"
+      },
+      "message": "Updating Docker-base to new Nginx",
+      "tree": {
+        "sha": "c08e9073e8a3674fc3740e6d47b7ef4746f7fdd9",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/c08e9073e8a3674fc3740e6d47b7ef4746f7fdd9"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/a6b75f7f45ee2b272f7333768f7308c4c7964387",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/a6b75f7f45ee2b272f7333768f7308c4c7964387",
+    "html_url": "https://github.com/umple/umple/commit/a6b75f7f45ee2b272f7333768f7308c4c7964387",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/a6b75f7f45ee2b272f7333768f7308c4c7964387/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e64d4835433d749f5fc5dec78533feccb73c215e",
+        "url": "https://api.github.com/repos/umple/umple/commits/e64d4835433d749f5fc5dec78533feccb73c215e",
+        "html_url": "https://github.com/umple/umple/commit/e64d4835433d749f5fc5dec78533feccb73c215e"
+      }
+    ]
+  },
+  {
+    "sha": "0a661f8dca31de5c2b23bc192e981d3de2b65f78",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6MGE2NjFmOGRjYTMxZGU1YzJiMjNiYzE5MmU5ODFkM2RlMmI2NWY3OA==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-08-03T16:49:09Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-08-03T16:49:09Z"
+      },
+      "message": "Updating Docker to use latest supervisor, JVM, Nginx",
+      "tree": {
+        "sha": "68cc126325de9620845c0316ee2901ff02687bd1",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/68cc126325de9620845c0316ee2901ff02687bd1"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/0a661f8dca31de5c2b23bc192e981d3de2b65f78",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/0a661f8dca31de5c2b23bc192e981d3de2b65f78",
+    "html_url": "https://github.com/umple/umple/commit/0a661f8dca31de5c2b23bc192e981d3de2b65f78",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/0a661f8dca31de5c2b23bc192e981d3de2b65f78/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d2eb9eff6f3f2ff79867c8653c06c1cfd48aca9a",
+        "url": "https://api.github.com/repos/umple/umple/commits/d2eb9eff6f3f2ff79867c8653c06c1cfd48aca9a",
+        "html_url": "https://github.com/umple/umple/commit/d2eb9eff6f3f2ff79867c8653c06c1cfd48aca9a"
+      }
+    ]
+  },
+  {
+    "sha": "27865ef4744097ad93561f1c125007dd5022523b",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6Mjc4NjVlZjQ3NDQwOTdhZDkzNTYxZjFjMTI1MDA3ZGQ1MDIyNTIzYg==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-31T18:27:57Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-31T18:27:57Z"
+      },
+      "message": "Final fixes for PR",
+      "tree": {
+        "sha": "6a6a5585bf11b63b13b19ef673177124b8a39ca5",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/6a6a5585bf11b63b13b19ef673177124b8a39ca5"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/27865ef4744097ad93561f1c125007dd5022523b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/27865ef4744097ad93561f1c125007dd5022523b",
+    "html_url": "https://github.com/umple/umple/commit/27865ef4744097ad93561f1c125007dd5022523b",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/27865ef4744097ad93561f1c125007dd5022523b/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a4cc266100749c2d9fff42fc8f7c225b73879aee",
+        "url": "https://api.github.com/repos/umple/umple/commits/a4cc266100749c2d9fff42fc8f7c225b73879aee",
+        "html_url": "https://github.com/umple/umple/commit/a4cc266100749c2d9fff42fc8f7c225b73879aee"
+      }
+    ]
+  },
+  {
+    "sha": "a4cc266100749c2d9fff42fc8f7c225b73879aee",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6YTRjYzI2NjEwMDc0OWMyZDlmZmY0MmZjOGY3YzIyNWI3Mzg3OWFlZQ==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-31T17:29:04Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-31T17:29:04Z"
+      },
+      "message": "Fixing syntax again",
+      "tree": {
+        "sha": "0104028c67f598ccb012ccc1e78b7838d5a92087",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/0104028c67f598ccb012ccc1e78b7838d5a92087"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/a4cc266100749c2d9fff42fc8f7c225b73879aee",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/a4cc266100749c2d9fff42fc8f7c225b73879aee",
+    "html_url": "https://github.com/umple/umple/commit/a4cc266100749c2d9fff42fc8f7c225b73879aee",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/a4cc266100749c2d9fff42fc8f7c225b73879aee/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b6188df3cc227a6339ebfdd2d152035cf84ab54a",
+        "url": "https://api.github.com/repos/umple/umple/commits/b6188df3cc227a6339ebfdd2d152035cf84ab54a",
+        "html_url": "https://github.com/umple/umple/commit/b6188df3cc227a6339ebfdd2d152035cf84ab54a"
+      }
+    ]
+  },
+  {
+    "sha": "b6188df3cc227a6339ebfdd2d152035cf84ab54a",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6YjYxODhkZjNjYzIyN2E2MzM5ZWJmZGQyZDE1MjAzNWNmODRhYjU0YQ==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-31T16:39:12Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-31T16:39:12Z"
+      },
+      "message": "Adding &&",
+      "tree": {
+        "sha": "4a6a34a4f4f3a70226553e9d889b1237d9b6a461",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/4a6a34a4f4f3a70226553e9d889b1237d9b6a461"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/b6188df3cc227a6339ebfdd2d152035cf84ab54a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/b6188df3cc227a6339ebfdd2d152035cf84ab54a",
+    "html_url": "https://github.com/umple/umple/commit/b6188df3cc227a6339ebfdd2d152035cf84ab54a",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/b6188df3cc227a6339ebfdd2d152035cf84ab54a/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a1ecaf24bbade3c426247e05e4bf3e21258ed514",
+        "url": "https://api.github.com/repos/umple/umple/commits/a1ecaf24bbade3c426247e05e4bf3e21258ed514",
+        "html_url": "https://github.com/umple/umple/commit/a1ecaf24bbade3c426247e05e4bf3e21258ed514"
+      }
+    ]
+  },
+  {
+    "sha": "a1ecaf24bbade3c426247e05e4bf3e21258ed514",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6YTFlY2FmMjRiYmFkZTNjNDI2MjQ3ZTA1ZTRiZjNlMjEyNThlZDUxNA==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-31T15:42:54Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-31T15:42:54Z"
+      },
+      "message": "Creating run directory from the start",
+      "tree": {
+        "sha": "eb341e5a224b228e8f547030d2b64a0ea5dad719",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/eb341e5a224b228e8f547030d2b64a0ea5dad719"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/a1ecaf24bbade3c426247e05e4bf3e21258ed514",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/a1ecaf24bbade3c426247e05e4bf3e21258ed514",
+    "html_url": "https://github.com/umple/umple/commit/a1ecaf24bbade3c426247e05e4bf3e21258ed514",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/a1ecaf24bbade3c426247e05e4bf3e21258ed514/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6280451c5c0ae9deb33a9d7b589ae6f4e2583df3",
+        "url": "https://api.github.com/repos/umple/umple/commits/6280451c5c0ae9deb33a9d7b589ae6f4e2583df3",
+        "html_url": "https://github.com/umple/umple/commit/6280451c5c0ae9deb33a9d7b589ae6f4e2583df3"
+      }
+    ]
+  },
+  {
+    "sha": "6280451c5c0ae9deb33a9d7b589ae6f4e2583df3",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6NjI4MDQ1MWM1YzBhZTlkZWIzM2E5ZDdiNTg5YWU2ZjRlMjU4M2RmMw==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-31T15:00:47Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-31T15:00:47Z"
+      },
+      "message": "Making log files writable",
+      "tree": {
+        "sha": "3fdd29de861c0cb6aeecb0e1ccc0341332f07e5c",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/3fdd29de861c0cb6aeecb0e1ccc0341332f07e5c"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/6280451c5c0ae9deb33a9d7b589ae6f4e2583df3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/6280451c5c0ae9deb33a9d7b589ae6f4e2583df3",
+    "html_url": "https://github.com/umple/umple/commit/6280451c5c0ae9deb33a9d7b589ae6f4e2583df3",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/6280451c5c0ae9deb33a9d7b589ae6f4e2583df3/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4124f287c7548ef21fc17c79ba39ea1235c63ff1",
+        "url": "https://api.github.com/repos/umple/umple/commits/4124f287c7548ef21fc17c79ba39ea1235c63ff1",
+        "html_url": "https://github.com/umple/umple/commit/4124f287c7548ef21fc17c79ba39ea1235c63ff1"
+      }
+    ]
+  },
+  {
+    "sha": "4124f287c7548ef21fc17c79ba39ea1235c63ff1",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6NDEyNGYyODdjNzU0OGVmMjFmYzE3Yzc5YmEzOWVhMTIzNWM2M2ZmMQ==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-31T13:33:01Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-31T13:33:01Z"
+      },
+      "message": "Trying direct listen on port 8000 and set pidfile",
+      "tree": {
+        "sha": "e3e88cf90a80ac2e54ecf746c0e344fe564cd9f3",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/e3e88cf90a80ac2e54ecf746c0e344fe564cd9f3"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/4124f287c7548ef21fc17c79ba39ea1235c63ff1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/4124f287c7548ef21fc17c79ba39ea1235c63ff1",
+    "html_url": "https://github.com/umple/umple/commit/4124f287c7548ef21fc17c79ba39ea1235c63ff1",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/4124f287c7548ef21fc17c79ba39ea1235c63ff1/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "acc22518de8bd60bce0554c59b32fe101608b0a5",
+        "url": "https://api.github.com/repos/umple/umple/commits/acc22518de8bd60bce0554c59b32fe101608b0a5",
+        "html_url": "https://github.com/umple/umple/commit/acc22518de8bd60bce0554c59b32fe101608b0a5"
+      }
+    ]
+  },
+  {
+    "sha": "acc22518de8bd60bce0554c59b32fe101608b0a5",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6YWNjMjI1MThkZThiZDYwYmNlMDU1NGM1OWIzMmZlMTAxNjA4YjBhNQ==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-31T12:17:02Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-31T12:17:02Z"
+      },
+      "message": "setting log on command line",
+      "tree": {
+        "sha": "c279f785a030b4931ea641762369670440cd7bca",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/c279f785a030b4931ea641762369670440cd7bca"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/acc22518de8bd60bce0554c59b32fe101608b0a5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/acc22518de8bd60bce0554c59b32fe101608b0a5",
+    "html_url": "https://github.com/umple/umple/commit/acc22518de8bd60bce0554c59b32fe101608b0a5",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/acc22518de8bd60bce0554c59b32fe101608b0a5/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b35f09be803ea0c3e42d486f79dfd7b026e48bf4",
+        "url": "https://api.github.com/repos/umple/umple/commits/b35f09be803ea0c3e42d486f79dfd7b026e48bf4",
+        "html_url": "https://github.com/umple/umple/commit/b35f09be803ea0c3e42d486f79dfd7b026e48bf4"
+      }
+    ]
+  },
+  {
+    "sha": "b35f09be803ea0c3e42d486f79dfd7b026e48bf4",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6YjM1ZjA5YmU4MDNlYTBjM2U0MmQ0ODZmNzlkZmQ3YjAyNmU0OGJmNA==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-30T22:44:04Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-30T22:44:04Z"
+      },
+      "message": "No longer trying to change permissions for logfile",
+      "tree": {
+        "sha": "2766bc35e8321da08f7ba59cbf150bb9bb0253a9",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/2766bc35e8321da08f7ba59cbf150bb9bb0253a9"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/b35f09be803ea0c3e42d486f79dfd7b026e48bf4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/b35f09be803ea0c3e42d486f79dfd7b026e48bf4",
+    "html_url": "https://github.com/umple/umple/commit/b35f09be803ea0c3e42d486f79dfd7b026e48bf4",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/b35f09be803ea0c3e42d486f79dfd7b026e48bf4/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d3e1325e33708eab25aa93293f5ab785c7bad4ef",
+        "url": "https://api.github.com/repos/umple/umple/commits/d3e1325e33708eab25aa93293f5ab785c7bad4ef",
+        "html_url": "https://github.com/umple/umple/commit/d3e1325e33708eab25aa93293f5ab785c7bad4ef"
+      }
+    ]
+  },
+  {
+    "sha": "aa8b05b0132f013945f1a31b380b254328785e74",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6YWE4YjA1YjAxMzJmMDEzOTQ1ZjFhMzFiMzgwYjI1NDMyODc4NWU3NA==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-30T22:05:26Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-30T22:05:26Z"
+      },
+      "message": "Making the file exist before permission change",
+      "tree": {
+        "sha": "a8d8a2820721bfe5e64a2e5ce0ba543b42d7e7a4",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/a8d8a2820721bfe5e64a2e5ce0ba543b42d7e7a4"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/aa8b05b0132f013945f1a31b380b254328785e74",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/aa8b05b0132f013945f1a31b380b254328785e74",
+    "html_url": "https://github.com/umple/umple/commit/aa8b05b0132f013945f1a31b380b254328785e74",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/aa8b05b0132f013945f1a31b380b254328785e74/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a92fb79034456e1c6f3c37ff4856c16297443037",
+        "url": "https://api.github.com/repos/umple/umple/commits/a92fb79034456e1c6f3c37ff4856c16297443037",
+        "html_url": "https://github.com/umple/umple/commit/a92fb79034456e1c6f3c37ff4856c16297443037"
+      }
+    ]
+  },
+  {
+    "sha": "a92fb79034456e1c6f3c37ff4856c16297443037",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6YTkyZmI3OTAzNDQ1NmUxYzZmM2MzN2ZmNDg1NmMxNjI5NzQ0MzAzNw==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-30T21:13:33Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-30T21:13:33Z"
+      },
+      "message": "trying to fix permission error",
+      "tree": {
+        "sha": "7b710fa4dba1fdcb3d5c5e45373ae8b4385f253e",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/7b710fa4dba1fdcb3d5c5e45373ae8b4385f253e"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/a92fb79034456e1c6f3c37ff4856c16297443037",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/a92fb79034456e1c6f3c37ff4856c16297443037",
+    "html_url": "https://github.com/umple/umple/commit/a92fb79034456e1c6f3c37ff4856c16297443037",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/a92fb79034456e1c6f3c37ff4856c16297443037/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2ae6239c2f1bbb50251ce28fcbf1c7cdb48acb34",
+        "url": "https://api.github.com/repos/umple/umple/commits/2ae6239c2f1bbb50251ce28fcbf1c7cdb48acb34",
+        "html_url": "https://github.com/umple/umple/commit/2ae6239c2f1bbb50251ce28fcbf1c7cdb48acb34"
+      }
+    ]
+  },
+  {
+    "sha": "2ae6239c2f1bbb50251ce28fcbf1c7cdb48acb34",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6MmFlNjIzOWMyZjFiYmI1MDI1MWNlMjhmY2JmMWM3Y2RiNDhhY2IzNA==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-30T20:27:08Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-30T20:27:08Z"
+      },
+      "message": "fixing syntax",
+      "tree": {
+        "sha": "63896af8df791dbd1ae04619ce0ee03bd999f32b",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/63896af8df791dbd1ae04619ce0ee03bd999f32b"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/2ae6239c2f1bbb50251ce28fcbf1c7cdb48acb34",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/2ae6239c2f1bbb50251ce28fcbf1c7cdb48acb34",
+    "html_url": "https://github.com/umple/umple/commit/2ae6239c2f1bbb50251ce28fcbf1c7cdb48acb34",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/2ae6239c2f1bbb50251ce28fcbf1c7cdb48acb34/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f2b4625ab581a76156fb24d54c0c5e095fef3b14",
+        "url": "https://api.github.com/repos/umple/umple/commits/f2b4625ab581a76156fb24d54c0c5e095fef3b14",
+        "html_url": "https://github.com/umple/umple/commit/f2b4625ab581a76156fb24d54c0c5e095fef3b14"
+      }
+    ]
+  },
+  {
+    "sha": "f2b4625ab581a76156fb24d54c0c5e095fef3b14",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6ZjJiNDYyNWFiNTgxYTc2MTU2ZmIyNGQ1NGMwYzVlMDk1ZmVmM2IxNA==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-30T19:56:01Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-30T19:56:01Z"
+      },
+      "message": "Trying gitbranch through Travis",
+      "tree": {
+        "sha": "4826bd4003e9b5ec19ecced0b57163b9bb65b6e1",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/4826bd4003e9b5ec19ecced0b57163b9bb65b6e1"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/f2b4625ab581a76156fb24d54c0c5e095fef3b14",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/f2b4625ab581a76156fb24d54c0c5e095fef3b14",
+    "html_url": "https://github.com/umple/umple/commit/f2b4625ab581a76156fb24d54c0c5e095fef3b14",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/f2b4625ab581a76156fb24d54c0c5e095fef3b14/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e284080e8407528815f637aca7114ed868d477d7",
+        "url": "https://api.github.com/repos/umple/umple/commits/e284080e8407528815f637aca7114ed868d477d7",
+        "html_url": "https://github.com/umple/umple/commit/e284080e8407528815f637aca7114ed868d477d7"
+      }
+    ]
+  },
+  {
+    "sha": "e284080e8407528815f637aca7114ed868d477d7",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6ZTI4NDA4MGU4NDA3NTI4ODE1ZjYzN2FjYTcxMTRlZDg2OGQ0NzdkNw==",
+    "commit": {
+      "author": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-30T19:09:00Z"
+      },
+      "committer": {
+        "name": "Timothy Lethbridge",
+        "email": "timothyclethbridge@gmail.com",
+        "date": "2020-07-30T19:09:00Z"
+      },
+      "message": "Trying nginix userid",
+      "tree": {
+        "sha": "a5f66fe2f382ca50a812686090a993eb8b62957a",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/a5f66fe2f382ca50a812686090a993eb8b62957a"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/e284080e8407528815f637aca7114ed868d477d7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/e284080e8407528815f637aca7114ed868d477d7",
+    "html_url": "https://github.com/umple/umple/commit/e284080e8407528815f637aca7114ed868d477d7",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/e284080e8407528815f637aca7114ed868d477d7/comments",
+    "author": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TimLethbridge",
+      "id": 479230,
+      "node_id": "MDQ6VXNlcjQ3OTIzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479230?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimLethbridge",
+      "html_url": "https://github.com/TimLethbridge",
+      "followers_url": "https://api.github.com/users/TimLethbridge/followers",
+      "following_url": "https://api.github.com/users/TimLethbridge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimLethbridge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimLethbridge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimLethbridge/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimLethbridge/orgs",
+      "repos_url": "https://api.github.com/users/TimLethbridge/repos",
+      "events_url": "https://api.github.com/users/TimLethbridge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimLethbridge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "41ba7861e9c33ffed0007fecb20e2da23434ea20",
+        "url": "https://api.github.com/repos/umple/umple/commits/41ba7861e9c33ffed0007fecb20e2da23434ea20",
+        "html_url": "https://github.com/umple/umple/commit/41ba7861e9c33ffed0007fecb20e2da23434ea20"
+      }
+    ]
+  },
+  {
+    "sha": "f126e7a91f95e6cf28d003cf1dbf5117750fd88e",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6ZjEyNmU3YTkxZjk1ZTZjZjI4ZDAwM2NmMWRiZjUxMTc3NTBmZDg4ZQ==",
+    "commit": {
+      "author": {
+        "name": "fhackett",
+        "email": "fhackett.py@gmail.com",
+        "date": "2017-10-28T04:39:58Z"
+      },
+      "committer": {
+        "name": "fhackett",
+        "email": "fhackett.py@gmail.com",
+        "date": "2017-10-28T23:14:52Z"
+      },
+      "message": "Split the UmpleOnline Dockerfile to save space\n\nThe header of the dockerfile that installs all the dependencies is now\nsplit out into an image called umpleonline-base. It should not need to\nchange much and saves 200MB from the full UmpleOnline image.\n\nThe Travis build has been altered to base its Dockerfile on that image, and\nrebuild it on tag builds.",
+      "tree": {
+        "sha": "ef19c10a3dde58487b57338240d7d4327af6d621",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/ef19c10a3dde58487b57338240d7d4327af6d621"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/f126e7a91f95e6cf28d003cf1dbf5117750fd88e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/f126e7a91f95e6cf28d003cf1dbf5117750fd88e",
+    "html_url": "https://github.com/umple/umple/commit/f126e7a91f95e6cf28d003cf1dbf5117750fd88e",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/f126e7a91f95e6cf28d003cf1dbf5117750fd88e/comments",
+    "author": {
+      "login": "fhackett",
+      "id": 9020985,
+      "node_id": "MDQ6VXNlcjkwMjA5ODU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9020985?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fhackett",
+      "html_url": "https://github.com/fhackett",
+      "followers_url": "https://api.github.com/users/fhackett/followers",
+      "following_url": "https://api.github.com/users/fhackett/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fhackett/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fhackett/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fhackett/subscriptions",
+      "organizations_url": "https://api.github.com/users/fhackett/orgs",
+      "repos_url": "https://api.github.com/users/fhackett/repos",
+      "events_url": "https://api.github.com/users/fhackett/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fhackett/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "fhackett",
+      "id": 9020985,
+      "node_id": "MDQ6VXNlcjkwMjA5ODU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9020985?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fhackett",
+      "html_url": "https://github.com/fhackett",
+      "followers_url": "https://api.github.com/users/fhackett/followers",
+      "following_url": "https://api.github.com/users/fhackett/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fhackett/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fhackett/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fhackett/subscriptions",
+      "organizations_url": "https://api.github.com/users/fhackett/orgs",
+      "repos_url": "https://api.github.com/users/fhackett/repos",
+      "events_url": "https://api.github.com/users/fhackett/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fhackett/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1ea2540c44dc3b55573ed49a4d2539477065197c",
+        "url": "https://api.github.com/repos/umple/umple/commits/1ea2540c44dc3b55573ed49a4d2539477065197c",
+        "html_url": "https://github.com/umple/umple/commit/1ea2540c44dc3b55573ed49a4d2539477065197c"
+      }
+    ]
+  },
+  {
+    "sha": "d0a1989bbda5a33879787b7ab262846111c20094",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6ZDBhMTk4OWJiZGE1YTMzODc5Nzg3YjdhYjI2Mjg0NjExMWMyMDA5NA==",
+    "commit": {
+      "author": {
+        "name": "fhackett",
+        "email": "fhackett.py@gmail.com",
+        "date": "2017-10-18T23:14:17Z"
+      },
+      "committer": {
+        "name": "fhackett",
+        "email": "fhackett.py@gmail.com",
+        "date": "2017-10-19T00:34:48Z"
+      },
+      "message": "Finalise Travis build semantics",
+      "tree": {
+        "sha": "4dfa8d044531f016dbbced775f1380112b133fe4",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/4dfa8d044531f016dbbced775f1380112b133fe4"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/d0a1989bbda5a33879787b7ab262846111c20094",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/d0a1989bbda5a33879787b7ab262846111c20094",
+    "html_url": "https://github.com/umple/umple/commit/d0a1989bbda5a33879787b7ab262846111c20094",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/d0a1989bbda5a33879787b7ab262846111c20094/comments",
+    "author": {
+      "login": "fhackett",
+      "id": 9020985,
+      "node_id": "MDQ6VXNlcjkwMjA5ODU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9020985?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fhackett",
+      "html_url": "https://github.com/fhackett",
+      "followers_url": "https://api.github.com/users/fhackett/followers",
+      "following_url": "https://api.github.com/users/fhackett/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fhackett/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fhackett/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fhackett/subscriptions",
+      "organizations_url": "https://api.github.com/users/fhackett/orgs",
+      "repos_url": "https://api.github.com/users/fhackett/repos",
+      "events_url": "https://api.github.com/users/fhackett/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fhackett/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "fhackett",
+      "id": 9020985,
+      "node_id": "MDQ6VXNlcjkwMjA5ODU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9020985?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fhackett",
+      "html_url": "https://github.com/fhackett",
+      "followers_url": "https://api.github.com/users/fhackett/followers",
+      "following_url": "https://api.github.com/users/fhackett/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fhackett/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fhackett/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fhackett/subscriptions",
+      "organizations_url": "https://api.github.com/users/fhackett/orgs",
+      "repos_url": "https://api.github.com/users/fhackett/repos",
+      "events_url": "https://api.github.com/users/fhackett/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fhackett/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "37d01d8d651dc3ee0a824a9c6a3bc967793b8216",
+        "url": "https://api.github.com/repos/umple/umple/commits/37d01d8d651dc3ee0a824a9c6a3bc967793b8216",
+        "html_url": "https://github.com/umple/umple/commit/37d01d8d651dc3ee0a824a9c6a3bc967793b8216"
+      }
+    ]
+  },
+  {
+    "sha": "37d01d8d651dc3ee0a824a9c6a3bc967793b8216",
+    "node_id": "MDY6Q29tbWl0NDEzOTcxNzQ6MzdkMDFkOGQ2NTFkYzNlZTBhODI0YTljNmEzYmM5Njc3OTNiODIxNg==",
+    "commit": {
+      "author": {
+        "name": "fhackett",
+        "email": "fhackett.py@gmail.com",
+        "date": "2017-10-16T03:12:38Z"
+      },
+      "committer": {
+        "name": "fhackett",
+        "email": "fhackett.py@gmail.com",
+        "date": "2017-10-16T07:17:10Z"
+      },
+      "message": "Add Dockerfile, Ant build target and Travis config for UmpleOnline",
+      "tree": {
+        "sha": "1d7bc2f881d96ee3ae5b207b50f4818e9196c4e0",
+        "url": "https://api.github.com/repos/umple/umple/git/trees/1d7bc2f881d96ee3ae5b207b50f4818e9196c4e0"
+      },
+      "url": "https://api.github.com/repos/umple/umple/git/commits/37d01d8d651dc3ee0a824a9c6a3bc967793b8216",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/umple/umple/commits/37d01d8d651dc3ee0a824a9c6a3bc967793b8216",
+    "html_url": "https://github.com/umple/umple/commit/37d01d8d651dc3ee0a824a9c6a3bc967793b8216",
+    "comments_url": "https://api.github.com/repos/umple/umple/commits/37d01d8d651dc3ee0a824a9c6a3bc967793b8216/comments",
+    "author": {
+      "login": "fhackett",
+      "id": 9020985,
+      "node_id": "MDQ6VXNlcjkwMjA5ODU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9020985?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fhackett",
+      "html_url": "https://github.com/fhackett",
+      "followers_url": "https://api.github.com/users/fhackett/followers",
+      "following_url": "https://api.github.com/users/fhackett/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fhackett/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fhackett/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fhackett/subscriptions",
+      "organizations_url": "https://api.github.com/users/fhackett/orgs",
+      "repos_url": "https://api.github.com/users/fhackett/repos",
+      "events_url": "https://api.github.com/users/fhackett/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fhackett/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "fhackett",
+      "id": 9020985,
+      "node_id": "MDQ6VXNlcjkwMjA5ODU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9020985?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fhackett",
+      "html_url": "https://github.com/fhackett",
+      "followers_url": "https://api.github.com/users/fhackett/followers",
+      "following_url": "https://api.github.com/users/fhackett/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fhackett/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fhackett/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fhackett/subscriptions",
+      "organizations_url": "https://api.github.com/users/fhackett/orgs",
+      "repos_url": "https://api.github.com/users/fhackett/repos",
+      "events_url": "https://api.github.com/users/fhackett/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fhackett/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4a97714170d5594b68aa57b947d05277efd818e8",
+        "url": "https://api.github.com/repos/umple/umple/commits/4a97714170d5594b68aa57b947d05277efd818e8",
+        "html_url": "https://github.com/umple/umple/commit/4a97714170d5594b68aa57b947d05277efd818e8"
+      }
+    ]
+  }
+]

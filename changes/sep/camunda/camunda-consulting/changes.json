@@ -1,0 +1,81 @@
+[
+  {
+    "sha": "88fe63cb017e0b6c6c81056805db17c93bc68db5",
+    "node_id": "MDY6Q29tbWl0OTIyMTM2MTo4OGZlNjNjYjAxN2UwYjZjNmM4MTA1NjgwNWRiMTdjOTNiYzY4ZGI1",
+    "commit": {
+      "author": {
+        "name": "Felix Mueller",
+        "email": "felix.mueller@camunda.com",
+        "date": "2019-02-26T15:52:44Z"
+      },
+      "committer": {
+        "name": "Felix Mueller",
+        "email": "felix.mueller@camunda.com",
+        "date": "2019-02-26T15:52:44Z"
+      },
+      "message": "Move Optimize examples to separate folder, Add SSO plugin example, Add Clustering example",
+      "tree": {
+        "sha": "3e0eb4e06fac5e386864bfbf5112acb356e0eed2",
+        "url": "https://api.github.com/repos/camunda-consulting/camunda-7-code-examples/git/trees/3e0eb4e06fac5e386864bfbf5112acb356e0eed2"
+      },
+      "url": "https://api.github.com/repos/camunda-consulting/camunda-7-code-examples/git/commits/88fe63cb017e0b6c6c81056805db17c93bc68db5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/camunda-consulting/camunda-7-code-examples/commits/88fe63cb017e0b6c6c81056805db17c93bc68db5",
+    "html_url": "https://github.com/camunda-consulting/camunda-7-code-examples/commit/88fe63cb017e0b6c6c81056805db17c93bc68db5",
+    "comments_url": "https://api.github.com/repos/camunda-consulting/camunda-7-code-examples/commits/88fe63cb017e0b6c6c81056805db17c93bc68db5/comments",
+    "author": {
+      "login": "felix-mueller",
+      "id": 20283848,
+      "node_id": "MDQ6VXNlcjIwMjgzODQ4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20283848?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felix-mueller",
+      "html_url": "https://github.com/felix-mueller",
+      "followers_url": "https://api.github.com/users/felix-mueller/followers",
+      "following_url": "https://api.github.com/users/felix-mueller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felix-mueller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felix-mueller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felix-mueller/subscriptions",
+      "organizations_url": "https://api.github.com/users/felix-mueller/orgs",
+      "repos_url": "https://api.github.com/users/felix-mueller/repos",
+      "events_url": "https://api.github.com/users/felix-mueller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felix-mueller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "felix-mueller",
+      "id": 20283848,
+      "node_id": "MDQ6VXNlcjIwMjgzODQ4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20283848?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felix-mueller",
+      "html_url": "https://github.com/felix-mueller",
+      "followers_url": "https://api.github.com/users/felix-mueller/followers",
+      "following_url": "https://api.github.com/users/felix-mueller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felix-mueller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felix-mueller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felix-mueller/subscriptions",
+      "organizations_url": "https://api.github.com/users/felix-mueller/orgs",
+      "repos_url": "https://api.github.com/users/felix-mueller/repos",
+      "events_url": "https://api.github.com/users/felix-mueller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felix-mueller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6cb7ee5524b5605007cbd940bb299da11c18ee81",
+        "url": "https://api.github.com/repos/camunda-consulting/camunda-7-code-examples/commits/6cb7ee5524b5605007cbd940bb299da11c18ee81",
+        "html_url": "https://github.com/camunda-consulting/camunda-7-code-examples/commit/6cb7ee5524b5605007cbd940bb299da11c18ee81"
+      }
+    ]
+  }
+]
