@@ -355,7 +355,7 @@ Anubhavjoshi040/glossary,2,2021,46,2,User,HTML,59581,klakegg/hugo:ext-alpine,kla
 AnyVisionltd/anv-ui-components,2,2022,331,13,Organization,JavaScript,8377,node:12.16.0-alpine,node
 Anzifnauzb/lucie-vs,2,2021,146,6,User,Python,111,python:3.8-slim-buster,python
 ApCoder123/twofactorauth,5,2022,296,10,User,HTML,19738,ruby:2.7-alpine,ruby
-Aphoh/temp_tc,11,2021,607,16,User,Python,2007102,"nvcr.io/nvidia/pytorch:20.11-py3","nvcr.io/nvidia/pytorch
+Aphoh/temp_tc,11,2021,607,16,User,Python,2007102,nvcr.io/nvidia/pytorch:20.11-py3,nvcr.io/nvidia/pytorch
 Apocalypsor/Aria2-ProMax,3,2022,137,4,User,Dockerfile,442,p3terx/aria2-pro,p3terx/aria2-pro
 Apocalypsor/OpenVPN-Socks,3,2021,371,10,User,Dockerfile,21,alpine,alpine
 Apocalypsor/Shadowsocks-DNS-Unlock,4,2021,587,14,User,Shell,33,--platform=$BUILDPLATFORM,--platform=$BUILDPLATFORM
@@ -1202,7 +1202,7 @@ Ehco1996/django-sspanel,2,2021,488,9,User,Python,3547,python:3.8-alpine,python
 Eifoen/alpine-texlive,2,2021,540,24,User,Dockerfile,14,alpine:3,alpine
 EinKrebs/jaeger-clickhouse,1,2021,217,4,User,Go,4396,alpine:3.13,alpine
 Einshtein89/books_shop,2,2022,1461,40,User,TypeScript,4426,nginx:latest,nginx
-Ekanar-Eklectic/brew,0,2021,1751,54,User,Ruby,55416,ubuntu:"${version}",ubuntu
+Ekanar-Eklectic/brew,0,2021,1751,54,User,Ruby,55416,ubuntu:${version},ubuntu
 Elbarae1921/nest-typeorm-auth-boilerplate,0,2021,547,22,User,TypeScript,197,node:15-alpine,node
 ElderVivot/iacon-rest-api-pg,2,2021,120,6,User,TypeScript,756,node:12,node
 EldritchBaguette/Outpost-R505,12,2021,2461,61,User,DM,307676,byond,byond
@@ -1396,7 +1396,7 @@ GSA/opat-website,3,2021,356,14,Organization,JavaScript,8902,ruby:2.6.6,ruby
 GSA/touchpoints,3,2022,402,14,Organization,JavaScript,14740,ruby:3.1.1-slim,ruby
 GSPuniani/Fire-Detection-API-Project,8,2021,724,11,User,Jupyter Notebook,3102,python:3.6-slim,python
 GSS-Cogs/gss-utils,4,2022,1528,20,Organization,Python,86094,gsscogs/pythonversiontesting:v1.0.1,gsscogs/pythonversiontesting
-GTO2013/RomRaider,7,2021,1438,30,User,Java,128090,--platform="linux/386",--platform="linux/386"
+GTO2013/RomRaider,7,2021,1438,30,User,Java,128090,--platform=linux/386,--platform=linux/386
 Ga68/qmk_firmware,2,2021,100,4,User,C,234288,qmkfm/qmk_cli,qmkfm/qmk_cli
 Gaardsholt/share-a-password,2,2022,360,12,User,Go,265,alpine,alpine
 Gabriel-A-Rocha/car-rental-api,1,2021,113,7,User,TypeScript,350,node,node
@@ -1605,7 +1605,7 @@ HollowMan6/Wechat-Timed-Message,3,2021,543,13,User,Python,2128,python:slim,pytho
 HoloMeeting/mediapipe,29,2021,7358,77,Organization,C++,522328,ubuntu:18.04,ubuntu
 HoloRes/Ikari,4,2022,661,24,Organization,TypeScript,1778,node:16-buster-slim,node
 HoloRes/bans-api,0,2021,635,11,Organization,TypeScript,3368,node:lts-alpine,node
-Homebrew/brew,1,2022,1852,56,Organization,Ruby,60705,ubuntu:"${version}",ubuntu
+Homebrew/brew,1,2022,1852,56,Organization,Ruby,60705,ubuntu:${version},ubuntu
 Homebrew/homebrew-test-bot,0,2021,145,2,Organization,Ruby,1775,homebrew/ubuntu16.04:master,homebrew/ubuntu16.04
 Hookey/brig,5,2021,733,17,User,Go,139950,golang,golang
 Hoowolf/ECE444-F2021-Lab3,6,2021,251,8,User,Python,27847,python:3.9-slim,python
@@ -2263,7 +2263,7 @@ MaxBoykoII/azure-cms-app,13,2021,709,23,User,Python,1792,python:3.7.11-stretch,p
 MaxKruse/Mitspieler-Bot,2,2022,224,10,User,Go,184,golang:1.18-alpine,golang
 MaxMood96/atom,3,2021,682,21,User,JavaScript,332561,ubuntu:20.04,ubuntu
 MaxMood96/baselines,6,2019,465,10,User,None,6650,python:3.6,python
-MaxMood96/brew,0,2021,1751,54,User,Ruby,58643,ubuntu:"${version}",ubuntu
+MaxMood96/brew,0,2021,1751,54,User,Ruby,58643,ubuntu:${version},ubuntu
 MaxMood96/buildkit,1,2022,11514,212,User,Go,24678,buildkit-${BUILDKIT_TARGET},buildkit-${BUILDKIT_TARGET}
 MaxMood96/chef-workstation,5,2022,1193,22,User,Go,12163,ubuntu:18.04,ubuntu
 MaxMood96/circleci-docs,7,2021,269,7,User,JavaScript,210286,ruby:2.7.4,ruby
@@ -3151,7 +3151,7 @@ SDM-TIB/SDM-RDFizer,4,2019,542,7,Organization,Python,2891,python:3.5,python
 SEAPUNK/website,1,2021,1901,36,User,HTML,25718,,
 SEED-platform/seed,5,2022,3037,53,Organization,Python,63221,alpine:3.14,alpine
 SEMOSS/docker-semoss,17,2022,2763,46,Organization,Dockerfile,7675,base,base
-SEWING-BOX/brew,0,2021,1751,54,Organization,Ruby,54301,ubuntu:"${version}",ubuntu
+SEWING-BOX/brew,0,2021,1751,54,Organization,Ruby,54301,ubuntu:${version},ubuntu
 SEkenberg/ALM-projekt,1,2021,144,5,User,Java,67,adoptopenjdk/openjdk11:alpine-jre,adoptopenjdk/openjdk11
 SFDO-Tooling/MetaCI,6,2022,2539,43,Organization,CSS,15060,python:3.8,python
 SFDO-Tooling/MetaDeploy,6,2022,1127,26,Organization,Python,180909,ghcr.io/oddbird/pyjs:py3.9-node16,ghcr.io/oddbird/pyjs
@@ -3383,7 +3383,7 @@ SocialGouv/www,3,2022,262,7,Organization,JavaScript,142171,ghcr.io/socialgouv/do
 SoftFx/Hierarchical-Sensor-Monitoring,0,2022,311,9,User,JavaScript,734557,mcr.microsoft.com/dotnet/aspnet:6.0,mcr.microsoft.com/dotnet/aspnet
 Soham041201/LinkFree,2,2021,625,17,User,JavaScript,369,node:15,node
 SoloSynth1/SoloSynth1,6,2021,2088,24,User,JavaScript,18159,node:15-buster-slim,node
-SomalianIvan/opentelemetry-ruby,1,2021,1712,58,User,Ruby,4085,ruby:"${RUBY_VERSION}-alpine${ALPINE_VERSION}",ruby
+SomalianIvan/opentelemetry-ruby,1,2021,1712,58,User,Ruby,4085,ruby:${RUBY_VERSION}-alpine${ALPINE_VERSION},ruby
 Somefive/kubevela,1,2021,1661,25,User,Go,55551,${BASE_IMAGE:-alpine:latest},${BASE_IMAGE
 Somgopal/my-app,0,2019,118,2,User,Java,182,tomcat:8,tomcat
 Somgopal/myweb,0,2019,163,2,User,Java,15304,tomcat:8.0.20-jre8,tomcat
@@ -3616,7 +3616,7 @@ TheNinza/vaccimailer,0,2021,114,7,User,JavaScript,113,node:14,node
 ThePandaxXx/qmk_firmware,2,2021,100,4,User,C,184432,qmkfm/qmk_cli,qmkfm/qmk_cli
 TheRakeshPurohit/TypeScript-1,2,2020,252,6,User,TypeScript,1718299,node:current,node
 TheRakeshPurohit/appwrite,41,2022,9541,244,User,JavaScript,125246,php:8.0-cli-alpine,php
-TheRakeshPurohit/brew,0,2021,1751,54,User,Ruby,58572,ubuntu:"${version}",ubuntu
+TheRakeshPurohit/brew,0,2021,1751,54,User,Ruby,58572,ubuntu:${version},ubuntu
 TheRakeshPurohit/nvm,19,2021,3691,68,User,Shell,3271,ubuntu:18.04,ubuntu
 TheRealJon/console,2,2022,901,15,User,TypeScript,188372,openshift/origin-base,openshift/origin-base
 TheRestartProject/restarters.net,26,2022,1810,25,Organization,PHP,224206,cimg/php:7.4.11-node,cimg/php
@@ -4028,7 +4028,7 @@ Z-EMB/Shura,8,2022,1711,35,User,Java,235,alpine:3.15.3@sha256:1e014f84205d569a5c
 Z-byte-prog/docs,3,2021,2919,48,User,JavaScript,616521,production,production
 ZG21/ms-Vinculacion,0,2021,627,11,User,TypeScript,441,node:16-slim,node
 ZPI-UKW/zpi-back-end,0,2021,118,6,Organization,JavaScript,568,node:14.17.1-alpine,node
-ZRDKPoWeR/brew,0,2021,1751,54,User,Ruby,55779,ubuntu:"${version}",ubuntu
+ZRDKPoWeR/brew,0,2021,1751,54,User,Ruby,55779,ubuntu:${version},ubuntu
 ZSX-JOJO/h5-Dooring,1,2020,71,2,User,JavaScript,52002,nginx:latest,nginx
 ZSX-JOJO/halo,4,2021,923,19,User,Java,32768,adoptopenjdk:11-jre-hotspot,adoptopenjdk
 Zac-hills/d3m-primitives,7,2021,442,6,User,Python,18364,registry.gitlab.com/datadrivendiscovery/images/primitives:ubuntu-bionic-python36-stable,registry.gitlab.com/datadrivendiscovery/images/primitives
@@ -4346,7 +4346,7 @@ albertoxamin/aalto-menu,0,2021,228,8,User,JavaScript,28,node:14-slim,node
 alchemy-fr/Phraseanet,17,2022,9753,228,Organization,PHP,319310,nginx:1.17.8-alpine,nginx
 alebedev87/external-dns,0,2022,1178,14,User,Go,69426,$ARCH/alpine:3.15,$ARCH/alpine
 aledsnyk/goof,2,2021,200,10,User,None,2043,node:14.1.0,node
-aleee133/brew,0,2021,1751,54,User,Ruby,56377,ubuntu:"${version}",ubuntu
+aleee133/brew,0,2021,1751,54,User,Ruby,56377,ubuntu:${version},ubuntu
 alejandradaquino/quiz,1,2021,249,3,User,Kotlin,120,adoptopenjdk/openjdk13-openj9:jdk-13.0.2_8_openj9-0.18.0-alpine-slim,adoptopenjdk/openjdk13-openj9
 alekcey0211/skymp,9,2021,3283,68,User,C++,28473,ubuntu:21.10,ubuntu
 alekitto/traefik,1,2022,186,7,User,Go,59740,alpine:3.11,alpine
@@ -4996,7 +4996,7 @@ bateast/plato,9,2021,1862,34,User,None,8115,buildpack-deps:stretch,buildpack-dep
 batleforc/Portfolio,6,2021,690,13,User,JavaScript,7153,node,node
 batocera-linux/batocera.linux,2,2022,1181,51,Organization,Python,764998,ubuntu:22.04,ubuntu
 batou9150/gitlabui,2,2021,219,6,User,HTML,30,python:3.9-slim,python
-bayandin/brew,1,2022,1852,56,User,Ruby,60384,ubuntu:"${version}",ubuntu
+bayandin/brew,1,2022,1852,56,User,Ruby,60384,ubuntu:${version},ubuntu
 bayswaterpc/bayswaterpc-superplate-blog,0,2021,179,8,User,TypeScript,31609,node:12-alpine,node
 bazelbuild/bazel-buildfarm,12,2022,613,8,Organization,Java,32586,ubuntu:18.04,ubuntu
 baztastic/baztastic.github.io,3,2019,159,5,User,HTML,3357,jekyll/jekyll,jekyll/jekyll
@@ -6454,7 +6454,7 @@ dividab/sentry-cli-docker,6,2021,372,9,Organization,Dockerfile,6,ubuntu:16.04,ub
 divinetechglobal/maven-web-application,0,2021,168,2,User,Java,551,tomcat:8.0.20-jre8,tomcat
 divyansh-gupta/aws-privateca-issuer,0,2021,1377,27,User,Go,918,gcr.io/distroless/static:nonroot,gcr.io/distroless/static
 divyanshprakash/VeezMusic,15,2021,357,12,User,Python,569,python:3.9.7-slim-buster,python
-dizzydaizy/brew,0,2021,1751,54,User,Ruby,58574,ubuntu:"${version}",ubuntu
+dizzydaizy/brew,0,2021,1751,54,User,Ruby,58574,ubuntu:${version},ubuntu
 djambred/dts,5,2021,245,9,User,Jupyter Notebook,165,python:3.8-slim,python
 django-advance-utils/django-advance-query-builder,4,2021,196,7,Organization,JavaScript,938,python:3.8,python
 django-cms/django-cms-quickstart,3,2021,172,6,Organization,Python,70,python:3.9,python
@@ -6925,7 +6925,7 @@ ergoplatform/ergo,2,2021,856,24,Organization,Scala,55631,openjdk:11-jre-slim,ope
 ericiachan/cicd-test,9,2021,447,17,User,JavaScript,198,ubuntu:18.04,ubuntu
 ericiachan/devops-cicd,9,2021,447,17,User,Dockerfile,1923,ubuntu:18.04,ubuntu
 erickamaral/laravel,1,2020,153,7,User,None,14090,php:7.4-fpm,php
-ericmustin/opentelemetry-ruby,1,2019,1673,56,User,None,2927,ruby:"${RUBY_VERSION}-alpine${ALPINE_VERSION}",ruby
+ericmustin/opentelemetry-ruby,1,2019,1673,56,User,None,2927,ruby:${RUBY_VERSION}-alpine${ALPINE_VERSION},ruby
 ericspod/MONAI,5,2022,2454,25,User,Python,50743,${PYTORCH_IMAGE},${PYTORCH_IMAGE}
 ersilia-os/eos1vms,6,2021,141,6,Organization,Python,8456,bentoml/model-server:0.11.0-py37,bentoml/model-server
 ersilia-os/eos2lm8,1,2021,112,5,Organization,Python,17,bentoml/model-server:0.11.0-py37,bentoml/model-server
@@ -8657,7 +8657,7 @@ jesse-public/dns-resolution,4,2022,514,10,User,Dockerfile,30,,
 jesse-public/dns-resolver,4,2022,514,10,User,Dockerfile,30,,
 jesse-public/reverse-proxy,2,2021,498,13,User,Dockerfile,6,nginx:alpine,nginx
 jessenich/docker-alpine,5,2021,3692,84,User,Shell,195,root,root
-jessenich/docker-mssql-server,1,2021,3118,74,User,Shell,4653,mcr.microsoft.com/mssql/server:"${VARIANT}",mcr.microsoft.com/mssql/server
+jessenich/docker-mssql-server,1,2021,3118,74,User,Shell,4653,mcr.microsoft.com/mssql/server:${VARIANT},mcr.microsoft.com/mssql/server
 jessepope/swap-meet,8,2021,763,18,User,Python,39,continuumio/anaconda3:latest,continuumio/anaconda3
 jesshuck/REST-API-starter,3,2021,123,7,User,JavaScript,554,node:14-alpine,node
 jesuslobo/librephotos,34,2021,2884,81,User,Python,78758,ubuntu:16.04,ubuntu
@@ -11565,7 +11565,7 @@ peterbourgon/fastly-exporter,6,2021,676,22,Organization,Go,1420,scratch,scratch
 peterchen96/ReinforcementLearning.jl,4,2021,897,16,User,Julia,18302,$IMAGE,$IMAGE
 peterducai/remath,3,2021,679,12,User,CSS,89849,registry.fedoraproject.org/fedora-minimal,registry.fedoraproject.org/fedora-minimal
 peterklijn/skipper,2,2021,222,6,User,Go,14623,registry.opensource.zalan.do/library/alpine-3.13:latest,registry.opensource.zalan.do/library/alpine-3.13
-peterlewis/brew,0,2021,1751,54,User,Ruby,58587,ubuntu:"${version}",ubuntu
+peterlewis/brew,0,2021,1751,54,User,Ruby,58587,ubuntu:${version},ubuntu
 petermakowski/ubuntu.com,12,2021,1988,33,User,HTML,34624,ubuntu:focal,ubuntu
 petermetz/github-organization-automation-tool,11,2021,817,30,User,TypeScript,2617,node:16.0.0-buster-slim,node
 peteroneilljr/opa,1,2022,1109,13,User,Go,926605,${BASE},${BASE}
@@ -12280,7 +12280,7 @@ ridaz/vsphere-kubernetes-drivers-operator,1,2021,1137,19,User,Go,3499,registry.a
 riddopic/caldera,13,2022,2506,41,User,Python,22956,ubuntu:latest,ubuntu
 riddopic/gatekeeper,3,2022,994,27,User,Go,95907,$BASEIMAGE,$BASEIMAGE
 riddopic/heimdall2,13,2022,2027,39,User,TypeScript,138160,$BASE_CONTAINER,$BASE_CONTAINER
-riddopic/opentelemetry-ruby,1,2021,1712,58,User,Ruby,7298,ruby:"${RUBY_VERSION}-alpine${ALPINE_VERSION}",ruby
+riddopic/opentelemetry-ruby,1,2021,1712,58,User,Ruby,7298,ruby:${RUBY_VERSION}-alpine${ALPINE_VERSION},ruby
 riddopic/terraform-validator,4,2022,372,9,User,Go,18545,golang:1.16,golang
 riderx/lemverse,3,2021,1668,28,User,JavaScript,8907,node:14.17.6-alpine,node
 ridho17-ind/Luffy-Bot,5,2021,390,7,User,Python,1226,biansepang/weebproject:buster,biansepang/weebproject
